@@ -365,6 +365,20 @@
 		EA8F8F0922E7708500B62005 /* fieldhb.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8EF522E7708500B62005 /* fieldhb.c */; };
 		EA8F8F0A22E7708500B62005 /* dbdetach.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8EF622E7708500B62005 /* dbdetach.c */; };
 		EA8F8F0B22E7708500B62005 /* dbdrop.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8EF722E7708500B62005 /* dbdrop.c */; };
+		EAFBF0AC22E77CAF00801C5F /* sxfname.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0A322E77CAE00801C5F /* sxfname.c */; };
+		EAFBF0AD22E77CAF00801C5F /* sxdate.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0A422E77CAE00801C5F /* sxdate.c */; };
+		EAFBF0AE22E77CAF00801C5F /* sxord.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0A522E77CAE00801C5F /* sxord.c */; };
+		EAFBF0AF22E77CAF00801C5F /* sxcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0A622E77CAF00801C5F /* sxcrypt.c */; };
+		EAFBF0B022E77CAF00801C5F /* sxsem.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0A722E77CAF00801C5F /* sxsem.c */; };
+		EAFBF0B122E77CAF00801C5F /* sxcompr.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0A822E77CAF00801C5F /* sxcompr.c */; };
+		EAFBF0B222E77CAF00801C5F /* sxtable.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0A922E77CAF00801C5F /* sxtable.c */; };
+		EAFBF0B322E77CAF00801C5F /* sxredir.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0AA22E77CAF00801C5F /* sxredir.c */; };
+		EAFBF0B422E77CAF00801C5F /* sxutil.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0AB22E77CAF00801C5F /* sxutil.c */; };
+		EAFBF0B622E77D2200801C5F /* hbmain.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0B522E77D2200801C5F /* hbmain.c */; };
+		EAFBF0BA22E77D9000801C5F /* macro.y in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0B822E77D9000801C5F /* macro.y */; };
+		EAFBF0BC22E77E7700801C5F /* genc.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0BB22E77E7700801C5F /* genc.c */; };
+		EAFBF0C022E77EC100801C5F /* harbour.y in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0BD22E77EC100801C5F /* harbour.y */; };
+		EAFBF0C122E77EC100801C5F /* harbour.yyc in Resources */ = {isa = PBXBuildFile; fileRef = EAFBF0BE22E77EC100801C5F /* harbour.yyc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -736,6 +750,20 @@
 		EA8F8EF622E7708500B62005 /* dbdetach.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dbdetach.c; sourceTree = "<group>"; };
 		EA8F8EF722E7708500B62005 /* dbdrop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dbdrop.c; sourceTree = "<group>"; };
 		EA8F8F0C22E7717600B62005 /* hbcomp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hbcomp.h; sourceTree = "<group>"; };
+		EAFBF0A322E77CAE00801C5F /* sxfname.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sxfname.c; sourceTree = "<group>"; };
+		EAFBF0A422E77CAE00801C5F /* sxdate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sxdate.c; sourceTree = "<group>"; };
+		EAFBF0A522E77CAE00801C5F /* sxord.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sxord.c; sourceTree = "<group>"; };
+		EAFBF0A622E77CAF00801C5F /* sxcrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sxcrypt.c; sourceTree = "<group>"; };
+		EAFBF0A722E77CAF00801C5F /* sxsem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sxsem.c; sourceTree = "<group>"; };
+		EAFBF0A822E77CAF00801C5F /* sxcompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sxcompr.c; sourceTree = "<group>"; };
+		EAFBF0A922E77CAF00801C5F /* sxtable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sxtable.c; sourceTree = "<group>"; };
+		EAFBF0AA22E77CAF00801C5F /* sxredir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sxredir.c; sourceTree = "<group>"; };
+		EAFBF0AB22E77CAF00801C5F /* sxutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sxutil.c; sourceTree = "<group>"; };
+		EAFBF0B522E77D2200801C5F /* hbmain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbmain.c; sourceTree = "<group>"; };
+		EAFBF0B822E77D9000801C5F /* macro.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; path = macro.y; sourceTree = "<group>"; };
+		EAFBF0BB22E77E7700801C5F /* genc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = genc.c; sourceTree = "<group>"; };
+		EAFBF0BD22E77EC100801C5F /* harbour.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; path = harbour.y; sourceTree = "<group>"; };
+		EAFBF0BE22E77EC100801C5F /* harbour.yyc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = harbour.yyc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -876,6 +904,10 @@
 		EA8F8CB322E76C7F00B62005 /* compiler */ = {
 			isa = PBXGroup;
 			children = (
+				EAFBF0BD22E77EC100801C5F /* harbour.y */,
+				EAFBF0BE22E77EC100801C5F /* harbour.yyc */,
+				EAFBF0BB22E77E7700801C5F /* genc.c */,
+				EAFBF0B522E77D2200801C5F /* hbmain.c */,
 				EA8F8F0C22E7717600B62005 /* hbcomp.h */,
 				EA8F8CBF22E76C9B00B62005 /* cmdcheck.c */,
 				EA8F8CBB22E76C9A00B62005 /* compi18n.c */,
@@ -913,6 +945,7 @@
 		EA8F8CEB22E76DE000B62005 /* macro */ = {
 			isa = PBXGroup;
 			children = (
+				EAFBF0B822E77D9000801C5F /* macro.y */,
 				EA8F8EE122E76FDF00B62005 /* macro.yyc */,
 				EA8F8CEC22E76DF400B62005 /* macroa.c */,
 				EA8F8CED22E76DF400B62005 /* macrob.c */,
@@ -1187,6 +1220,7 @@
 		EA8F8EE322E7706000B62005 /* rdd */ = {
 			isa = PBXGroup;
 			children = (
+				EAFBF0A222E77C6F00801C5F /* hbsix */,
 				EA8F8EF322E7708500B62005 /* dbcmd.c */,
 				EA8F8EEA22E7708400B62005 /* dbcmd53.c */,
 				EA8F8EEE22E7708400B62005 /* dbcmdhb.c */,
@@ -1209,6 +1243,22 @@
 				EA8F8EEC22E7708400B62005 /* workarea.c */,
 			);
 			path = rdd;
+			sourceTree = "<group>";
+		};
+		EAFBF0A222E77C6F00801C5F /* hbsix */ = {
+			isa = PBXGroup;
+			children = (
+				EAFBF0A822E77CAF00801C5F /* sxcompr.c */,
+				EAFBF0A622E77CAF00801C5F /* sxcrypt.c */,
+				EAFBF0A422E77CAE00801C5F /* sxdate.c */,
+				EAFBF0A322E77CAE00801C5F /* sxfname.c */,
+				EAFBF0A522E77CAE00801C5F /* sxord.c */,
+				EAFBF0AA22E77CAF00801C5F /* sxredir.c */,
+				EAFBF0A722E77CAF00801C5F /* sxsem.c */,
+				EAFBF0A922E77CAF00801C5F /* sxtable.c */,
+				EAFBF0AB22E77CAF00801C5F /* sxutil.c */,
+			);
+			path = hbsix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1271,6 +1321,7 @@
 				EA8F8BA622E768C400B62005 /* LaunchScreen.storyboard in Resources */,
 				EA8F8BA322E768C400B62005 /* Assets.xcassets in Resources */,
 				EA8F8EE222E76FDF00B62005 /* macro.yyc in Resources */,
+				EAFBF0C122E77EC100801C5F /* harbour.yyc in Resources */,
 				EA8F8BA122E768C100B62005 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1310,6 +1361,7 @@
 				EA8F8E8C22E76F5E00B62005 /* isprint.c in Sources */,
 				EA8F8EE022E76F5E00B62005 /* mlcfunc.c in Sources */,
 				EA8F8CAC22E76C4600B62005 /* funcid.c in Sources */,
+				EAFBF0B022E77CAF00801C5F /* sxsem.c in Sources */,
 				EA8F8CAD22E76C4600B62005 /* hbstr.c in Sources */,
 				EA8F8D3722E76E7600B62005 /* l_pt_br.c in Sources */,
 				EA8F8CAB22E76C4600B62005 /* hbgete.c in Sources */,
@@ -1337,6 +1389,7 @@
 				EA8F8D3222E76E7600B62005 /* l_hu.c in Sources */,
 				EA8F8CE722E76D7900B62005 /* pplib.c in Sources */,
 				EA8F8E7A22E76F5E00B62005 /* sha2.c in Sources */,
+				EAFBF0AF22E77CAF00801C5F /* sxcrypt.c in Sources */,
 				EA8F8E8D22E76F5E00B62005 /* minmax.c in Sources */,
 				EA8F8E6622E76F5E00B62005 /* hblpphb.c in Sources */,
 				EA8F8EC322E76F5E00B62005 /* fkmax.c in Sources */,
@@ -1356,6 +1409,8 @@
 				EA8F8EB522E76F5E00B62005 /* replic.c in Sources */,
 				EA8F8E9422E76F5E00B62005 /* arc4.c in Sources */,
 				EA8F8E1E22E76F5E00B62005 /* gtsys.c in Sources */,
+				EAFBF0AC22E77CAF00801C5F /* sxfname.c in Sources */,
+				EAFBF0B422E77CAF00801C5F /* sxutil.c in Sources */,
 				EA8F8E4722E76F5E00B62005 /* oemansi.c in Sources */,
 				EA8F8EDA22E76F5E00B62005 /* strclear.c in Sources */,
 				EA8F8D3122E76E7600B62005 /* l_hr.c in Sources */,
@@ -1390,6 +1445,7 @@
 				EA8F8D2822E76E7600B62005 /* l_lt.c in Sources */,
 				EA8F8E1D22E76F5E00B62005 /* hbadler.c in Sources */,
 				EA8F8E3322E76F5E00B62005 /* philes53.c in Sources */,
+				EAFBF0B622E77D2200801C5F /* hbmain.c in Sources */,
 				EA8F8D3522E76E7600B62005 /* l_uk.c in Sources */,
 				EA8F8CB022E76C4600B62005 /* hbverdsp.c in Sources */,
 				EA8F8CF122E76DF500B62005 /* macrolex.c in Sources */,
@@ -1397,6 +1453,7 @@
 				EA8F8E7722E76F5E00B62005 /* fscopy.c in Sources */,
 				EA8F8E2322E76F5E00B62005 /* hbascii.c in Sources */,
 				EA8F8CDF22E76C9C00B62005 /* genhrb.c in Sources */,
+				EAFBF0B122E77CAF00801C5F /* sxcompr.c in Sources */,
 				EA8F8E2122E76F5E00B62005 /* type.c in Sources */,
 				EA8F8E4C22E76F5E00B62005 /* vfile.c in Sources */,
 				EA8F8E9122E76F5E00B62005 /* hbcom.c in Sources */,
@@ -1423,6 +1480,7 @@
 				EA8F8C6322E76B3000B62005 /* memvars.c in Sources */,
 				EA8F8CD222E76C9C00B62005 /* compi18n.c in Sources */,
 				EA8F8E1722E76F5E00B62005 /* strtoexp.c in Sources */,
+				EAFBF0AD22E77CAF00801C5F /* sxdate.c in Sources */,
 				EA8F8ED122E76F5E00B62005 /* strcase.c in Sources */,
 				EA8F8ED722E76F5E00B62005 /* hbtoken.c in Sources */,
 				EA8F8CCF22E76C9C00B62005 /* hbcomp.c in Sources */,
@@ -1435,7 +1493,9 @@
 				EA8F8EA422E76F5E00B62005 /* hbstrfmt.c in Sources */,
 				EA8F8CDC22E76C9C00B62005 /* hbusage.c in Sources */,
 				EA8F8E3D22E76F5E00B62005 /* gtclip.c in Sources */,
+				EAFBF0B222E77CAF00801C5F /* sxtable.c in Sources */,
 				EA8F8D2922E76E7600B62005 /* l_sr_cyr.c in Sources */,
+				EAFBF0AE22E77CAF00801C5F /* sxord.c in Sources */,
 				EA8F8E2822E76F5E00B62005 /* tscalaru.c in Sources */,
 				EA8F8EC722E76F5E00B62005 /* tone.c in Sources */,
 				EA8F8CD122E76C9C00B62005 /* hbdbginf.c in Sources */,
@@ -1494,6 +1554,7 @@
 				EA8F8CE922E76D7900B62005 /* hbpp.c in Sources */,
 				EA8F8EAA22E76F5E00B62005 /* filebufd.c in Sources */,
 				EA8F8E5E22E76F5E00B62005 /* setposbs.c in Sources */,
+				EAFBF0B322E77CAF00801C5F /* sxredir.c in Sources */,
 				EA8F8ED222E76F5E00B62005 /* cputime.c in Sources */,
 				EA8F8F0022E7708500B62005 /* workarea.c in Sources */,
 				EA8F8C8B22E76B3000B62005 /* macro.c in Sources */,
@@ -1577,6 +1638,7 @@
 				EA8F8EA222E76F5E00B62005 /* colorind.c in Sources */,
 				EA8F8CEA22E76D7900B62005 /* ppcore.c in Sources */,
 				EA8F8E7922E76F5E00B62005 /* right.c in Sources */,
+				EAFBF0C022E77EC100801C5F /* harbour.y in Sources */,
 				EA8F8E7522E76F5E00B62005 /* hbregex.c in Sources */,
 				EA8F8EC522E76F5E00B62005 /* padx.c in Sources */,
 				EA8F8CAA22E76C4600B62005 /* hbhash.c in Sources */,
@@ -1634,6 +1696,8 @@
 				EA8F8E7B22E76F5E00B62005 /* tscalarh.c in Sources */,
 				EA8F8CA222E76C4600B62005 /* hbprintf.c in Sources */,
 				EA8F8ECD22E76F5E00B62005 /* itemseri.c in Sources */,
+				EAFBF0BC22E77E7700801C5F /* genc.c in Sources */,
+				EAFBF0BA22E77D9000801C5F /* macro.y in Sources */,
 				EA8F8EA822E76F5E00B62005 /* base64c.c in Sources */,
 				EA8F8CA722E76C4600B62005 /* hbffind.c in Sources */,
 			);
@@ -1777,7 +1841,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3LHA7ZQL3;
 				HEADER_SEARCH_PATHS = (
 					/Users/$USER/harbour/include,
 					/Users/$USER/harbour/src/compiler/obj/darwin/clang,
@@ -1790,6 +1856,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fivetechsoft.iharbour;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1798,7 +1865,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3LHA7ZQL3;
 				HEADER_SEARCH_PATHS = (
 					/Users/$USER/harbour/include,
 					/Users/$USER/harbour/src/compiler/obj/darwin/clang,
@@ -1811,6 +1880,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fivetechsoft.iharbour;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
