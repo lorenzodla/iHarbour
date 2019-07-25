@@ -17,7 +17,79 @@
 		EA2942D122E9C73900585E14 /* hbexpra.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942D022E9C73900585E14 /* hbexpra.c */; };
 		EA2942D322E9C76D00585E14 /* hbexprb.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942D222E9C76D00585E14 /* hbexprb.c */; };
 		EA2942D622E9C9DC00585E14 /* hbopt.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942D522E9C9DC00585E14 /* hbopt.c */; };
-		EA2942D922E9CBCB00585E14 /* tscalar.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942D822E9CBCB00585E14 /* tscalar.prg */; };
+		EA2942DE22E9D1A900585E14 /* achoice.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942DA22E9D1A900585E14 /* achoice.prg */; };
+		EA2942DF22E9D1A900585E14 /* alert.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942DB22E9D1A900585E14 /* alert.prg */; };
+		EA2942E022E9D1A900585E14 /* altd.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942DC22E9D1A900585E14 /* altd.prg */; };
+		EA29432F22E9D2BB00585E14 /* dircmd.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942E622E9D2A800585E14 /* dircmd.prg */; };
+		EA29433022E9D2BB00585E14 /* langcomp.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942E722E9D2A800585E14 /* langcomp.prg */; };
+		EA29433122E9D2BB00585E14 /* tpersist.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942E822E9D2A800585E14 /* tpersist.prg */; };
+		EA29433222E9D2BB00585E14 /* tbcolumn.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942E922E9D2A900585E14 /* tbcolumn.prg */; };
+		EA29433322E9D2BB00585E14 /* tgethb.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942EA22E9D2A900585E14 /* tgethb.prg */; };
+		EA29433422E9D2BB00585E14 /* browdb.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942EB22E9D2A900585E14 /* browdb.prg */; };
+		EA29433522E9D2BB00585E14 /* errsys.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942EC22E9D2A900585E14 /* errsys.prg */; };
+		EA29433622E9D2BB00585E14 /* browse.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942ED22E9D2A900585E14 /* browse.prg */; };
+		EA29433722E9D2BB00585E14 /* readkey.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942EE22E9D2A900585E14 /* readkey.prg */; };
+		EA29433822E9D2BB00585E14 /* einstvar.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942EF22E9D2A900585E14 /* einstvar.prg */; };
+		EA29433922E9D2BB00585E14 /* adir.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942F022E9D2AA00585E14 /* adir.prg */; };
+		EA29433A22E9D2BB00585E14 /* ttopbar.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942F122E9D2AA00585E14 /* ttopbar.prg */; };
+		EA29433B22E9D2BB00585E14 /* hbini.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942F222E9D2AA00585E14 /* hbini.prg */; };
+		EA29433C22E9D2BB00585E14 /* einstvau.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942F322E9D2AA00585E14 /* einstvau.prg */; };
+		EA29433D22E9D2BB00585E14 /* listbox.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942F422E9D2AA00585E14 /* listbox.prg */; };
+		EA29433E22E9D2BB00585E14 /* dirscan.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942F522E9D2AA00585E14 /* dirscan.prg */; };
+		EA29433F22E9D2BB00585E14 /* einstv52.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942F622E9D2AA00585E14 /* einstv52.prg */; };
+		EA29434022E9D2BB00585E14 /* tget.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942F722E9D2AB00585E14 /* tget.prg */; };
+		EA29434122E9D2BB00585E14 /* tgetint.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942F822E9D2AB00585E14 /* tgetint.prg */; };
+		EA29434222E9D2BB00585E14 /* tsymbol.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942F922E9D2AB00585E14 /* tsymbol.prg */; };
+		EA29434322E9D2BB00585E14 /* memoedit.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942FA22E9D2AB00585E14 /* memoedit.prg */; };
+		EA29434422E9D2BB00585E14 /* getsys53.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942FB22E9D2AC00585E14 /* getsys53.prg */; };
+		EA29434622E9D2BB00585E14 /* teditor.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942FD22E9D2AC00585E14 /* teditor.prg */; };
+		EA29434722E9D2BB00585E14 /* wait.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942FE22E9D2AC00585E14 /* wait.prg */; };
+		EA29434822E9D2BB00585E14 /* tbrowsys.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942FF22E9D2AC00585E14 /* tbrowsys.prg */; };
+		EA29434922E9D2BB00585E14 /* checkbox.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430022E9D2AD00585E14 /* checkbox.prg */; };
+		EA29434A22E9D2BB00585E14 /* langlgcy.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430122E9D2AD00585E14 /* langlgcy.prg */; };
+		EA29434B22E9D2BB00585E14 /* savebuff.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430222E9D2AD00585E14 /* savebuff.prg */; };
+		EA29434C22E9D2BB00585E14 /* tpopup.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430322E9D2AD00585E14 /* tpopup.prg */; };
+		EA29434D22E9D2BB00585E14 /* menusys.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430422E9D2AE00585E14 /* menusys.prg */; };
+		EA29434E22E9D2BB00585E14 /* tbrowse.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430522E9D2AE00585E14 /* tbrowse.prg */; };
+		EA29434F22E9D2BB00585E14 /* perfuncs.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430622E9D2AE00585E14 /* perfuncs.prg */; };
+		EA29435022E9D2BB00585E14 /* pushbtn.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430722E9D2AF00585E14 /* pushbtn.prg */; };
+		EA29435122E9D2BB00585E14 /* tlabel.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430822E9D2AF00585E14 /* tlabel.prg */; };
+		EA29435222E9D2BB00585E14 /* valtoexp.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430922E9D2AF00585E14 /* valtoexp.prg */; };
+		EA29435322E9D2BB00585E14 /* getsys.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430A22E9D2B000585E14 /* getsys.prg */; };
+		EA29435422E9D2BB00585E14 /* tgetlist.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430B22E9D2B000585E14 /* tgetlist.prg */; };
+		EA29435522E9D2BB00585E14 /* radiobhb.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430C22E9D2B000585E14 /* radiobhb.prg */; };
+		EA29435622E9D2BB00585E14 /* tmenuitm.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430D22E9D2B100585E14 /* tmenuitm.prg */; };
+		EA29435722E9D2BB00585E14 /* ttextlin.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430E22E9D2B100585E14 /* ttextlin.prg */; };
+		EA29435822E9D2BB00585E14 /* hbi18n2.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29430F22E9D2B100585E14 /* hbi18n2.prg */; };
+		EA29435922E9D2BB00585E14 /* setta.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431022E9D2B100585E14 /* setta.prg */; };
+		EA29435A22E9D2BB00585E14 /* cdpdet.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431122E9D2B200585E14 /* cdpdet.prg */; };
+		EA29435B22E9D2BB00585E14 /* gui.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431222E9D2B200585E14 /* gui.prg */; };
+		EA29435C22E9D2BB00585E14 /* input.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431322E9D2B200585E14 /* input.prg */; };
+		EA29435D22E9D2BB00585E14 /* objfunc.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431422E9D2B300585E14 /* objfunc.prg */; };
+		EA29435E22E9D2BB00585E14 /* radiogrp.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431522E9D2B300585E14 /* radiogrp.prg */; };
+		EA29435F22E9D2BB00585E14 /* hbfilehi.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431622E9D2B300585E14 /* hbfilehi.prg */; };
+		EA29436022E9D2BB00585E14 /* tobject.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431722E9D2B400585E14 /* tobject.prg */; };
+		EA29436122E9D2BB00585E14 /* tclass.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431822E9D2B400585E14 /* tclass.prg */; };
+		EA29436322E9D2BB00585E14 /* dbedit.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431A22E9D2B500585E14 /* dbedit.prg */; };
+		EA29436422E9D2BB00585E14 /* devoutp.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431B22E9D2B500585E14 /* devoutp.prg */; };
+		EA29436522E9D2BB00585E14 /* menuto.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431C22E9D2B500585E14 /* menuto.prg */; };
+		EA29436622E9D2BB00585E14 /* scrollbr.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431D22E9D2B600585E14 /* scrollbr.prg */; };
+		EA29436722E9D2BB00585E14 /* radiobtn.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431E22E9D2B600585E14 /* radiobtn.prg */; };
+		EA29436822E9D2BB00585E14 /* libname.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29431F22E9D2B600585E14 /* libname.prg */; };
+		EA29436922E9D2BB00585E14 /* readvar.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29432022E9D2B700585E14 /* readvar.prg */; };
+		EA29436A22E9D2BB00585E14 /* setfunc.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29432122E9D2B700585E14 /* setfunc.prg */; };
+		EA29436B22E9D2BB00585E14 /* hbdoc.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29432222E9D2B700585E14 /* hbdoc.prg */; };
+		EA29436D22E9D2BB00585E14 /* color53.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29432422E9D2B800585E14 /* color53.prg */; };
+		EA29436E22E9D2BB00585E14 /* getsyshb.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29432522E9D2B800585E14 /* getsyshb.prg */; };
+		EA29436F22E9D2BB00585E14 /* getlist.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29432622E9D2B900585E14 /* getlist.prg */; };
+		EA29437022E9D2BB00585E14 /* tscalar.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29432722E9D2B900585E14 /* tscalar.prg */; };
+		EA29437122E9D2BB00585E14 /* memvarhb.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29432822E9D2B900585E14 /* memvarhb.prg */; };
+		EA29437222E9D2BB00585E14 /* tpopuphb.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29432922E9D2B900585E14 /* tpopuphb.prg */; };
+		EA29437322E9D2BB00585E14 /* treport.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29432A22E9D2BA00585E14 /* treport.prg */; };
+		EA29437422E9D2BB00585E14 /* typefile.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29432B22E9D2BA00585E14 /* typefile.prg */; };
+		EA29437522E9D2BB00585E14 /* text.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29432C22E9D2BA00585E14 /* text.prg */; };
+		EA29437622E9D2BB00585E14 /* profiler.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29432D22E9D2BA00585E14 /* profiler.prg */; };
+		EA29437722E9D2BB00585E14 /* tmenusys.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29432E22E9D2BA00585E14 /* tmenusys.prg */; };
 		EA8F8B9B22E768C100B62005 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9A22E768C100B62005 /* AppDelegate.m */; };
 		EA8F8B9E22E768C100B62005 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9D22E768C100B62005 /* ViewController.m */; };
 		EA8F8BA122E768C100B62005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8F8B9F22E768C100B62005 /* Main.storyboard */; };
@@ -398,9 +470,9 @@
 			fileType = pattern.proxy;
 			isEditable = 1;
 			outputFiles = (
-				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).c",
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_NAME).o",
 			);
-			script = "/Users/$USER/harbour/bin/darwin/clang/harbour $1 -n\n";
+			script = "/Users/$USER/harbour/bin/darwin/clang/harbour $(INPUT_FILE_NAME).prg -n\n";
 		};
 /* End PBXBuildRule section */
 
@@ -416,7 +488,79 @@
 		EA2942D222E9C76D00585E14 /* hbexprb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbexprb.c; sourceTree = "<group>"; };
 		EA2942D422E9C95E00585E14 /* hbcomp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hbcomp.h; path = ../../../harbour/include/hbcomp.h; sourceTree = "<group>"; };
 		EA2942D522E9C9DC00585E14 /* hbopt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbopt.c; sourceTree = "<group>"; };
-		EA2942D822E9CBCB00585E14 /* tscalar.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tscalar.prg; sourceTree = "<group>"; };
+		EA2942DA22E9D1A900585E14 /* achoice.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = achoice.prg; sourceTree = "<group>"; };
+		EA2942DB22E9D1A900585E14 /* alert.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alert.prg; sourceTree = "<group>"; };
+		EA2942DC22E9D1A900585E14 /* altd.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = altd.prg; sourceTree = "<group>"; };
+		EA2942E622E9D2A800585E14 /* dircmd.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dircmd.prg; sourceTree = "<group>"; };
+		EA2942E722E9D2A800585E14 /* langcomp.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = langcomp.prg; sourceTree = "<group>"; };
+		EA2942E822E9D2A800585E14 /* tpersist.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tpersist.prg; sourceTree = "<group>"; };
+		EA2942E922E9D2A900585E14 /* tbcolumn.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tbcolumn.prg; sourceTree = "<group>"; };
+		EA2942EA22E9D2A900585E14 /* tgethb.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tgethb.prg; sourceTree = "<group>"; };
+		EA2942EB22E9D2A900585E14 /* browdb.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = browdb.prg; path = ../../../harbour/src/rtl/browdb.prg; sourceTree = "<group>"; };
+		EA2942EC22E9D2A900585E14 /* errsys.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = errsys.prg; sourceTree = "<group>"; };
+		EA2942ED22E9D2A900585E14 /* browse.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = browse.prg; path = ../../../harbour/src/rtl/browse.prg; sourceTree = "<group>"; };
+		EA2942EE22E9D2A900585E14 /* readkey.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readkey.prg; sourceTree = "<group>"; };
+		EA2942EF22E9D2A900585E14 /* einstvar.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = einstvar.prg; sourceTree = "<group>"; };
+		EA2942F022E9D2AA00585E14 /* adir.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = adir.prg; path = ../../../harbour/src/rtl/adir.prg; sourceTree = "<group>"; };
+		EA2942F122E9D2AA00585E14 /* ttopbar.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ttopbar.prg; sourceTree = "<group>"; };
+		EA2942F222E9D2AA00585E14 /* hbini.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hbini.prg; sourceTree = "<group>"; };
+		EA2942F322E9D2AA00585E14 /* einstvau.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = einstvau.prg; sourceTree = "<group>"; };
+		EA2942F422E9D2AA00585E14 /* listbox.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = listbox.prg; sourceTree = "<group>"; };
+		EA2942F522E9D2AA00585E14 /* dirscan.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dirscan.prg; sourceTree = "<group>"; };
+		EA2942F622E9D2AA00585E14 /* einstv52.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = einstv52.prg; sourceTree = "<group>"; };
+		EA2942F722E9D2AB00585E14 /* tget.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tget.prg; sourceTree = "<group>"; };
+		EA2942F822E9D2AB00585E14 /* tgetint.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tgetint.prg; sourceTree = "<group>"; };
+		EA2942F922E9D2AB00585E14 /* tsymbol.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tsymbol.prg; sourceTree = "<group>"; };
+		EA2942FA22E9D2AB00585E14 /* memoedit.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = memoedit.prg; sourceTree = "<group>"; };
+		EA2942FB22E9D2AC00585E14 /* getsys53.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getsys53.prg; sourceTree = "<group>"; };
+		EA2942FD22E9D2AC00585E14 /* teditor.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = teditor.prg; sourceTree = "<group>"; };
+		EA2942FE22E9D2AC00585E14 /* wait.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wait.prg; sourceTree = "<group>"; };
+		EA2942FF22E9D2AC00585E14 /* tbrowsys.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tbrowsys.prg; sourceTree = "<group>"; };
+		EA29430022E9D2AD00585E14 /* checkbox.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = checkbox.prg; sourceTree = "<group>"; };
+		EA29430122E9D2AD00585E14 /* langlgcy.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = langlgcy.prg; sourceTree = "<group>"; };
+		EA29430222E9D2AD00585E14 /* savebuff.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = savebuff.prg; sourceTree = "<group>"; };
+		EA29430322E9D2AD00585E14 /* tpopup.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tpopup.prg; sourceTree = "<group>"; };
+		EA29430422E9D2AE00585E14 /* menusys.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = menusys.prg; sourceTree = "<group>"; };
+		EA29430522E9D2AE00585E14 /* tbrowse.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tbrowse.prg; sourceTree = "<group>"; };
+		EA29430622E9D2AE00585E14 /* perfuncs.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = perfuncs.prg; sourceTree = "<group>"; };
+		EA29430722E9D2AF00585E14 /* pushbtn.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pushbtn.prg; sourceTree = "<group>"; };
+		EA29430822E9D2AF00585E14 /* tlabel.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tlabel.prg; sourceTree = "<group>"; };
+		EA29430922E9D2AF00585E14 /* valtoexp.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = valtoexp.prg; sourceTree = "<group>"; };
+		EA29430A22E9D2B000585E14 /* getsys.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getsys.prg; sourceTree = "<group>"; };
+		EA29430B22E9D2B000585E14 /* tgetlist.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tgetlist.prg; sourceTree = "<group>"; };
+		EA29430C22E9D2B000585E14 /* radiobhb.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = radiobhb.prg; sourceTree = "<group>"; };
+		EA29430D22E9D2B100585E14 /* tmenuitm.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tmenuitm.prg; sourceTree = "<group>"; };
+		EA29430E22E9D2B100585E14 /* ttextlin.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ttextlin.prg; sourceTree = "<group>"; };
+		EA29430F22E9D2B100585E14 /* hbi18n2.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hbi18n2.prg; sourceTree = "<group>"; };
+		EA29431022E9D2B100585E14 /* setta.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = setta.prg; sourceTree = "<group>"; };
+		EA29431122E9D2B200585E14 /* cdpdet.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cdpdet.prg; sourceTree = "<group>"; };
+		EA29431222E9D2B200585E14 /* gui.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gui.prg; sourceTree = "<group>"; };
+		EA29431322E9D2B200585E14 /* input.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.prg; sourceTree = "<group>"; };
+		EA29431422E9D2B300585E14 /* objfunc.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objfunc.prg; sourceTree = "<group>"; };
+		EA29431522E9D2B300585E14 /* radiogrp.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = radiogrp.prg; sourceTree = "<group>"; };
+		EA29431622E9D2B300585E14 /* hbfilehi.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hbfilehi.prg; sourceTree = "<group>"; };
+		EA29431722E9D2B400585E14 /* tobject.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tobject.prg; sourceTree = "<group>"; };
+		EA29431822E9D2B400585E14 /* tclass.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tclass.prg; sourceTree = "<group>"; };
+		EA29431A22E9D2B500585E14 /* dbedit.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbedit.prg; sourceTree = "<group>"; };
+		EA29431B22E9D2B500585E14 /* devoutp.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = devoutp.prg; sourceTree = "<group>"; };
+		EA29431C22E9D2B500585E14 /* menuto.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = menuto.prg; sourceTree = "<group>"; };
+		EA29431D22E9D2B600585E14 /* scrollbr.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scrollbr.prg; sourceTree = "<group>"; };
+		EA29431E22E9D2B600585E14 /* radiobtn.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = radiobtn.prg; sourceTree = "<group>"; };
+		EA29431F22E9D2B600585E14 /* libname.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libname.prg; sourceTree = "<group>"; };
+		EA29432022E9D2B700585E14 /* readvar.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readvar.prg; sourceTree = "<group>"; };
+		EA29432122E9D2B700585E14 /* setfunc.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = setfunc.prg; sourceTree = "<group>"; };
+		EA29432222E9D2B700585E14 /* hbdoc.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hbdoc.prg; sourceTree = "<group>"; };
+		EA29432422E9D2B800585E14 /* color53.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = color53.prg; sourceTree = "<group>"; };
+		EA29432522E9D2B800585E14 /* getsyshb.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getsyshb.prg; sourceTree = "<group>"; };
+		EA29432622E9D2B900585E14 /* getlist.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = getlist.prg; sourceTree = "<group>"; };
+		EA29432722E9D2B900585E14 /* tscalar.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tscalar.prg; path = ../../../harbour/src/rtl/tscalar.prg; sourceTree = "<group>"; };
+		EA29432822E9D2B900585E14 /* memvarhb.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = memvarhb.prg; sourceTree = "<group>"; };
+		EA29432922E9D2B900585E14 /* tpopuphb.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tpopuphb.prg; sourceTree = "<group>"; };
+		EA29432A22E9D2BA00585E14 /* treport.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = treport.prg; sourceTree = "<group>"; };
+		EA29432B22E9D2BA00585E14 /* typefile.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = typefile.prg; sourceTree = "<group>"; };
+		EA29432C22E9D2BA00585E14 /* text.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text.prg; sourceTree = "<group>"; };
+		EA29432D22E9D2BA00585E14 /* profiler.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = profiler.prg; sourceTree = "<group>"; };
+		EA29432E22E9D2BA00585E14 /* tmenusys.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tmenusys.prg; sourceTree = "<group>"; };
 		EA8F8B9622E768C100B62005 /* iharbour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iharbour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8F8B9922E768C100B62005 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA8F8B9A22E768C100B62005 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1043,7 +1187,79 @@
 		EA8F8D3D22E76E8C00B62005 /* rtl */ = {
 			isa = PBXGroup;
 			children = (
-				EA2942D822E9CBCB00585E14 /* tscalar.prg */,
+				EA2942F022E9D2AA00585E14 /* adir.prg */,
+				EA2942DA22E9D1A900585E14 /* achoice.prg */,
+				EA2942DB22E9D1A900585E14 /* alert.prg */,
+				EA2942DC22E9D1A900585E14 /* altd.prg */,
+				EA29432922E9D2B900585E14 /* tpopuphb.prg */,
+				EA29432A22E9D2BA00585E14 /* treport.prg */,
+				EA2942EB22E9D2A900585E14 /* browdb.prg */,
+				EA2942ED22E9D2A900585E14 /* browse.prg */,
+				EA29431122E9D2B200585E14 /* cdpdet.prg */,
+				EA29430022E9D2AD00585E14 /* checkbox.prg */,
+				EA29432422E9D2B800585E14 /* color53.prg */,
+				EA29431A22E9D2B500585E14 /* dbedit.prg */,
+				EA29431B22E9D2B500585E14 /* devoutp.prg */,
+				EA2942E622E9D2A800585E14 /* dircmd.prg */,
+				EA2942F522E9D2AA00585E14 /* dirscan.prg */,
+				EA2942F622E9D2AA00585E14 /* einstv52.prg */,
+				EA2942EF22E9D2A900585E14 /* einstvar.prg */,
+				EA2942F322E9D2AA00585E14 /* einstvau.prg */,
+				EA2942EC22E9D2A900585E14 /* errsys.prg */,
+				EA29432622E9D2B900585E14 /* getlist.prg */,
+				EA29430A22E9D2B000585E14 /* getsys.prg */,
+				EA2942FB22E9D2AC00585E14 /* getsys53.prg */,
+				EA29432522E9D2B800585E14 /* getsyshb.prg */,
+				EA29431222E9D2B200585E14 /* gui.prg */,
+				EA29432222E9D2B700585E14 /* hbdoc.prg */,
+				EA29431622E9D2B300585E14 /* hbfilehi.prg */,
+				EA29430F22E9D2B100585E14 /* hbi18n2.prg */,
+				EA2942F222E9D2AA00585E14 /* hbini.prg */,
+				EA29431322E9D2B200585E14 /* input.prg */,
+				EA2942E722E9D2A800585E14 /* langcomp.prg */,
+				EA29430122E9D2AD00585E14 /* langlgcy.prg */,
+				EA29431F22E9D2B600585E14 /* libname.prg */,
+				EA2942F422E9D2AA00585E14 /* listbox.prg */,
+				EA2942FA22E9D2AB00585E14 /* memoedit.prg */,
+				EA29432822E9D2B900585E14 /* memvarhb.prg */,
+				EA29430422E9D2AE00585E14 /* menusys.prg */,
+				EA29431C22E9D2B500585E14 /* menuto.prg */,
+				EA29431422E9D2B300585E14 /* objfunc.prg */,
+				EA29430622E9D2AE00585E14 /* perfuncs.prg */,
+				EA29432D22E9D2BA00585E14 /* profiler.prg */,
+				EA29430722E9D2AF00585E14 /* pushbtn.prg */,
+				EA29430C22E9D2B000585E14 /* radiobhb.prg */,
+				EA29431E22E9D2B600585E14 /* radiobtn.prg */,
+				EA29431522E9D2B300585E14 /* radiogrp.prg */,
+				EA2942EE22E9D2A900585E14 /* readkey.prg */,
+				EA29432022E9D2B700585E14 /* readvar.prg */,
+				EA29430222E9D2AD00585E14 /* savebuff.prg */,
+				EA29431D22E9D2B600585E14 /* scrollbr.prg */,
+				EA29432122E9D2B700585E14 /* setfunc.prg */,
+				EA29431022E9D2B100585E14 /* setta.prg */,
+				EA2942E922E9D2A900585E14 /* tbcolumn.prg */,
+				EA29430522E9D2AE00585E14 /* tbrowse.prg */,
+				EA2942FF22E9D2AC00585E14 /* tbrowsys.prg */,
+				EA29431822E9D2B400585E14 /* tclass.prg */,
+				EA2942FD22E9D2AC00585E14 /* teditor.prg */,
+				EA29432C22E9D2BA00585E14 /* text.prg */,
+				EA2942F722E9D2AB00585E14 /* tget.prg */,
+				EA2942EA22E9D2A900585E14 /* tgethb.prg */,
+				EA2942F822E9D2AB00585E14 /* tgetint.prg */,
+				EA29430B22E9D2B000585E14 /* tgetlist.prg */,
+				EA29430822E9D2AF00585E14 /* tlabel.prg */,
+				EA29430D22E9D2B100585E14 /* tmenuitm.prg */,
+				EA29432E22E9D2BA00585E14 /* tmenusys.prg */,
+				EA29431722E9D2B400585E14 /* tobject.prg */,
+				EA2942E822E9D2A800585E14 /* tpersist.prg */,
+				EA29430322E9D2AD00585E14 /* tpopup.prg */,
+				EA29432722E9D2B900585E14 /* tscalar.prg */,
+				EA2942F922E9D2AB00585E14 /* tsymbol.prg */,
+				EA29430E22E9D2B100585E14 /* ttextlin.prg */,
+				EA2942F122E9D2AA00585E14 /* ttopbar.prg */,
+				EA29432B22E9D2BA00585E14 /* typefile.prg */,
+				EA29430922E9D2AF00585E14 /* valtoexp.prg */,
+				EA2942FE22E9D2AC00585E14 /* wait.prg */,
 				EA8F8DB022E76F4E00B62005 /* abs.c */,
 				EA8F8DB922E76F4F00B62005 /* accept.c */,
 				EA8F8D6622E76F4200B62005 /* ampm.c */,
@@ -1362,11 +1578,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA2942D922E9CBCB00585E14 /* tscalar.prg in Resources */,
+				EA29436122E9D2BB00585E14 /* tclass.prg in Resources */,
+				EA29436422E9D2BB00585E14 /* devoutp.prg in Resources */,
+				EA29433D22E9D2BB00585E14 /* listbox.prg in Resources */,
+				EA29433922E9D2BB00585E14 /* adir.prg in Resources */,
+				EA29435822E9D2BB00585E14 /* hbi18n2.prg in Resources */,
+				EA29437322E9D2BB00585E14 /* treport.prg in Resources */,
+				EA29435B22E9D2BB00585E14 /* gui.prg in Resources */,
+				EA29434F22E9D2BB00585E14 /* perfuncs.prg in Resources */,
+				EA29434822E9D2BB00585E14 /* tbrowsys.prg in Resources */,
+				EA2942DF22E9D1A900585E14 /* alert.prg in Resources */,
+				EA29434A22E9D2BB00585E14 /* langlgcy.prg in Resources */,
+				EA29435222E9D2BB00585E14 /* valtoexp.prg in Resources */,
+				EA29436E22E9D2BB00585E14 /* getsyshb.prg in Resources */,
+				EA29433B22E9D2BB00585E14 /* hbini.prg in Resources */,
+				EA29433E22E9D2BB00585E14 /* dirscan.prg in Resources */,
+				EA29437522E9D2BB00585E14 /* text.prg in Resources */,
+				EA29435A22E9D2BB00585E14 /* cdpdet.prg in Resources */,
+				EA29436A22E9D2BB00585E14 /* setfunc.prg in Resources */,
+				EA29436322E9D2BB00585E14 /* dbedit.prg in Resources */,
+				EA29433C22E9D2BB00585E14 /* einstvau.prg in Resources */,
+				EA29437122E9D2BB00585E14 /* memvarhb.prg in Resources */,
 				EA8F8BA622E768C400B62005 /* LaunchScreen.storyboard in Resources */,
+				EA29436022E9D2BB00585E14 /* tobject.prg in Resources */,
+				EA29436922E9D2BB00585E14 /* readvar.prg in Resources */,
+				EA29434122E9D2BB00585E14 /* tgetint.prg in Resources */,
+				EA29436F22E9D2BB00585E14 /* getlist.prg in Resources */,
+				EA29435322E9D2BB00585E14 /* getsys.prg in Resources */,
+				EA29434B22E9D2BB00585E14 /* savebuff.prg in Resources */,
+				EA2942E022E9D1A900585E14 /* altd.prg in Resources */,
+				EA29437022E9D2BB00585E14 /* tscalar.prg in Resources */,
+				EA29437622E9D2BB00585E14 /* profiler.prg in Resources */,
+				EA29434322E9D2BB00585E14 /* memoedit.prg in Resources */,
+				EA29435422E9D2BB00585E14 /* tgetlist.prg in Resources */,
+				EA29436822E9D2BB00585E14 /* libname.prg in Resources */,
+				EA29436522E9D2BB00585E14 /* menuto.prg in Resources */,
+				EA29434D22E9D2BB00585E14 /* menusys.prg in Resources */,
+				EA29437222E9D2BB00585E14 /* tpopuphb.prg in Resources */,
+				EA29434222E9D2BB00585E14 /* tsymbol.prg in Resources */,
+				EA29434422E9D2BB00585E14 /* getsys53.prg in Resources */,
+				EA2942DE22E9D1A900585E14 /* achoice.prg in Resources */,
+				EA29433222E9D2BB00585E14 /* tbcolumn.prg in Resources */,
+				EA29437722E9D2BB00585E14 /* tmenusys.prg in Resources */,
+				EA29436622E9D2BB00585E14 /* scrollbr.prg in Resources */,
+				EA29434922E9D2BB00585E14 /* checkbox.prg in Resources */,
+				EA29435D22E9D2BB00585E14 /* objfunc.prg in Resources */,
+				EA29437422E9D2BB00585E14 /* typefile.prg in Resources */,
+				EA29435722E9D2BB00585E14 /* ttextlin.prg in Resources */,
+				EA29434622E9D2BB00585E14 /* teditor.prg in Resources */,
+				EA29436722E9D2BB00585E14 /* radiobtn.prg in Resources */,
 				EA8F8BA322E768C400B62005 /* Assets.xcassets in Resources */,
+				EA29433822E9D2BB00585E14 /* einstvar.prg in Resources */,
 				EA8F8EE222E76FDF00B62005 /* macro.yyc in Resources */,
+				EA29435522E9D2BB00585E14 /* radiobhb.prg in Resources */,
+				EA29433F22E9D2BB00585E14 /* einstv52.prg in Resources */,
+				EA29434E22E9D2BB00585E14 /* tbrowse.prg in Resources */,
+				EA29435E22E9D2BB00585E14 /* radiogrp.prg in Resources */,
+				EA29435C22E9D2BB00585E14 /* input.prg in Resources */,
+				EA29435F22E9D2BB00585E14 /* hbfilehi.prg in Resources */,
+				EA29435622E9D2BB00585E14 /* tmenuitm.prg in Resources */,
+				EA29433522E9D2BB00585E14 /* errsys.prg in Resources */,
+				EA29435922E9D2BB00585E14 /* setta.prg in Resources */,
+				EA29432F22E9D2BB00585E14 /* dircmd.prg in Resources */,
 				EAFBF0C122E77EC100801C5F /* harbour.yyc in Resources */,
+				EA29433422E9D2BB00585E14 /* browdb.prg in Resources */,
+				EA29433622E9D2BB00585E14 /* browse.prg in Resources */,
+				EA29433122E9D2BB00585E14 /* tpersist.prg in Resources */,
+				EA29436D22E9D2BB00585E14 /* color53.prg in Resources */,
+				EA29433322E9D2BB00585E14 /* tgethb.prg in Resources */,
+				EA29434C22E9D2BB00585E14 /* tpopup.prg in Resources */,
+				EA29433022E9D2BB00585E14 /* langcomp.prg in Resources */,
+				EA29434722E9D2BB00585E14 /* wait.prg in Resources */,
+				EA29436B22E9D2BB00585E14 /* hbdoc.prg in Resources */,
+				EA29435122E9D2BB00585E14 /* tlabel.prg in Resources */,
+				EA29433722E9D2BB00585E14 /* readkey.prg in Resources */,
+				EA29434022E9D2BB00585E14 /* tget.prg in Resources */,
+				EA29433A22E9D2BB00585E14 /* ttopbar.prg in Resources */,
+				EA29435022E9D2BB00585E14 /* pushbtn.prg in Resources */,
 				EA8F8BA122E768C100B62005 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
