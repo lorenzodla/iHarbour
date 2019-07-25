@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EA0A48BA22EA264A00954C84 /* cdpapi.c in Sources */ = {isa = PBXBuildFile; fileRef = EA0A48B922EA264A00954C84 /* cdpapi.c */; };
 		EA0A48BC22EA273700954C84 /* hbmain.c in Sources */ = {isa = PBXBuildFile; fileRef = EA0A48BB22EA273700954C84 /* hbmain.c */; };
+		EA0A48C022EA283400954C84 /* genc.c in Sources */ = {isa = PBXBuildFile; fileRef = EA0A48BF22EA283400954C84 /* genc.c */; };
 		EA2942C322E9B9F100585E14 /* macroy.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942C222E9B9F100585E14 /* macroy.c */; };
 		EA2942C522E9C51900585E14 /* harboury.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942C422E9C51900585E14 /* harboury.c */; };
 		EA2942C922E9C61300585E14 /* ppcomp.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942C822E9C61300585E14 /* ppcomp.c */; };
@@ -262,7 +263,6 @@
 		EA8F8BA122E768C100B62005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8F8B9F22E768C100B62005 /* Main.storyboard */; };
 		EA8F8BA322E768C400B62005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8F8BA222E768C400B62005 /* Assets.xcassets */; };
 		EA8F8BA922E768C400B62005 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8BA822E768C400B62005 /* main.m */; };
-		EA8F8C6222E76B3000B62005 /* maindllh.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C3622E76B2A00B62005 /* maindllh.c */; };
 		EA8F8C6322E76B3000B62005 /* memvars.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C3722E76B2A00B62005 /* memvars.c */; };
 		EA8F8C6422E76B3000B62005 /* procaddr.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C3822E76B2B00B62005 /* procaddr.c */; };
 		EA8F8C6522E76B3000B62005 /* arrays.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C3922E76B2B00B62005 /* arrays.c */; };
@@ -276,9 +276,7 @@
 		EA8F8C6D22E76B3000B62005 /* break.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C4122E76B2C00B62005 /* break.c */; };
 		EA8F8C6E22E76B3000B62005 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C4222E76B2C00B62005 /* thread.c */; };
 		EA8F8C6F22E76B3000B62005 /* pvaluehb.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C4322E76B2C00B62005 /* pvaluehb.c */; };
-		EA8F8C7022E76B3000B62005 /* mainstd.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C4422E76B2C00B62005 /* mainstd.c */; };
 		EA8F8C7122E76B3000B62005 /* set.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C4522E76B2C00B62005 /* set.c */; };
-		EA8F8C7222E76B3000B62005 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C4622E76B2C00B62005 /* main.c */; };
 		EA8F8C7322E76B3000B62005 /* pcount.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C4722E76B2C00B62005 /* pcount.c */; };
 		EA8F8C7422E76B3000B62005 /* proc.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C4822E76B2C00B62005 /* proc.c */; };
 		EA8F8C7522E76B3000B62005 /* strapi.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C4922E76B2D00B62005 /* strapi.c */; };
@@ -323,7 +321,6 @@
 		EA8F8CB022E76C4600B62005 /* hbverdsp.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C9E22E76C4600B62005 /* hbverdsp.c */; };
 		EA8F8CB122E76C4600B62005 /* hbfopen.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C9F22E76C4600B62005 /* hbfopen.c */; };
 		EA8F8CB222E76C4600B62005 /* hbarch.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8CA022E76C4600B62005 /* hbarch.c */; };
-		EA8F8CCC22E76C9C00B62005 /* ppcomp.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8CB522E76C9900B62005 /* ppcomp.c */; };
 		EA8F8CCD22E76C9C00B62005 /* complex.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8CB622E76C9A00B62005 /* complex.c */; };
 		EA8F8CCE22E76C9C00B62005 /* hbstripl.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8CB722E76C9A00B62005 /* hbstripl.c */; };
 		EA8F8CCF22E76C9C00B62005 /* hbcomp.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8CB822E76C9A00B62005 /* hbcomp.c */; };
@@ -667,6 +664,7 @@
 /* Begin PBXFileReference section */
 		EA0A48B922EA264A00954C84 /* cdpapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cdpapi.c; path = ../../../harbour/src/rtl/cdpapi.c; sourceTree = "<group>"; };
 		EA0A48BB22EA273700954C84 /* hbmain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hbmain.c; path = ../../../harbour/src/compiler/hbmain.c; sourceTree = "<group>"; };
+		EA0A48BF22EA283400954C84 /* genc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = genc.c; path = ../../../harbour/src/compiler/genc.c; sourceTree = "<group>"; };
 		EA2942C222E9B9F100585E14 /* macroy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = macroy.c; sourceTree = "<group>"; };
 		EA2942C422E9C51900585E14 /* harboury.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = harboury.c; sourceTree = "<group>"; };
 		EA2942C822E9C61300585E14 /* ppcomp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ppcomp.c; sourceTree = "<group>"; };
@@ -968,7 +966,6 @@
 		EA8F8BA522E768C400B62005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA8F8BA722E768C400B62005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA8F8BA822E768C400B62005 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA8F8C3622E76B2A00B62005 /* maindllh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = maindllh.c; sourceTree = "<group>"; };
 		EA8F8C3722E76B2A00B62005 /* memvars.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memvars.c; sourceTree = "<group>"; };
 		EA8F8C3822E76B2B00B62005 /* procaddr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = procaddr.c; sourceTree = "<group>"; };
 		EA8F8C3922E76B2B00B62005 /* arrays.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = arrays.c; sourceTree = "<group>"; };
@@ -982,9 +979,7 @@
 		EA8F8C4122E76B2C00B62005 /* break.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = break.c; sourceTree = "<group>"; };
 		EA8F8C4222E76B2C00B62005 /* thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thread.c; sourceTree = "<group>"; };
 		EA8F8C4322E76B2C00B62005 /* pvaluehb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pvaluehb.c; sourceTree = "<group>"; };
-		EA8F8C4422E76B2C00B62005 /* mainstd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mainstd.c; sourceTree = "<group>"; };
 		EA8F8C4522E76B2C00B62005 /* set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = set.c; sourceTree = "<group>"; };
-		EA8F8C4622E76B2C00B62005 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		EA8F8C4722E76B2C00B62005 /* pcount.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pcount.c; sourceTree = "<group>"; };
 		EA8F8C4822E76B2C00B62005 /* proc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = proc.c; sourceTree = "<group>"; };
 		EA8F8C4922E76B2D00B62005 /* strapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strapi.c; sourceTree = "<group>"; };
@@ -1029,7 +1024,6 @@
 		EA8F8C9E22E76C4600B62005 /* hbverdsp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbverdsp.c; sourceTree = "<group>"; };
 		EA8F8C9F22E76C4600B62005 /* hbfopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbfopen.c; sourceTree = "<group>"; };
 		EA8F8CA022E76C4600B62005 /* hbarch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbarch.c; sourceTree = "<group>"; };
-		EA8F8CB522E76C9900B62005 /* ppcomp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ppcomp.c; sourceTree = "<group>"; };
 		EA8F8CB622E76C9A00B62005 /* complex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = complex.c; sourceTree = "<group>"; };
 		EA8F8CB722E76C9A00B62005 /* hbstripl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbstripl.c; sourceTree = "<group>"; };
 		EA8F8CB822E76C9A00B62005 /* hbcomp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbcomp.c; sourceTree = "<group>"; };
@@ -1638,9 +1632,6 @@
 				EA8F8C3D22E76B2B00B62005 /* initsymb.c */,
 				EA8F8C5622E76B2F00B62005 /* itemapi.c */,
 				EA8F8C5F22E76B3000B62005 /* macro.c */,
-				EA8F8C4622E76B2C00B62005 /* main.c */,
-				EA8F8C3622E76B2A00B62005 /* maindllh.c */,
-				EA8F8C4422E76B2C00B62005 /* mainstd.c */,
 				EA8F8C3722E76B2A00B62005 /* memvars.c */,
 				EA8F8C5422E76B2E00B62005 /* memvclip.c */,
 				EA8F8C4F22E76B2D00B62005 /* pbyref.c */,
@@ -1692,6 +1683,7 @@
 				EA2942D222E9C76D00585E14 /* hbexprb.c */,
 				EA0A48BB22EA273700954C84 /* hbmain.c */,
 				EA2942D022E9C73900585E14 /* hbexpra.c */,
+				EA0A48BF22EA283400954C84 /* genc.c */,
 				EA2942CE22E9C6E500585E14 /* gencc.c */,
 				EA2942C422E9C51900585E14 /* harboury.c */,
 				EAFBF0BE22E77EC100801C5F /* harbour.yyc */,
@@ -1712,7 +1704,6 @@
 				EA8F8CC922E76C9C00B62005 /* hbpcode.c */,
 				EA8F8CB722E76C9A00B62005 /* hbstripl.c */,
 				EA8F8CC522E76C9B00B62005 /* hbusage.c */,
-				EA8F8CB522E76C9900B62005 /* ppcomp.c */,
 			);
 			path = compiler;
 			sourceTree = "<group>";
@@ -2429,8 +2420,6 @@
 				EA8F8D3722E76E7600B62005 /* l_pt_br.c in Sources */,
 				EA8F8CAB22E76C4600B62005 /* hbgete.c in Sources */,
 				EA8F8ED522E76F5E00B62005 /* word.c in Sources */,
-				EA8F8C7222E76B3000B62005 /* main.c in Sources */,
-				EA8F8C7022E76B3000B62005 /* mainstd.c in Sources */,
 				EA8F8E2922E76F5E00B62005 /* hbinetz.c in Sources */,
 				EA29448E22E9D7B700585E14 /* cpno865.c in Sources */,
 				EA8F8E3F22E76F5E00B62005 /* hbbit.c in Sources */,
@@ -2441,6 +2430,7 @@
 				EA2944AD22E9D7B700585E14 /* uc875.c in Sources */,
 				EA8F8E1422E76F5E00B62005 /* rtlshort.c in Sources */,
 				EA8F8D1F22E76E7600B62005 /* l_fr.c in Sources */,
+				EA0A48C022EA283400954C84 /* genc.c in Sources */,
 				EA2944D322E9D7B700585E14 /* cpcskamc.c in Sources */,
 				EA29448622E9D7B700585E14 /* cphu852.c in Sources */,
 				EA8F8D2322E76E7600B62005 /* l_ca.c in Sources */,
@@ -2526,7 +2516,6 @@
 				EA8F8E6022E76F5E00B62005 /* mouse53.c in Sources */,
 				EA8F8E2422E76F5E00B62005 /* binnum.c in Sources */,
 				EA2944FE22E9D7B700585E14 /* ucmacrom.c in Sources */,
-				EA8F8CCC22E76C9C00B62005 /* ppcomp.c in Sources */,
 				EA8F8EC922E76F5E00B62005 /* iousr.c in Sources */,
 				EA8F8D1C22E76E7600B62005 /* l_be.c in Sources */,
 				EA8F8E4522E76F5E00B62005 /* len.c in Sources */,
@@ -2550,7 +2539,6 @@
 				EA29450722E9D7B700585E14 /* uc8859_6.c in Sources */,
 				EA8F8CF122E76DF500B62005 /* macrolex.c in Sources */,
 				EA29449622E9D7B700585E14 /* uc8859_5.c in Sources */,
-				EA8F8C6222E76B3000B62005 /* maindllh.c in Sources */,
 				EA8F8E7722E76F5E00B62005 /* fscopy.c in Sources */,
 				ED1444BC22E9F0EC008BF7DE /* ppcore.c in Sources */,
 				EA8F8E2322E76F5E00B62005 /* hbascii.c in Sources */,
