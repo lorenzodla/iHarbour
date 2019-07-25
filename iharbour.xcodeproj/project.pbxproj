@@ -90,6 +90,174 @@
 		EA2943BE22E9D60D00585E14 /* typefile.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29432B22E9D2BA00585E14 /* typefile.prg */; };
 		EA2943BF22E9D60D00585E14 /* valtoexp.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29430922E9D2AF00585E14 /* valtoexp.prg */; };
 		EA2943C022E9D60D00585E14 /* wait.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA2942FE22E9D2AC00585E14 /* wait.prg */; };
+		EA29448222E9D7B700585E14 /* uc861.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943C322E9D78A00585E14 /* uc861.c */; };
+		EA29448322E9D7B700585E14 /* uc8859_9.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943C422E9D78A00585E14 /* uc8859_9.c */; };
+		EA29448422E9D7B700585E14 /* cpsr646c.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943C522E9D78A00585E14 /* cpsr646c.c */; };
+		EA29448522E9D7B700585E14 /* cpbg866.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943C622E9D78A00585E14 /* cpbg866.c */; };
+		EA29448622E9D7B700585E14 /* cphu852.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943C722E9D78A00585E14 /* cphu852.c */; };
+		EA29448722E9D7B700585E14 /* cpsrwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943C922E9D78A00585E14 /* cpsrwin.c */; };
+		EA29448822E9D7B700585E14 /* cpcs852.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943CA22E9D78A00585E14 /* cpcs852.c */; };
+		EA29448922E9D7B700585E14 /* cprowin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943CB22E9D78A00585E14 /* cprowin.c */; };
+		EA29448A22E9D7B700585E14 /* cpit850.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943CC22E9D78B00585E14 /* cpit850.c */; };
+		EA29448B22E9D7B700585E14 /* uc856.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943CE22E9D78B00585E14 /* uc856.c */; };
+		EA29448C22E9D7B700585E14 /* cptriso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943CF22E9D78B00585E14 /* cptriso.c */; };
+		EA29448D22E9D7B700585E14 /* cpsviso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943D022E9D78B00585E14 /* cpsviso.c */; };
+		EA29448E22E9D7B700585E14 /* cpno865.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943D122E9D78B00585E14 /* cpno865.c */; };
+		EA29448F22E9D7B700585E14 /* cpbgwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943D222E9D78C00585E14 /* cpbgwin.c */; };
+		EA29449022E9D7B700585E14 /* uc775.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943D322E9D78C00585E14 /* uc775.c */; };
+		EA29449122E9D7B700585E14 /* uc1256.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943D422E9D78C00585E14 /* uc1256.c */; };
+		EA29449222E9D7B700585E14 /* uc8859_1.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943D522E9D78C00585E14 /* uc8859_1.c */; };
+		EA29449322E9D7B700585E14 /* uc8859_3.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943D622E9D78C00585E14 /* uc8859_3.c */; };
+		EA29449422E9D7B700585E14 /* cpitisb.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943D822E9D78D00585E14 /* cpitisb.c */; };
+		EA29449522E9D7B700585E14 /* cpitwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943D922E9D78D00585E14 /* cpitwin.c */; };
+		EA29449622E9D7B700585E14 /* uc8859_5.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943DC22E9D78E00585E14 /* uc8859_5.c */; };
+		EA29449722E9D7B700585E14 /* uc88591b.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943DD22E9D78E00585E14 /* uc88591b.c */; };
+		EA29449822E9D7B700585E14 /* uc885911.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943DE22E9D78E00585E14 /* uc885911.c */; };
+		EA29449922E9D7B700585E14 /* cp950.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943DF22E9D78F00585E14 /* cp950.c */; };
+		EA29449A22E9D7B700585E14 /* uc865.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943E022E9D78F00585E14 /* uc865.c */; };
+		EA29449B22E9D7B700585E14 /* uc855.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943E122E9D78F00585E14 /* uc855.c */; };
+		EA29449C22E9D7B700585E14 /* cp_tpl.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943E222E9D79000585E14 /* cp_tpl.c */; };
+		EA29449D22E9D7B700585E14 /* cpel437.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943E322E9D79000585E14 /* cpel437.c */; };
+		EA29449E22E9D7B700585E14 /* uc864.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943E422E9D79000585E14 /* uc864.c */; };
+		EA29449F22E9D7B700585E14 /* cpsv850.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943E522E9D79000585E14 /* cpsv850.c */; };
+		EA2944A022E9D7B700585E14 /* cpsk852c.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943E622E9D79100585E14 /* cpsk852c.c */; };
+		EA2944A122E9D7B700585E14 /* cpfr850.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943E722E9D79100585E14 /* cpfr850.c */; };
+		EA2944A222E9D7B700585E14 /* uc1006.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943E822E9D79100585E14 /* uc1006.c */; };
+		EA2944A322E9D7B700585E14 /* ucmacgrk.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943EA22E9D79200585E14 /* ucmacgrk.c */; };
+		EA2944A422E9D7B700585E14 /* ucmacice.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943EB22E9D79200585E14 /* ucmacice.c */; };
+		EA2944A522E9D7B700585E14 /* uc1252.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943EC22E9D79300585E14 /* uc1252.c */; };
+		EA2944A622E9D7B700585E14 /* ucmactrk.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943ED22E9D79300585E14 /* ucmactrk.c */; };
+		EA2944A722E9D7B700585E14 /* ucmik.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943EE22E9D79300585E14 /* ucmik.c */; };
+		EA2944A822E9D7B700585E14 /* cpel737.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943EF22E9D79400585E14 /* cpel737.c */; };
+		EA2944A922E9D7B700585E14 /* cpcswin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943F022E9D79400585E14 /* cpcswin.c */; };
+		EA2944AA22E9D7B700585E14 /* cpes850c.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943F122E9D79400585E14 /* cpes850c.c */; };
+		EA2944AB22E9D7B700585E14 /* uc852.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943F222E9D79500585E14 /* uc852.c */; };
+		EA2944AC22E9D7B700585E14 /* cpskwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943F322E9D79500585E14 /* cpskwin.c */; };
+		EA2944AD22E9D7B700585E14 /* uc875.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943F422E9D79500585E14 /* uc875.c */; };
+		EA2944AE22E9D7B700585E14 /* cpfi850.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943F522E9D79600585E14 /* cpfi850.c */; };
+		EA2944AF22E9D7B700585E14 /* cp_utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943F622E9D79600585E14 /* cp_utf8.c */; };
+		EA2944B022E9D7B700585E14 /* gbk.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943F722E9D79600585E14 /* gbk.c */; };
+		EA2944B122E9D7B700585E14 /* cpeliso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943F822E9D79700585E14 /* cpeliso.c */; };
+		EA2944B222E9D7B700585E14 /* uc885910.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943F922E9D79700585E14 /* uc885910.c */; };
+		EA2944B322E9D7B700585E14 /* uc646yuc.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943FA22E9D79700585E14 /* uc646yuc.c */; };
+		EA2944B422E9D7B700585E14 /* cpcs852c.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943FB22E9D79800585E14 /* cpcs852c.c */; };
+		EA2944B522E9D7B700585E14 /* cpskiso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943FC22E9D79800585E14 /* cpskiso.c */; };
+		EA2944B622E9D7B700585E14 /* cpltwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943FD22E9D79800585E14 /* cpltwin.c */; };
+		EA2944B722E9D7B700585E14 /* cpplmaz.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943FE22E9D79900585E14 /* cpplmaz.c */; };
+		EA2944B822E9D7B700585E14 /* uc885916.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2943FF22E9D79900585E14 /* uc885916.c */; };
+		EA2944B922E9D7B700585E14 /* cpslwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29440022E9D79A00585E14 /* cpslwin.c */; };
+		EA2944BA22E9D7B700585E14 /* cpsl646.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29440122E9D79A00585E14 /* cpsl646.c */; };
+		EA2944BB22E9D7B700585E14 /* uckoi8.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29440222E9D79A00585E14 /* uckoi8.c */; };
+		EA2944BC22E9D7B700585E14 /* cpsl852.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29440322E9D79A00585E14 /* cpsl852.c */; };
+		EA2944BD22E9D7B700585E14 /* cpelwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29440422E9D79A00585E14 /* cpelwin.c */; };
+		EA2944BE22E9D7B700585E14 /* cptr857.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29440522E9D79A00585E14 /* cptr857.c */; };
+		EA2944BF22E9D7B700585E14 /* uc737.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29440722E9D79B00585E14 /* uc737.c */; };
+		EA2944C022E9D7B700585E14 /* uc1125.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29440822E9D79B00585E14 /* uc1125.c */; };
+		EA2944C122E9D7B700585E14 /* cpit850m.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29440922E9D79B00585E14 /* cpit850m.c */; };
+		EA2944C222E9D7B700585E14 /* cpeswin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29440B22E9D79C00585E14 /* cpeswin.c */; };
+		EA2944C322E9D7B700585E14 /* uc862.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29440C22E9D79C00585E14 /* uc862.c */; };
+		EA2944C422E9D7B700585E14 /* uc863.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29440D22E9D79C00585E14 /* uc863.c */; };
+		EA2944C522E9D7B700585E14 /* cpitiso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29440E22E9D79D00585E14 /* cpitiso.c */; };
+		EA2944C622E9D7B700585E14 /* cpuakoi8.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29440F22E9D79D00585E14 /* cpuakoi8.c */; };
+		EA2944C722E9D7B700585E14 /* cpsv850m.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441022E9D79D00585E14 /* cpsv850m.c */; };
+		EA2944C822E9D7B700585E14 /* uc1026.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441122E9D79E00585E14 /* uc1026.c */; };
+		EA2944C922E9D7B700585E14 /* cpit437.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441222E9D79E00585E14 /* cpit437.c */; };
+		EA2944CA22E9D7B700585E14 /* cptrwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441322E9D79E00585E14 /* cptrwin.c */; };
+		EA2944CB22E9D7B700585E14 /* uc424.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441422E9D79E00585E14 /* uc424.c */; };
+		EA2944CC22E9D7B700585E14 /* cpdk865.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441522E9D79E00585E14 /* cpdk865.c */; };
+		EA2944CD22E9D7B700585E14 /* big5.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441622E9D79E00585E14 /* big5.c */; };
+		EA2944CE22E9D7B700585E14 /* uc850.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441722E9D79F00585E14 /* uc850.c */; };
+		EA2944CF22E9D7B700585E14 /* uc860.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441822E9D79F00585E14 /* uc860.c */; };
+		EA2944D022E9D7B700585E14 /* cpesmwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441A22E9D79F00585E14 /* cpesmwin.c */; };
+		EA2944D122E9D7B700585E14 /* uc866.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441B22E9D79F00585E14 /* uc866.c */; };
+		EA2944D222E9D7B700585E14 /* cproiso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441C22E9D7A000585E14 /* cproiso.c */; };
+		EA2944D322E9D7B700585E14 /* cpcskamc.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441D22E9D7A000585E14 /* cpcskamc.c */; };
+		EA2944D422E9D7B700585E14 /* cpfrwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441E22E9D7A000585E14 /* cpfrwin.c */; };
+		EA2944D522E9D7B700585E14 /* cphr852.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29441F22E9D7A100585E14 /* cphr852.c */; };
+		EA2944D622E9D7B700585E14 /* cpfr850c.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29442022E9D7A100585E14 /* cpfr850c.c */; };
+		EA2944D722E9D7B700585E14 /* cpsk852.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29442122E9D7A100585E14 /* cpsk852.c */; };
+		EA2944D822E9D7B700585E14 /* cpsr646.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29442222E9D7A100585E14 /* cpsr646.c */; };
+		EA2944D922E9D7B700585E14 /* cpes850.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29442322E9D7A200585E14 /* cpes850.c */; };
+		EA2944DA22E9D7B700585E14 /* cpbgiso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29442422E9D7A200585E14 /* cpbgiso.c */; };
+		EA2944DB22E9D7B700585E14 /* cplt775.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29442522E9D7A300585E14 /* cplt775.c */; };
+		EA2944DC22E9D7B700585E14 /* cpdeiso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29442622E9D7A300585E14 /* cpdeiso.c */; };
+		EA2944DD22E9D7B700585E14 /* cphuiso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29442722E9D7A300585E14 /* cphuiso.c */; };
+		EA2944DE22E9D7B700585E14 /* cphuwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29442822E9D7A400585E14 /* cphuwin.c */; };
+		EA2944DF22E9D7B700585E14 /* cpnl850.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29442A22E9D7A400585E14 /* cpnl850.c */; };
+		EA2944E022E9D7B700585E14 /* cphrwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29442B22E9D7A500585E14 /* cphrwin.c */; };
+		EA2944E122E9D7B700585E14 /* cpbgmik.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29442D22E9D7A500585E14 /* cpbgmik.c */; };
+		EA2944E222E9D7B700585E14 /* uc857.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29442E22E9D7A600585E14 /* uc857.c */; };
+		EA2944E322E9D7B700585E14 /* uc869.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29442F22E9D7A600585E14 /* uc869.c */; };
+		EA2944E422E9D7B700585E14 /* cpesiso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29443022E9D7A600585E14 /* cpesiso.c */; };
+		EA2944E522E9D7B700585E14 /* uc1254.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29443222E9D7A700585E14 /* uc1254.c */; };
+		EA2944E622E9D7B700585E14 /* cpskkamc.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29443322E9D7A700585E14 /* cpskkamc.c */; };
+		EA2944E722E9D7B700585E14 /* cpplwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29443422E9D7A800585E14 /* cpplwin.c */; };
+		EA2944E822E9D7B700585E14 /* cphriso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29443722E9D7A900585E14 /* cphriso.c */; };
+		EA2944E922E9D7B700585E14 /* cpptiso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29443822E9D7A900585E14 /* cpptiso.c */; };
+		EA2944EA22E9D7B700585E14 /* cpnl850m.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29443922E9D7A900585E14 /* cpnl850m.c */; };
+		EA2944EB22E9D7B700585E14 /* uc1258.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29443A22E9D7AA00585E14 /* uc1258.c */; };
+		EA2944EC22E9D7B700585E14 /* cpde850.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29443B22E9D7AA00585E14 /* cpde850.c */; };
+		EA2944ED22E9D7B700585E14 /* cppt850.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29443C22E9D7AA00585E14 /* cppt850.c */; };
+		EA2944EE22E9D7B700585E14 /* cpru1251.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29443D22E9D7AA00585E14 /* cpru1251.c */; };
+		EA2944EF22E9D7B700585E14 /* uc16def.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29443F22E9D7AA00585E14 /* uc16def.c */; };
+		EA2944F022E9D7B700585E14 /* cpsvwin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29444022E9D7AA00585E14 /* cpsvwin.c */; };
+		EA2944F122E9D7B700585E14 /* cpis861.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29444122E9D7AB00585E14 /* cpis861.c */; };
+		EA2944F222E9D7B700585E14 /* cpru866.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29444322E9D7AD00585E14 /* cpru866.c */; };
+		EA2944F422E9D7B700585E14 /* uc1257.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29444522E9D7AD00585E14 /* uc1257.c */; };
+		EA2944F522E9D7B700585E14 /* uc8859_7.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29444622E9D7AD00585E14 /* uc8859_7.c */; };
+		EA2944F622E9D7B700585E14 /* uc885913.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29444722E9D7AD00585E14 /* uc885913.c */; };
+		EA2944F722E9D7B700585E14 /* ucascii.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29444822E9D7AE00585E14 /* ucascii.c */; };
+		EA2944F822E9D7B700585E14 /* ucatari.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29444922E9D7AE00585E14 /* ucatari.c */; };
+		EA2944F922E9D7B700585E14 /* uckam.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29444A22E9D7AE00585E14 /* uckam.c */; };
+		EA2944FA22E9D7B700585E14 /* uckoi8u.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29444B22E9D7AE00585E14 /* uckoi8u.c */; };
+		EA2944FB22E9D7B700585E14 /* uc037.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29444C22E9D7AE00585E14 /* uc037.c */; };
+		EA2944FC22E9D7B700585E14 /* uc1253.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29444D22E9D7AE00585E14 /* uc1253.c */; };
+		EA2944FD22E9D7B700585E14 /* cprukoi8.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29444E22E9D7AE00585E14 /* cprukoi8.c */; };
+		EA2944FE22E9D7B700585E14 /* ucmacrom.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29444F22E9D7AF00585E14 /* ucmacrom.c */; };
+		EA2944FF22E9D7B700585E14 /* utf8sort.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29445022E9D7B000585E14 /* utf8sort.c */; };
+		EA29450022E9D7B700585E14 /* cpsv437c.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29445122E9D7B000585E14 /* cpsv437c.c */; };
+		EA29450122E9D7B700585E14 /* cphewin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29445222E9D7B000585E14 /* cphewin.c */; };
+		EA29450222E9D7B700585E14 /* cpro852.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29445322E9D7B000585E14 /* cpro852.c */; };
+		EA29450322E9D7B700585E14 /* ucmaccyr.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29445422E9D7B100585E14 /* ucmaccyr.c */; };
+		EA29450422E9D7B700585E14 /* cpsliso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29445522E9D7B100585E14 /* cpsliso.c */; };
+		EA29450522E9D7B700585E14 /* cpcsiso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29445622E9D7B100585E14 /* cpcsiso.c */; };
+		EA29450622E9D7B700585E14 /* cphe862.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29445722E9D7B100585E14 /* cphe862.c */; };
+		EA29450722E9D7B700585E14 /* uc8859_6.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29445822E9D7B100585E14 /* uc8859_6.c */; };
+		EA29450822E9D7B700585E14 /* cpua866.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29445922E9D7B100585E14 /* cpua866.c */; };
+		EA29450922E9D7B700585E14 /* uc1250.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29445A22E9D7B100585E14 /* uc1250.c */; };
+		EA29450A22E9D7B700585E14 /* cphr646.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29445C22E9D7B200585E14 /* cphr646.c */; };
+		EA29450B22E9D7B700585E14 /* ucmaz.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29445E22E9D7B200585E14 /* ucmaz.c */; };
+		EA29450C22E9D7B700585E14 /* uc8859_8.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29445F22E9D7B200585E14 /* uc8859_8.c */; };
+		EA29450D22E9D7B700585E14 /* ucmacce.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446022E9D7B200585E14 /* ucmacce.c */; };
+		EA29450E22E9D7B700585E14 /* cp_gbk.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446122E9D7B200585E14 /* cp_gbk.c */; };
+		EA29450F22E9D7B700585E14 /* cpruiso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446222E9D7B200585E14 /* cpruiso.c */; };
+		EA29451022E9D7B700585E14 /* cpfr850m.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446322E9D7B200585E14 /* cpfr850m.c */; };
+		EA29451122E9D7B700585E14 /* uc885914.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446422E9D7B200585E14 /* uc885914.c */; };
+		EA29451222E9D7B700585E14 /* cpes850m.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446522E9D7B200585E14 /* cpes850m.c */; };
+		EA29451322E9D7B700585E14 /* cpde850m.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446622E9D7B300585E14 /* cpde850m.c */; };
+		EA29451422E9D7B700585E14 /* cppt860.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446722E9D7B300585E14 /* cppt860.c */; };
+		EA29451522E9D7B700585E14 /* cp_950.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446822E9D7B300585E14 /* cp_950.c */; };
+		EA29451622E9D7B700585E14 /* uc874.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446922E9D7B300585E14 /* uc874.c */; };
+		EA29451722E9D7B700585E14 /* cpua1251.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446A22E9D7B300585E14 /* cpua1251.c */; };
+		EA29451822E9D7B700585E14 /* uc1255.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446C22E9D7B400585E14 /* uc1255.c */; };
+		EA29451922E9D7B700585E14 /* uc1251.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446D22E9D7B400585E14 /* uc1251.c */; };
+		EA29451A22E9D7B700585E14 /* cpua1125.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446E22E9D7B400585E14 /* cpua1125.c */; };
+		EA29451B22E9D7B700585E14 /* uc500.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29446F22E9D7B400585E14 /* uc500.c */; };
+		EA29451C22E9D7B700585E14 /* cpfriso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447022E9D7B400585E14 /* cpfriso.c */; };
+		EA29451D22E9D7B700585E14 /* cpis850.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447122E9D7B400585E14 /* cpis850.c */; };
+		EA29451E22E9D7B700585E14 /* uc858.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447222E9D7B400585E14 /* uc858.c */; };
+		EA29451F22E9D7B700585E14 /* uc8859_4.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447322E9D7B400585E14 /* uc8859_4.c */; };
+		EA29452022E9D7B700585E14 /* ucnext.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447422E9D7B400585E14 /* ucnext.c */; };
+		EA29452122E9D7B700585E14 /* cp_big5.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447522E9D7B400585E14 /* cp_big5.c */; };
+		EA29452222E9D7B700585E14 /* cp_u16le.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447822E9D7B500585E14 /* cp_u16le.c */; };
+		EA29452322E9D7B700585E14 /* uc8859_2.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447922E9D7B500585E14 /* uc8859_2.c */; };
+		EA29452422E9D7B700585E14 /* cppl852.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447B22E9D7B600585E14 /* cppl852.c */; };
+		EA29452522E9D7B700585E14 /* cphu852c.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447C22E9D7B600585E14 /* cphu852c.c */; };
+		EA29452622E9D7B700585E14 /* uc885915.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447D22E9D7B600585E14 /* uc885915.c */; };
+		EA29452722E9D7B700585E14 /* uc646_yu.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447E22E9D7B600585E14 /* uc646_yu.c */; };
+		EA29452822E9D7B700585E14 /* obj in Resources */ = {isa = PBXBuildFile; fileRef = EA29447F22E9D7B700585E14 /* obj */; };
+		EA29452922E9D7B700585E14 /* cpdewin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29448022E9D7B700585E14 /* cpdewin.c */; };
+		EA29452A22E9D7B700585E14 /* cppliso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29448122E9D7B700585E14 /* cppliso.c */; };
 		EA8F8B9B22E768C100B62005 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9A22E768C100B62005 /* AppDelegate.m */; };
 		EA8F8B9E22E768C100B62005 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9D22E768C100B62005 /* ViewController.m */; };
 		EA8F8BA122E768C100B62005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8F8B9F22E768C100B62005 /* Main.storyboard */; };
@@ -558,6 +726,197 @@
 		EA29432C22E9D2BA00585E14 /* text.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text.prg; sourceTree = "<group>"; };
 		EA29432D22E9D2BA00585E14 /* profiler.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = profiler.prg; sourceTree = "<group>"; };
 		EA29432E22E9D2BA00585E14 /* tmenusys.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tmenusys.prg; sourceTree = "<group>"; };
+		EA2943C222E9D78900585E14 /* l_bg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_bg.h; sourceTree = "<group>"; };
+		EA2943C322E9D78A00585E14 /* uc861.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc861.c; sourceTree = "<group>"; };
+		EA2943C422E9D78A00585E14 /* uc8859_9.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc8859_9.c; sourceTree = "<group>"; };
+		EA2943C522E9D78A00585E14 /* cpsr646c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpsr646c.c; sourceTree = "<group>"; };
+		EA2943C622E9D78A00585E14 /* cpbg866.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpbg866.c; sourceTree = "<group>"; };
+		EA2943C722E9D78A00585E14 /* cphu852.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cphu852.c; sourceTree = "<group>"; };
+		EA2943C822E9D78A00585E14 /* l_sr_lat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_sr_lat.h; sourceTree = "<group>"; };
+		EA2943C922E9D78A00585E14 /* cpsrwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpsrwin.c; sourceTree = "<group>"; };
+		EA2943CA22E9D78A00585E14 /* cpcs852.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpcs852.c; sourceTree = "<group>"; };
+		EA2943CB22E9D78A00585E14 /* cprowin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cprowin.c; sourceTree = "<group>"; };
+		EA2943CC22E9D78B00585E14 /* cpit850.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpit850.c; sourceTree = "<group>"; };
+		EA2943CD22E9D78B00585E14 /* l_sk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_sk.h; sourceTree = "<group>"; };
+		EA2943CE22E9D78B00585E14 /* uc856.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc856.c; sourceTree = "<group>"; };
+		EA2943CF22E9D78B00585E14 /* cptriso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cptriso.c; sourceTree = "<group>"; };
+		EA2943D022E9D78B00585E14 /* cpsviso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpsviso.c; sourceTree = "<group>"; };
+		EA2943D122E9D78B00585E14 /* cpno865.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpno865.c; sourceTree = "<group>"; };
+		EA2943D222E9D78C00585E14 /* cpbgwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpbgwin.c; sourceTree = "<group>"; };
+		EA2943D322E9D78C00585E14 /* uc775.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc775.c; sourceTree = "<group>"; };
+		EA2943D422E9D78C00585E14 /* uc1256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc1256.c; sourceTree = "<group>"; };
+		EA2943D522E9D78C00585E14 /* uc8859_1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc8859_1.c; sourceTree = "<group>"; };
+		EA2943D622E9D78C00585E14 /* uc8859_3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc8859_3.c; sourceTree = "<group>"; };
+		EA2943D722E9D78D00585E14 /* l_el.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_el.h; sourceTree = "<group>"; };
+		EA2943D822E9D78D00585E14 /* cpitisb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpitisb.c; sourceTree = "<group>"; };
+		EA2943D922E9D78D00585E14 /* cpitwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpitwin.c; sourceTree = "<group>"; };
+		EA2943DA22E9D78D00585E14 /* l_pt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_pt.h; sourceTree = "<group>"; };
+		EA2943DB22E9D78D00585E14 /* l_sl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_sl.h; sourceTree = "<group>"; };
+		EA2943DC22E9D78E00585E14 /* uc8859_5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc8859_5.c; sourceTree = "<group>"; };
+		EA2943DD22E9D78E00585E14 /* uc88591b.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc88591b.c; sourceTree = "<group>"; };
+		EA2943DE22E9D78E00585E14 /* uc885911.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc885911.c; sourceTree = "<group>"; };
+		EA2943DF22E9D78F00585E14 /* cp950.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cp950.c; sourceTree = "<group>"; };
+		EA2943E022E9D78F00585E14 /* uc865.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc865.c; sourceTree = "<group>"; };
+		EA2943E122E9D78F00585E14 /* uc855.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc855.c; sourceTree = "<group>"; };
+		EA2943E222E9D79000585E14 /* cp_tpl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cp_tpl.c; sourceTree = "<group>"; };
+		EA2943E322E9D79000585E14 /* cpel437.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpel437.c; sourceTree = "<group>"; };
+		EA2943E422E9D79000585E14 /* uc864.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc864.c; sourceTree = "<group>"; };
+		EA2943E522E9D79000585E14 /* cpsv850.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpsv850.c; sourceTree = "<group>"; };
+		EA2943E622E9D79100585E14 /* cpsk852c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpsk852c.c; sourceTree = "<group>"; };
+		EA2943E722E9D79100585E14 /* cpfr850.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpfr850.c; sourceTree = "<group>"; };
+		EA2943E822E9D79100585E14 /* uc1006.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc1006.c; sourceTree = "<group>"; };
+		EA2943E922E9D79200585E14 /* l_tr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_tr.h; sourceTree = "<group>"; };
+		EA2943EA22E9D79200585E14 /* ucmacgrk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ucmacgrk.c; sourceTree = "<group>"; };
+		EA2943EB22E9D79200585E14 /* ucmacice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ucmacice.c; sourceTree = "<group>"; };
+		EA2943EC22E9D79300585E14 /* uc1252.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc1252.c; sourceTree = "<group>"; };
+		EA2943ED22E9D79300585E14 /* ucmactrk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ucmactrk.c; sourceTree = "<group>"; };
+		EA2943EE22E9D79300585E14 /* ucmik.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ucmik.c; sourceTree = "<group>"; };
+		EA2943EF22E9D79400585E14 /* cpel737.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpel737.c; sourceTree = "<group>"; };
+		EA2943F022E9D79400585E14 /* cpcswin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpcswin.c; sourceTree = "<group>"; };
+		EA2943F122E9D79400585E14 /* cpes850c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpes850c.c; sourceTree = "<group>"; };
+		EA2943F222E9D79500585E14 /* uc852.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc852.c; sourceTree = "<group>"; };
+		EA2943F322E9D79500585E14 /* cpskwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpskwin.c; sourceTree = "<group>"; };
+		EA2943F422E9D79500585E14 /* uc875.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc875.c; sourceTree = "<group>"; };
+		EA2943F522E9D79600585E14 /* cpfi850.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpfi850.c; sourceTree = "<group>"; };
+		EA2943F622E9D79600585E14 /* cp_utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cp_utf8.c; sourceTree = "<group>"; };
+		EA2943F722E9D79600585E14 /* gbk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gbk.c; sourceTree = "<group>"; };
+		EA2943F822E9D79700585E14 /* cpeliso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpeliso.c; sourceTree = "<group>"; };
+		EA2943F922E9D79700585E14 /* uc885910.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc885910.c; sourceTree = "<group>"; };
+		EA2943FA22E9D79700585E14 /* uc646yuc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc646yuc.c; sourceTree = "<group>"; };
+		EA2943FB22E9D79800585E14 /* cpcs852c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpcs852c.c; sourceTree = "<group>"; };
+		EA2943FC22E9D79800585E14 /* cpskiso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpskiso.c; sourceTree = "<group>"; };
+		EA2943FD22E9D79800585E14 /* cpltwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpltwin.c; sourceTree = "<group>"; };
+		EA2943FE22E9D79900585E14 /* cpplmaz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpplmaz.c; sourceTree = "<group>"; };
+		EA2943FF22E9D79900585E14 /* uc885916.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc885916.c; sourceTree = "<group>"; };
+		EA29440022E9D79A00585E14 /* cpslwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpslwin.c; sourceTree = "<group>"; };
+		EA29440122E9D79A00585E14 /* cpsl646.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpsl646.c; sourceTree = "<group>"; };
+		EA29440222E9D79A00585E14 /* uckoi8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uckoi8.c; sourceTree = "<group>"; };
+		EA29440322E9D79A00585E14 /* cpsl852.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpsl852.c; sourceTree = "<group>"; };
+		EA29440422E9D79A00585E14 /* cpelwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpelwin.c; sourceTree = "<group>"; };
+		EA29440522E9D79A00585E14 /* cptr857.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cptr857.c; sourceTree = "<group>"; };
+		EA29440622E9D79B00585E14 /* l_fr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_fr.h; sourceTree = "<group>"; };
+		EA29440722E9D79B00585E14 /* uc737.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc737.c; sourceTree = "<group>"; };
+		EA29440822E9D79B00585E14 /* uc1125.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc1125.c; sourceTree = "<group>"; };
+		EA29440922E9D79B00585E14 /* cpit850m.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpit850m.c; sourceTree = "<group>"; };
+		EA29440A22E9D79B00585E14 /* l_pl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_pl.h; sourceTree = "<group>"; };
+		EA29440B22E9D79C00585E14 /* cpeswin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpeswin.c; sourceTree = "<group>"; };
+		EA29440C22E9D79C00585E14 /* uc862.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc862.c; sourceTree = "<group>"; };
+		EA29440D22E9D79C00585E14 /* uc863.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc863.c; sourceTree = "<group>"; };
+		EA29440E22E9D79D00585E14 /* cpitiso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpitiso.c; sourceTree = "<group>"; };
+		EA29440F22E9D79D00585E14 /* cpuakoi8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpuakoi8.c; sourceTree = "<group>"; };
+		EA29441022E9D79D00585E14 /* cpsv850m.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpsv850m.c; sourceTree = "<group>"; };
+		EA29441122E9D79E00585E14 /* uc1026.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc1026.c; sourceTree = "<group>"; };
+		EA29441222E9D79E00585E14 /* cpit437.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpit437.c; sourceTree = "<group>"; };
+		EA29441322E9D79E00585E14 /* cptrwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cptrwin.c; sourceTree = "<group>"; };
+		EA29441422E9D79E00585E14 /* uc424.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc424.c; sourceTree = "<group>"; };
+		EA29441522E9D79E00585E14 /* cpdk865.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpdk865.c; sourceTree = "<group>"; };
+		EA29441622E9D79E00585E14 /* big5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = big5.c; sourceTree = "<group>"; };
+		EA29441722E9D79F00585E14 /* uc850.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc850.c; sourceTree = "<group>"; };
+		EA29441822E9D79F00585E14 /* uc860.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc860.c; sourceTree = "<group>"; };
+		EA29441922E9D79F00585E14 /* l_is.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_is.h; sourceTree = "<group>"; };
+		EA29441A22E9D79F00585E14 /* cpesmwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpesmwin.c; sourceTree = "<group>"; };
+		EA29441B22E9D79F00585E14 /* uc866.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc866.c; sourceTree = "<group>"; };
+		EA29441C22E9D7A000585E14 /* cproiso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cproiso.c; sourceTree = "<group>"; };
+		EA29441D22E9D7A000585E14 /* cpcskamc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpcskamc.c; sourceTree = "<group>"; };
+		EA29441E22E9D7A000585E14 /* cpfrwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpfrwin.c; sourceTree = "<group>"; };
+		EA29441F22E9D7A100585E14 /* cphr852.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cphr852.c; sourceTree = "<group>"; };
+		EA29442022E9D7A100585E14 /* cpfr850c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpfr850c.c; sourceTree = "<group>"; };
+		EA29442122E9D7A100585E14 /* cpsk852.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpsk852.c; sourceTree = "<group>"; };
+		EA29442222E9D7A100585E14 /* cpsr646.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpsr646.c; sourceTree = "<group>"; };
+		EA29442322E9D7A200585E14 /* cpes850.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpes850.c; sourceTree = "<group>"; };
+		EA29442422E9D7A200585E14 /* cpbgiso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpbgiso.c; sourceTree = "<group>"; };
+		EA29442522E9D7A300585E14 /* cplt775.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cplt775.c; sourceTree = "<group>"; };
+		EA29442622E9D7A300585E14 /* cpdeiso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpdeiso.c; sourceTree = "<group>"; };
+		EA29442722E9D7A300585E14 /* cphuiso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cphuiso.c; sourceTree = "<group>"; };
+		EA29442822E9D7A400585E14 /* cphuwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cphuwin.c; sourceTree = "<group>"; };
+		EA29442922E9D7A400585E14 /* l_uk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_uk.h; sourceTree = "<group>"; };
+		EA29442A22E9D7A400585E14 /* cpnl850.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpnl850.c; sourceTree = "<group>"; };
+		EA29442B22E9D7A500585E14 /* cphrwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cphrwin.c; sourceTree = "<group>"; };
+		EA29442C22E9D7A500585E14 /* l_sr_cyr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_sr_cyr.h; sourceTree = "<group>"; };
+		EA29442D22E9D7A500585E14 /* cpbgmik.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpbgmik.c; sourceTree = "<group>"; };
+		EA29442E22E9D7A600585E14 /* uc857.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc857.c; sourceTree = "<group>"; };
+		EA29442F22E9D7A600585E14 /* uc869.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc869.c; sourceTree = "<group>"; };
+		EA29443022E9D7A600585E14 /* cpesiso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpesiso.c; sourceTree = "<group>"; };
+		EA29443122E9D7A700585E14 /* l_it.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_it.h; sourceTree = "<group>"; };
+		EA29443222E9D7A700585E14 /* uc1254.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc1254.c; sourceTree = "<group>"; };
+		EA29443322E9D7A700585E14 /* cpskkamc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpskkamc.c; sourceTree = "<group>"; };
+		EA29443422E9D7A800585E14 /* cpplwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpplwin.c; sourceTree = "<group>"; };
+		EA29443522E9D7A800585E14 /* l_hr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_hr.h; sourceTree = "<group>"; };
+		EA29443622E9D7A800585E14 /* l_he.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_he.h; sourceTree = "<group>"; };
+		EA29443722E9D7A900585E14 /* cphriso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cphriso.c; sourceTree = "<group>"; };
+		EA29443822E9D7A900585E14 /* cpptiso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpptiso.c; sourceTree = "<group>"; };
+		EA29443922E9D7A900585E14 /* cpnl850m.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpnl850m.c; sourceTree = "<group>"; };
+		EA29443A22E9D7AA00585E14 /* uc1258.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc1258.c; sourceTree = "<group>"; };
+		EA29443B22E9D7AA00585E14 /* cpde850.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpde850.c; sourceTree = "<group>"; };
+		EA29443C22E9D7AA00585E14 /* cppt850.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cppt850.c; sourceTree = "<group>"; };
+		EA29443D22E9D7AA00585E14 /* cpru1251.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpru1251.c; sourceTree = "<group>"; };
+		EA29443E22E9D7AA00585E14 /* l_ro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_ro.h; sourceTree = "<group>"; };
+		EA29443F22E9D7AA00585E14 /* uc16def.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc16def.c; sourceTree = "<group>"; };
+		EA29444022E9D7AA00585E14 /* cpsvwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpsvwin.c; sourceTree = "<group>"; };
+		EA29444122E9D7AB00585E14 /* cpis861.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpis861.c; sourceTree = "<group>"; };
+		EA29444222E9D7AB00585E14 /* l_hu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_hu.h; sourceTree = "<group>"; };
+		EA29444322E9D7AD00585E14 /* cpru866.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpru866.c; sourceTree = "<group>"; };
+		EA29444522E9D7AD00585E14 /* uc1257.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc1257.c; sourceTree = "<group>"; };
+		EA29444622E9D7AD00585E14 /* uc8859_7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc8859_7.c; sourceTree = "<group>"; };
+		EA29444722E9D7AD00585E14 /* uc885913.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc885913.c; sourceTree = "<group>"; };
+		EA29444822E9D7AE00585E14 /* ucascii.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ucascii.c; sourceTree = "<group>"; };
+		EA29444922E9D7AE00585E14 /* ucatari.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ucatari.c; sourceTree = "<group>"; };
+		EA29444A22E9D7AE00585E14 /* uckam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uckam.c; sourceTree = "<group>"; };
+		EA29444B22E9D7AE00585E14 /* uckoi8u.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uckoi8u.c; sourceTree = "<group>"; };
+		EA29444C22E9D7AE00585E14 /* uc037.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc037.c; sourceTree = "<group>"; };
+		EA29444D22E9D7AE00585E14 /* uc1253.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc1253.c; sourceTree = "<group>"; };
+		EA29444E22E9D7AE00585E14 /* cprukoi8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cprukoi8.c; sourceTree = "<group>"; };
+		EA29444F22E9D7AF00585E14 /* ucmacrom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ucmacrom.c; sourceTree = "<group>"; };
+		EA29445022E9D7B000585E14 /* utf8sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utf8sort.c; sourceTree = "<group>"; };
+		EA29445122E9D7B000585E14 /* cpsv437c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpsv437c.c; sourceTree = "<group>"; };
+		EA29445222E9D7B000585E14 /* cphewin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cphewin.c; sourceTree = "<group>"; };
+		EA29445322E9D7B000585E14 /* cpro852.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpro852.c; sourceTree = "<group>"; };
+		EA29445422E9D7B100585E14 /* ucmaccyr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ucmaccyr.c; sourceTree = "<group>"; };
+		EA29445522E9D7B100585E14 /* cpsliso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpsliso.c; sourceTree = "<group>"; };
+		EA29445622E9D7B100585E14 /* cpcsiso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpcsiso.c; sourceTree = "<group>"; };
+		EA29445722E9D7B100585E14 /* cphe862.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cphe862.c; sourceTree = "<group>"; };
+		EA29445822E9D7B100585E14 /* uc8859_6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc8859_6.c; sourceTree = "<group>"; };
+		EA29445922E9D7B100585E14 /* cpua866.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpua866.c; sourceTree = "<group>"; };
+		EA29445A22E9D7B100585E14 /* uc1250.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc1250.c; sourceTree = "<group>"; };
+		EA29445B22E9D7B100585E14 /* l_lt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_lt.h; sourceTree = "<group>"; };
+		EA29445C22E9D7B200585E14 /* cphr646.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cphr646.c; sourceTree = "<group>"; };
+		EA29445D22E9D7B200585E14 /* l_es.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_es.h; sourceTree = "<group>"; };
+		EA29445E22E9D7B200585E14 /* ucmaz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ucmaz.c; sourceTree = "<group>"; };
+		EA29445F22E9D7B200585E14 /* uc8859_8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc8859_8.c; sourceTree = "<group>"; };
+		EA29446022E9D7B200585E14 /* ucmacce.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ucmacce.c; sourceTree = "<group>"; };
+		EA29446122E9D7B200585E14 /* cp_gbk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cp_gbk.c; sourceTree = "<group>"; };
+		EA29446222E9D7B200585E14 /* cpruiso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpruiso.c; sourceTree = "<group>"; };
+		EA29446322E9D7B200585E14 /* cpfr850m.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpfr850m.c; sourceTree = "<group>"; };
+		EA29446422E9D7B200585E14 /* uc885914.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc885914.c; sourceTree = "<group>"; };
+		EA29446522E9D7B200585E14 /* cpes850m.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpes850m.c; sourceTree = "<group>"; };
+		EA29446622E9D7B300585E14 /* cpde850m.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpde850m.c; sourceTree = "<group>"; };
+		EA29446722E9D7B300585E14 /* cppt860.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cppt860.c; sourceTree = "<group>"; };
+		EA29446822E9D7B300585E14 /* cp_950.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cp_950.c; sourceTree = "<group>"; };
+		EA29446922E9D7B300585E14 /* uc874.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc874.c; sourceTree = "<group>"; };
+		EA29446A22E9D7B300585E14 /* cpua1251.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpua1251.c; sourceTree = "<group>"; };
+		EA29446B22E9D7B300585E14 /* l_sv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_sv.h; sourceTree = "<group>"; };
+		EA29446C22E9D7B400585E14 /* uc1255.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc1255.c; sourceTree = "<group>"; };
+		EA29446D22E9D7B400585E14 /* uc1251.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc1251.c; sourceTree = "<group>"; };
+		EA29446E22E9D7B400585E14 /* cpua1125.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpua1125.c; sourceTree = "<group>"; };
+		EA29446F22E9D7B400585E14 /* uc500.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc500.c; sourceTree = "<group>"; };
+		EA29447022E9D7B400585E14 /* cpfriso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpfriso.c; sourceTree = "<group>"; };
+		EA29447122E9D7B400585E14 /* cpis850.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpis850.c; sourceTree = "<group>"; };
+		EA29447222E9D7B400585E14 /* uc858.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc858.c; sourceTree = "<group>"; };
+		EA29447322E9D7B400585E14 /* uc8859_4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc8859_4.c; sourceTree = "<group>"; };
+		EA29447422E9D7B400585E14 /* ucnext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ucnext.c; sourceTree = "<group>"; };
+		EA29447522E9D7B400585E14 /* cp_big5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cp_big5.c; sourceTree = "<group>"; };
+		EA29447622E9D7B500585E14 /* l_ru.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_ru.h; sourceTree = "<group>"; };
+		EA29447722E9D7B500585E14 /* l_de.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_de.h; sourceTree = "<group>"; };
+		EA29447822E9D7B500585E14 /* cp_u16le.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cp_u16le.c; sourceTree = "<group>"; };
+		EA29447922E9D7B500585E14 /* uc8859_2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc8859_2.c; sourceTree = "<group>"; };
+		EA29447A22E9D7B500585E14 /* l_cs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l_cs.h; sourceTree = "<group>"; };
+		EA29447B22E9D7B600585E14 /* cppl852.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cppl852.c; sourceTree = "<group>"; };
+		EA29447C22E9D7B600585E14 /* cphu852c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cphu852c.c; sourceTree = "<group>"; };
+		EA29447D22E9D7B600585E14 /* uc885915.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc885915.c; sourceTree = "<group>"; };
+		EA29447E22E9D7B600585E14 /* uc646_yu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc646_yu.c; sourceTree = "<group>"; };
+		EA29447F22E9D7B700585E14 /* obj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = obj; sourceTree = "<group>"; };
+		EA29448022E9D7B700585E14 /* cpdewin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpdewin.c; sourceTree = "<group>"; };
+		EA29448122E9D7B700585E14 /* cppliso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cppliso.c; sourceTree = "<group>"; };
 		EA8F8B9622E768C100B62005 /* iharbour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iharbour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8F8B9922E768C100B62005 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA8F8B9A22E768C100B62005 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -951,6 +1310,204 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA2943C122E9D71F00585E14 /* codepage */ = {
+			isa = PBXGroup;
+			children = (
+				EA29441622E9D79E00585E14 /* big5.c */,
+				EA29446822E9D7B300585E14 /* cp_950.c */,
+				EA29447522E9D7B400585E14 /* cp_big5.c */,
+				EA29446122E9D7B200585E14 /* cp_gbk.c */,
+				EA2943E222E9D79000585E14 /* cp_tpl.c */,
+				EA29447822E9D7B500585E14 /* cp_u16le.c */,
+				EA2943F622E9D79600585E14 /* cp_utf8.c */,
+				EA2943DF22E9D78F00585E14 /* cp950.c */,
+				EA2943C622E9D78A00585E14 /* cpbg866.c */,
+				EA29442422E9D7A200585E14 /* cpbgiso.c */,
+				EA29442D22E9D7A500585E14 /* cpbgmik.c */,
+				EA2943D222E9D78C00585E14 /* cpbgwin.c */,
+				EA2943CA22E9D78A00585E14 /* cpcs852.c */,
+				EA2943FB22E9D79800585E14 /* cpcs852c.c */,
+				EA29445622E9D7B100585E14 /* cpcsiso.c */,
+				EA29441D22E9D7A000585E14 /* cpcskamc.c */,
+				EA2943F022E9D79400585E14 /* cpcswin.c */,
+				EA29443B22E9D7AA00585E14 /* cpde850.c */,
+				EA29446622E9D7B300585E14 /* cpde850m.c */,
+				EA29442622E9D7A300585E14 /* cpdeiso.c */,
+				EA29448022E9D7B700585E14 /* cpdewin.c */,
+				EA29441522E9D79E00585E14 /* cpdk865.c */,
+				EA2943E322E9D79000585E14 /* cpel437.c */,
+				EA2943EF22E9D79400585E14 /* cpel737.c */,
+				EA2943F822E9D79700585E14 /* cpeliso.c */,
+				EA29440422E9D79A00585E14 /* cpelwin.c */,
+				EA29442322E9D7A200585E14 /* cpes850.c */,
+				EA2943F122E9D79400585E14 /* cpes850c.c */,
+				EA29446522E9D7B200585E14 /* cpes850m.c */,
+				EA29443022E9D7A600585E14 /* cpesiso.c */,
+				EA29441A22E9D79F00585E14 /* cpesmwin.c */,
+				EA29440B22E9D79C00585E14 /* cpeswin.c */,
+				EA2943F522E9D79600585E14 /* cpfi850.c */,
+				EA2943E722E9D79100585E14 /* cpfr850.c */,
+				EA29442022E9D7A100585E14 /* cpfr850c.c */,
+				EA29446322E9D7B200585E14 /* cpfr850m.c */,
+				EA29447022E9D7B400585E14 /* cpfriso.c */,
+				EA29441E22E9D7A000585E14 /* cpfrwin.c */,
+				EA29445722E9D7B100585E14 /* cphe862.c */,
+				EA29445222E9D7B000585E14 /* cphewin.c */,
+				EA29445C22E9D7B200585E14 /* cphr646.c */,
+				EA29441F22E9D7A100585E14 /* cphr852.c */,
+				EA29443722E9D7A900585E14 /* cphriso.c */,
+				EA29442B22E9D7A500585E14 /* cphrwin.c */,
+				EA2943C722E9D78A00585E14 /* cphu852.c */,
+				EA29447C22E9D7B600585E14 /* cphu852c.c */,
+				EA29442722E9D7A300585E14 /* cphuiso.c */,
+				EA29442822E9D7A400585E14 /* cphuwin.c */,
+				EA29447122E9D7B400585E14 /* cpis850.c */,
+				EA29444122E9D7AB00585E14 /* cpis861.c */,
+				EA29441222E9D79E00585E14 /* cpit437.c */,
+				EA2943CC22E9D78B00585E14 /* cpit850.c */,
+				EA29440922E9D79B00585E14 /* cpit850m.c */,
+				EA2943D822E9D78D00585E14 /* cpitisb.c */,
+				EA29440E22E9D79D00585E14 /* cpitiso.c */,
+				EA2943D922E9D78D00585E14 /* cpitwin.c */,
+				EA29442522E9D7A300585E14 /* cplt775.c */,
+				EA2943FD22E9D79800585E14 /* cpltwin.c */,
+				EA29442A22E9D7A400585E14 /* cpnl850.c */,
+				EA29443922E9D7A900585E14 /* cpnl850m.c */,
+				EA2943D122E9D78B00585E14 /* cpno865.c */,
+				EA29447B22E9D7B600585E14 /* cppl852.c */,
+				EA29448122E9D7B700585E14 /* cppliso.c */,
+				EA2943FE22E9D79900585E14 /* cpplmaz.c */,
+				EA29443422E9D7A800585E14 /* cpplwin.c */,
+				EA29443C22E9D7AA00585E14 /* cppt850.c */,
+				EA29446722E9D7B300585E14 /* cppt860.c */,
+				EA29443822E9D7A900585E14 /* cpptiso.c */,
+				EA29445322E9D7B000585E14 /* cpro852.c */,
+				EA29441C22E9D7A000585E14 /* cproiso.c */,
+				EA2943CB22E9D78A00585E14 /* cprowin.c */,
+				EA29444322E9D7AD00585E14 /* cpru866.c */,
+				EA29443D22E9D7AA00585E14 /* cpru1251.c */,
+				EA29446222E9D7B200585E14 /* cpruiso.c */,
+				EA29444E22E9D7AE00585E14 /* cprukoi8.c */,
+				EA29442122E9D7A100585E14 /* cpsk852.c */,
+				EA2943E622E9D79100585E14 /* cpsk852c.c */,
+				EA2943FC22E9D79800585E14 /* cpskiso.c */,
+				EA29443322E9D7A700585E14 /* cpskkamc.c */,
+				EA2943F322E9D79500585E14 /* cpskwin.c */,
+				EA29440122E9D79A00585E14 /* cpsl646.c */,
+				EA29440322E9D79A00585E14 /* cpsl852.c */,
+				EA29445522E9D7B100585E14 /* cpsliso.c */,
+				EA29440022E9D79A00585E14 /* cpslwin.c */,
+				EA29442222E9D7A100585E14 /* cpsr646.c */,
+				EA2943C522E9D78A00585E14 /* cpsr646c.c */,
+				EA2943C922E9D78A00585E14 /* cpsrwin.c */,
+				EA29445122E9D7B000585E14 /* cpsv437c.c */,
+				EA2943E522E9D79000585E14 /* cpsv850.c */,
+				EA29441022E9D79D00585E14 /* cpsv850m.c */,
+				EA2943D022E9D78B00585E14 /* cpsviso.c */,
+				EA29444022E9D7AA00585E14 /* cpsvwin.c */,
+				EA29440522E9D79A00585E14 /* cptr857.c */,
+				EA2943CF22E9D78B00585E14 /* cptriso.c */,
+				EA29441322E9D79E00585E14 /* cptrwin.c */,
+				EA29445922E9D7B100585E14 /* cpua866.c */,
+				EA29446E22E9D7B400585E14 /* cpua1125.c */,
+				EA29446A22E9D7B300585E14 /* cpua1251.c */,
+				EA29440F22E9D79D00585E14 /* cpuakoi8.c */,
+				EA2943F722E9D79600585E14 /* gbk.c */,
+				EA2943C222E9D78900585E14 /* l_bg.h */,
+				EA29447A22E9D7B500585E14 /* l_cs.h */,
+				EA29447722E9D7B500585E14 /* l_de.h */,
+				EA2943D722E9D78D00585E14 /* l_el.h */,
+				EA29445D22E9D7B200585E14 /* l_es.h */,
+				EA29440622E9D79B00585E14 /* l_fr.h */,
+				EA29443622E9D7A800585E14 /* l_he.h */,
+				EA29443522E9D7A800585E14 /* l_hr.h */,
+				EA29444222E9D7AB00585E14 /* l_hu.h */,
+				EA29441922E9D79F00585E14 /* l_is.h */,
+				EA29443122E9D7A700585E14 /* l_it.h */,
+				EA29445B22E9D7B100585E14 /* l_lt.h */,
+				EA29440A22E9D79B00585E14 /* l_pl.h */,
+				EA2943DA22E9D78D00585E14 /* l_pt.h */,
+				EA29443E22E9D7AA00585E14 /* l_ro.h */,
+				EA29447622E9D7B500585E14 /* l_ru.h */,
+				EA2943CD22E9D78B00585E14 /* l_sk.h */,
+				EA2943DB22E9D78D00585E14 /* l_sl.h */,
+				EA29442C22E9D7A500585E14 /* l_sr_cyr.h */,
+				EA2943C822E9D78A00585E14 /* l_sr_lat.h */,
+				EA29446B22E9D7B300585E14 /* l_sv.h */,
+				EA2943E922E9D79200585E14 /* l_tr.h */,
+				EA29442922E9D7A400585E14 /* l_uk.h */,
+				EA29447F22E9D7B700585E14 /* obj */,
+				EA29443F22E9D7AA00585E14 /* uc16def.c */,
+				EA29444C22E9D7AE00585E14 /* uc037.c */,
+				EA29441422E9D79E00585E14 /* uc424.c */,
+				EA29446F22E9D7B400585E14 /* uc500.c */,
+				EA29447E22E9D7B600585E14 /* uc646_yu.c */,
+				EA2943FA22E9D79700585E14 /* uc646yuc.c */,
+				EA29440722E9D79B00585E14 /* uc737.c */,
+				EA2943D322E9D78C00585E14 /* uc775.c */,
+				EA29441722E9D79F00585E14 /* uc850.c */,
+				EA2943F222E9D79500585E14 /* uc852.c */,
+				EA2943E122E9D78F00585E14 /* uc855.c */,
+				EA2943CE22E9D78B00585E14 /* uc856.c */,
+				EA29442E22E9D7A600585E14 /* uc857.c */,
+				EA29447222E9D7B400585E14 /* uc858.c */,
+				EA29441822E9D79F00585E14 /* uc860.c */,
+				EA2943C322E9D78A00585E14 /* uc861.c */,
+				EA29440C22E9D79C00585E14 /* uc862.c */,
+				EA29440D22E9D79C00585E14 /* uc863.c */,
+				EA2943E422E9D79000585E14 /* uc864.c */,
+				EA2943E022E9D78F00585E14 /* uc865.c */,
+				EA29441B22E9D79F00585E14 /* uc866.c */,
+				EA29442F22E9D7A600585E14 /* uc869.c */,
+				EA29446922E9D7B300585E14 /* uc874.c */,
+				EA2943F422E9D79500585E14 /* uc875.c */,
+				EA2943E822E9D79100585E14 /* uc1006.c */,
+				EA29441122E9D79E00585E14 /* uc1026.c */,
+				EA29440822E9D79B00585E14 /* uc1125.c */,
+				EA29445A22E9D7B100585E14 /* uc1250.c */,
+				EA29446D22E9D7B400585E14 /* uc1251.c */,
+				EA2943EC22E9D79300585E14 /* uc1252.c */,
+				EA29444D22E9D7AE00585E14 /* uc1253.c */,
+				EA29443222E9D7A700585E14 /* uc1254.c */,
+				EA29446C22E9D7B400585E14 /* uc1255.c */,
+				EA2943D422E9D78C00585E14 /* uc1256.c */,
+				EA29444522E9D7AD00585E14 /* uc1257.c */,
+				EA29443A22E9D7AA00585E14 /* uc1258.c */,
+				EA2943D522E9D78C00585E14 /* uc8859_1.c */,
+				EA29447922E9D7B500585E14 /* uc8859_2.c */,
+				EA2943D622E9D78C00585E14 /* uc8859_3.c */,
+				EA29447322E9D7B400585E14 /* uc8859_4.c */,
+				EA2943DC22E9D78E00585E14 /* uc8859_5.c */,
+				EA29445822E9D7B100585E14 /* uc8859_6.c */,
+				EA29444622E9D7AD00585E14 /* uc8859_7.c */,
+				EA29445F22E9D7B200585E14 /* uc8859_8.c */,
+				EA2943C422E9D78A00585E14 /* uc8859_9.c */,
+				EA2943DD22E9D78E00585E14 /* uc88591b.c */,
+				EA2943F922E9D79700585E14 /* uc885910.c */,
+				EA2943DE22E9D78E00585E14 /* uc885911.c */,
+				EA29444722E9D7AD00585E14 /* uc885913.c */,
+				EA29446422E9D7B200585E14 /* uc885914.c */,
+				EA29447D22E9D7B600585E14 /* uc885915.c */,
+				EA2943FF22E9D79900585E14 /* uc885916.c */,
+				EA29444822E9D7AE00585E14 /* ucascii.c */,
+				EA29444922E9D7AE00585E14 /* ucatari.c */,
+				EA29444A22E9D7AE00585E14 /* uckam.c */,
+				EA29440222E9D79A00585E14 /* uckoi8.c */,
+				EA29444B22E9D7AE00585E14 /* uckoi8u.c */,
+				EA29446022E9D7B200585E14 /* ucmacce.c */,
+				EA29445422E9D7B100585E14 /* ucmaccyr.c */,
+				EA2943EA22E9D79200585E14 /* ucmacgrk.c */,
+				EA2943EB22E9D79200585E14 /* ucmacice.c */,
+				EA29444F22E9D7AF00585E14 /* ucmacrom.c */,
+				EA2943ED22E9D79300585E14 /* ucmactrk.c */,
+				EA29445E22E9D7B200585E14 /* ucmaz.c */,
+				EA2943EE22E9D79300585E14 /* ucmik.c */,
+				EA29447422E9D7B400585E14 /* ucnext.c */,
+				EA29445022E9D7B000585E14 /* utf8sort.c */,
+			);
+			path = codepage;
+			sourceTree = "<group>";
+		};
 		EA8F8B8D22E768C100B62005 = {
 			isa = PBXGroup;
 			children = (
@@ -1184,6 +1741,7 @@
 		EA8F8D3D22E76E8C00B62005 /* rtl */ = {
 			isa = PBXGroup;
 			children = (
+				EA2943C122E9D71F00585E14 /* codepage */,
 				EA2942F022E9D2AA00585E14 /* adir.prg */,
 				EA2942DA22E9D1A900585E14 /* achoice.prg */,
 				EA2942DB22E9D1A900585E14 /* alert.prg */,
@@ -1575,6 +2133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA29452822E9D7B700585E14 /* obj in Resources */,
 				EA8F8BA322E768C400B62005 /* Assets.xcassets in Resources */,
 				EA8F8BA122E768C100B62005 /* Main.storyboard in Resources */,
 			);
@@ -1591,34 +2150,45 @@
 				EA29437922E9D60D00585E14 /* achoice.prg in Sources */,
 				EA29437A22E9D60D00585E14 /* alert.prg in Sources */,
 				EA29437B22E9D60D00585E14 /* altd.prg in Sources */,
+				EA29450222E9D7B700585E14 /* cpro852.c in Sources */,
 				EA29437C22E9D60D00585E14 /* tpopuphb.prg in Sources */,
+				EA2944D022E9D7B700585E14 /* cpesmwin.c in Sources */,
 				EA29437D22E9D60D00585E14 /* treport.prg in Sources */,
 				EA29437E22E9D60D00585E14 /* browdb.prg in Sources */,
 				EA29437F22E9D60D00585E14 /* browse.prg in Sources */,
 				EA29438022E9D60D00585E14 /* cdpdet.prg in Sources */,
 				EA29438122E9D60D00585E14 /* checkbox.prg in Sources */,
+				EA29450C22E9D7B700585E14 /* uc8859_8.c in Sources */,
 				EA29438222E9D60D00585E14 /* color53.prg in Sources */,
 				EA29438322E9D60D00585E14 /* dbedit.prg in Sources */,
 				EA29438422E9D60D00585E14 /* devoutp.prg in Sources */,
 				EA29438522E9D60D00585E14 /* dircmd.prg in Sources */,
 				EA29438622E9D60D00585E14 /* dirscan.prg in Sources */,
 				EA29438722E9D60D00585E14 /* einstv52.prg in Sources */,
+				EA29449422E9D7B700585E14 /* cpitisb.c in Sources */,
 				EA29438822E9D60D00585E14 /* einstvar.prg in Sources */,
+				EA29451422E9D7B700585E14 /* cppt860.c in Sources */,
+				EA29449022E9D7B700585E14 /* uc775.c in Sources */,
 				EA29438922E9D60D00585E14 /* einstvau.prg in Sources */,
 				EA29438A22E9D60D00585E14 /* errsys.prg in Sources */,
 				EA29438B22E9D60D00585E14 /* getlist.prg in Sources */,
+				EA29450822E9D7B700585E14 /* cpua866.c in Sources */,
 				EA29438C22E9D60D00585E14 /* getsys.prg in Sources */,
 				EA29438D22E9D60D00585E14 /* getsys53.prg in Sources */,
 				EA29438E22E9D60D00585E14 /* getsyshb.prg in Sources */,
+				EA2944C622E9D7B700585E14 /* cpuakoi8.c in Sources */,
 				EA29438F22E9D60D00585E14 /* gui.prg in Sources */,
 				EA29439022E9D60D00585E14 /* hbdoc.prg in Sources */,
 				EA29439122E9D60D00585E14 /* hbfilehi.prg in Sources */,
+				EA2944D622E9D7B700585E14 /* cpfr850c.c in Sources */,
 				EA29439222E9D60D00585E14 /* hbi18n2.prg in Sources */,
 				EA29439322E9D60D00585E14 /* hbini.prg in Sources */,
 				EA29439422E9D60D00585E14 /* input.prg in Sources */,
 				EA29439522E9D60D00585E14 /* langcomp.prg in Sources */,
 				EA29439622E9D60D00585E14 /* langlgcy.prg in Sources */,
+				EA2944A922E9D7B700585E14 /* cpcswin.c in Sources */,
 				EA29439722E9D60D00585E14 /* libname.prg in Sources */,
+				EA2944B222E9D7B700585E14 /* uc885910.c in Sources */,
 				EA29439822E9D60D00585E14 /* listbox.prg in Sources */,
 				EA29439922E9D60D00585E14 /* memoedit.prg in Sources */,
 				EA29439A22E9D60D00585E14 /* memvarhb.prg in Sources */,
@@ -1626,7 +2196,9 @@
 				EA29439C22E9D60D00585E14 /* menuto.prg in Sources */,
 				EA29439D22E9D60D00585E14 /* objfunc.prg in Sources */,
 				EA29439E22E9D60D00585E14 /* perfuncs.prg in Sources */,
+				EA29451D22E9D7B700585E14 /* cpis850.c in Sources */,
 				EA29439F22E9D60D00585E14 /* profiler.prg in Sources */,
+				EA29452722E9D7B700585E14 /* uc646_yu.c in Sources */,
 				EA2943A022E9D60D00585E14 /* pushbtn.prg in Sources */,
 				EA2943A122E9D60D00585E14 /* radiobhb.prg in Sources */,
 				EA2943A222E9D60D00585E14 /* radiobtn.prg in Sources */,
@@ -1635,52 +2207,69 @@
 				EA2943A522E9D60D00585E14 /* readvar.prg in Sources */,
 				EA2943A622E9D60D00585E14 /* savebuff.prg in Sources */,
 				EA2943A722E9D60D00585E14 /* scrollbr.prg in Sources */,
+				EA2944FA22E9D7B700585E14 /* uckoi8u.c in Sources */,
 				EA2943A822E9D60D00585E14 /* setfunc.prg in Sources */,
 				EA2943A922E9D60D00585E14 /* setta.prg in Sources */,
+				EA2944DA22E9D7B700585E14 /* cpbgiso.c in Sources */,
+				EA2944B322E9D7B700585E14 /* uc646yuc.c in Sources */,
+				EA2944C922E9D7B700585E14 /* cpit437.c in Sources */,
 				EA2943AA22E9D60D00585E14 /* tbcolumn.prg in Sources */,
 				EA2943AB22E9D60D00585E14 /* tbrowse.prg in Sources */,
 				EA2943AC22E9D60D00585E14 /* tbrowsys.prg in Sources */,
 				EA2943AD22E9D60D00585E14 /* tclass.prg in Sources */,
 				EA2943AE22E9D60D00585E14 /* teditor.prg in Sources */,
+				EA2944BB22E9D7B700585E14 /* uckoi8.c in Sources */,
 				EA2943AF22E9D60D00585E14 /* text.prg in Sources */,
 				EA2943B022E9D60D00585E14 /* tget.prg in Sources */,
 				EA2943B122E9D60D00585E14 /* tgethb.prg in Sources */,
 				EA2943B222E9D60D00585E14 /* tgetint.prg in Sources */,
 				EA2943B322E9D60D00585E14 /* tgetlist.prg in Sources */,
+				EA29450122E9D7B700585E14 /* cphewin.c in Sources */,
 				EA2943B422E9D60D00585E14 /* tlabel.prg in Sources */,
 				EA2943B522E9D60D00585E14 /* tmenuitm.prg in Sources */,
 				EA2943B622E9D60D00585E14 /* tmenusys.prg in Sources */,
 				EA2943B722E9D60D00585E14 /* tobject.prg in Sources */,
+				EA2944D822E9D7B700585E14 /* cpsr646.c in Sources */,
 				EA2943B822E9D60D00585E14 /* tpersist.prg in Sources */,
 				EA2943B922E9D60D00585E14 /* tpopup.prg in Sources */,
 				EA2943BA22E9D60D00585E14 /* tscalar.prg in Sources */,
+				EA29451A22E9D7B700585E14 /* cpua1125.c in Sources */,
 				EA2943BB22E9D60D00585E14 /* tsymbol.prg in Sources */,
 				EA2943BC22E9D60D00585E14 /* ttextlin.prg in Sources */,
+				EA29451E22E9D7B700585E14 /* uc858.c in Sources */,
 				EA2943BD22E9D60D00585E14 /* ttopbar.prg in Sources */,
 				EA2943BE22E9D60D00585E14 /* typefile.prg in Sources */,
 				EA2943BF22E9D60D00585E14 /* valtoexp.prg in Sources */,
 				EA2943C022E9D60D00585E14 /* wait.prg in Sources */,
 				EA8F8C8622E76B3000B62005 /* classes.c in Sources */,
+				EA2944F422E9D7B700585E14 /* uc1257.c in Sources */,
+				EA2944F522E9D7B700585E14 /* uc8859_7.c in Sources */,
 				EA8F8EBE22E76F5E00B62005 /* cdpdetc.c in Sources */,
 				EA8F8F0222E7708500B62005 /* dbcmdhb.c in Sources */,
 				EA2942D122E9C73900585E14 /* hbexpra.c in Sources */,
 				EA8F8E8922E76F5E00B62005 /* accept.c in Sources */,
 				EA8F8E7222E76F5E00B62005 /* hbrandom.c in Sources */,
+				EA2944EE22E9D7B700585E14 /* cpru1251.c in Sources */,
 				EA8F8F0522E7708500B62005 /* ordwldsk.c in Sources */,
 				EA8F8E2D22E76F5E00B62005 /* sha1hmac.c in Sources */,
 				EA8F8D2222E76E7600B62005 /* l_de.c in Sources */,
 				EA8F8D3422E76E7600B62005 /* l_de_at.c in Sources */,
+				EA2944B822E9D7B700585E14 /* uc885916.c in Sources */,
 				EA8F8CB222E76C4600B62005 /* hbarch.c in Sources */,
 				EA8F8E3622E76F5E00B62005 /* hbregexc.c in Sources */,
 				EA8F8CE022E76C9C00B62005 /* hbpcode.c in Sources */,
 				EA8F8EC022E76F5E00B62005 /* substr.c in Sources */,
 				EA8F8ECC22E76F5E00B62005 /* spfiles.c in Sources */,
+				EA2944EB22E9D7B700585E14 /* uc1258.c in Sources */,
+				EA2944EC22E9D7B700585E14 /* cpde850.c in Sources */,
 				EA8F8CCD22E76C9C00B62005 /* complex.c in Sources */,
 				EA8F8E8E22E76F5E00B62005 /* strc.c in Sources */,
 				EA2942D322E9C76D00585E14 /* hbexprb.c in Sources */,
 				EA8F8D2A22E76E7600B62005 /* l_sv.c in Sources */,
+				EA2944E322E9D7B700585E14 /* uc869.c in Sources */,
 				EA8F8C8D22E76B3000B62005 /* hvmall.c in Sources */,
 				EA2942CD22E9C6A400585E14 /* expropt2.c in Sources */,
+				EA2944B622E9D7B700585E14 /* cpltwin.c in Sources */,
 				EA8F8EAE22E76F5E00B62005 /* descend.c in Sources */,
 				EA8F8ED322E76F5E00B62005 /* hbsha2.c in Sources */,
 				EA8F8F0122E7708500B62005 /* dbsql.c in Sources */,
@@ -1689,8 +2278,12 @@
 				EA8F8E9622E76F5E00B62005 /* hbinet.c in Sources */,
 				EA8F8E5322E76F5E00B62005 /* lennum.c in Sources */,
 				EA8F8E8C22E76F5E00B62005 /* isprint.c in Sources */,
+				EA2944BA22E9D7B700585E14 /* cpsl646.c in Sources */,
+				EA2944AF22E9D7B700585E14 /* cp_utf8.c in Sources */,
+				EA2944CB22E9D7B700585E14 /* uc424.c in Sources */,
 				EA8F8EE022E76F5E00B62005 /* mlcfunc.c in Sources */,
 				EA8F8CAC22E76C4600B62005 /* funcid.c in Sources */,
+				EA29450022E9D7B700585E14 /* cpsv437c.c in Sources */,
 				EAFBF0B022E77CAF00801C5F /* sxsem.c in Sources */,
 				EA8F8CAD22E76C4600B62005 /* hbstr.c in Sources */,
 				EA8F8D3722E76E7600B62005 /* l_pt_br.c in Sources */,
@@ -1699,56 +2292,82 @@
 				EA8F8C7222E76B3000B62005 /* main.c in Sources */,
 				EA8F8C7022E76B3000B62005 /* mainstd.c in Sources */,
 				EA8F8E2922E76F5E00B62005 /* hbinetz.c in Sources */,
+				EA29448E22E9D7B700585E14 /* cpno865.c in Sources */,
 				EA8F8E3F22E76F5E00B62005 /* hbbit.c in Sources */,
+				EA29449D22E9D7B700585E14 /* cpel437.c in Sources */,
 				EA8F8F0A22E7708500B62005 /* dbdetach.c in Sources */,
 				EA8F8E9A22E76F5E00B62005 /* dates.c in Sources */,
+				EA2944AD22E9D7B700585E14 /* uc875.c in Sources */,
 				EA8F8E1422E76F5E00B62005 /* rtlshort.c in Sources */,
 				EA8F8D1F22E76E7600B62005 /* l_fr.c in Sources */,
+				EA2944D322E9D7B700585E14 /* cpcskamc.c in Sources */,
+				EA29448622E9D7B700585E14 /* cphu852.c in Sources */,
 				EA8F8D2322E76E7600B62005 /* l_ca.c in Sources */,
 				EA8F8EA722E76F5E00B62005 /* hbmd5.c in Sources */,
 				EA8F8E9822E76F5E00B62005 /* shadowu.c in Sources */,
 				EA8F8D2022E76E7600B62005 /* l_sr_lat.c in Sources */,
 				EA8F8CAF22E76C4600B62005 /* hbfsapi.c in Sources */,
+				EA29448522E9D7B700585E14 /* cpbg866.c in Sources */,
 				EA8F8EAF22E76F5E00B62005 /* fssize.c in Sources */,
 				EA8F8EDD22E76F5E00B62005 /* cdpbox.c in Sources */,
+				EA29449A22E9D7B700585E14 /* uc865.c in Sources */,
+				EA29452322E9D7B700585E14 /* uc8859_2.c in Sources */,
+				EA2944A622E9D7B700585E14 /* ucmactrk.c in Sources */,
 				EA8F8C6B22E76B3000B62005 /* eval.c in Sources */,
 				EA8F8C6E22E76B3000B62005 /* thread.c in Sources */,
 				EA8F8ED422E76F5E00B62005 /* hblpp.c in Sources */,
 				EA8F8E2222E76F5E00B62005 /* file.c in Sources */,
+				EA2944F822E9D7B700585E14 /* ucatari.c in Sources */,
+				EA2944E022E9D7B700585E14 /* cphrwin.c in Sources */,
 				EA8F8C6822E76B3000B62005 /* estack.c in Sources */,
 				EA8F8D3222E76E7600B62005 /* l_hu.c in Sources */,
 				EA8F8CE722E76D7900B62005 /* pplib.c in Sources */,
 				EA8F8E7A22E76F5E00B62005 /* sha2.c in Sources */,
 				EAFBF0AF22E77CAF00801C5F /* sxcrypt.c in Sources */,
+				EA29448C22E9D7B700585E14 /* cptriso.c in Sources */,
+				EA29449E22E9D7B700585E14 /* uc864.c in Sources */,
 				EA8F8E8D22E76F5E00B62005 /* minmax.c in Sources */,
 				EA8F8E6622E76F5E00B62005 /* hblpphb.c in Sources */,
+				EA29452522E9D7B700585E14 /* cphu852c.c in Sources */,
 				EA8F8EC322E76F5E00B62005 /* fkmax.c in Sources */,
+				EA2944F122E9D7B700585E14 /* cpis861.c in Sources */,
 				EA8F8C6722E76B3000B62005 /* short.c in Sources */,
 				EA8F8E1622E76F5E00B62005 /* pad.c in Sources */,
+				EA2944EA22E9D7B700585E14 /* cpnl850m.c in Sources */,
 				EA8F8D2422E76E7600B62005 /* l_zh.c in Sources */,
 				EA8F8EDC22E76F5E00B62005 /* dateshb.c in Sources */,
 				EA8F8C7E22E76B3000B62005 /* pvalue.c in Sources */,
 				EA8F8E2522E76F5E00B62005 /* console.c in Sources */,
 				EA8F8CA322E76C4600B62005 /* hbdate.c in Sources */,
+				EA2944C222E9D7B700585E14 /* cpeswin.c in Sources */,
 				EA8F8EFA22E7708500B62005 /* sdf1.c in Sources */,
 				EA2942CB22E9C64E00585E14 /* pptable.c in Sources */,
 				EA8F8E4122E76F5E00B62005 /* hbbffnc.c in Sources */,
 				EA8F8CA822E76C4600B62005 /* hbver.c in Sources */,
+				EA2944F722E9D7B700585E14 /* ucascii.c in Sources */,
 				EA8F8E1322E76F5E00B62005 /* ati.c in Sources */,
 				EA8F8D1822E76E7600B62005 /* l_el.c in Sources */,
 				EA8F8E5D22E76F5E00B62005 /* hbsha2hm.c in Sources */,
 				EA8F8EB522E76F5E00B62005 /* replic.c in Sources */,
+				EA29451322E9D7B700585E14 /* cpde850m.c in Sources */,
+				EA29448222E9D7B700585E14 /* uc861.c in Sources */,
 				EA8F8E9422E76F5E00B62005 /* arc4.c in Sources */,
+				EA2944E722E9D7B700585E14 /* cpplwin.c in Sources */,
+				EA2944A122E9D7B700585E14 /* cpfr850.c in Sources */,
 				EA8F8E1E22E76F5E00B62005 /* gtsys.c in Sources */,
+				EA2944F622E9D7B700585E14 /* uc885913.c in Sources */,
 				EAFBF0AC22E77CAF00801C5F /* sxfname.c in Sources */,
+				EA2944D122E9D7B700585E14 /* uc866.c in Sources */,
 				EAFBF0B422E77CAF00801C5F /* sxutil.c in Sources */,
 				EA8F8E4722E76F5E00B62005 /* oemansi.c in Sources */,
+				EA2944C322E9D7B700585E14 /* uc862.c in Sources */,
 				EA8F8EDA22E76F5E00B62005 /* strclear.c in Sources */,
 				EA8F8D3122E76E7600B62005 /* l_hr.c in Sources */,
 				EA8F8EB722E76F5E00B62005 /* hbfile.c in Sources */,
 				EA8F8C6922E76B3000B62005 /* initsymb.c in Sources */,
 				EA8F8E1222E76F5E00B62005 /* maxrow.c in Sources */,
 				EA8F8D1922E76E7600B62005 /* l_id.c in Sources */,
+				EA2944D222E9D7B700585E14 /* cproiso.c in Sources */,
 				EA8F8CA422E76C4600B62005 /* hbtrace.c in Sources */,
 				EA8F8E3022E76F5E00B62005 /* rat.c in Sources */,
 				EA8F8C7622E76B3000B62005 /* arrayshb.c in Sources */,
@@ -1757,59 +2376,78 @@
 				EA8F8E5522E76F5E00B62005 /* datesx.c in Sources */,
 				EA8F8E3E22E76F5E00B62005 /* inkeyapi.c in Sources */,
 				EA8F8E6522E76F5E00B62005 /* hbcomhb.c in Sources */,
+				EA2944B122E9D7B700585E14 /* cpeliso.c in Sources */,
 				EA8F8E8622E76F5E00B62005 /* tscalart.c in Sources */,
 				EA8F8E9722E76F5E00B62005 /* chruni.c in Sources */,
 				EA8F8E1F22E76F5E00B62005 /* hbdef.c in Sources */,
 				EA8F8E6022E76F5E00B62005 /* mouse53.c in Sources */,
 				EA8F8E2422E76F5E00B62005 /* binnum.c in Sources */,
+				EA2944FE22E9D7B700585E14 /* ucmacrom.c in Sources */,
 				EA8F8CCC22E76C9C00B62005 /* ppcomp.c in Sources */,
 				EA8F8EC922E76F5E00B62005 /* iousr.c in Sources */,
 				EA8F8D1C22E76E7600B62005 /* l_be.c in Sources */,
 				EA8F8E4522E76F5E00B62005 /* len.c in Sources */,
 				EA8F8C8422E76B3000B62005 /* cmdarg.c in Sources */,
 				EA8F8E4D22E76F5E00B62005 /* hbzlibc.c in Sources */,
+				EA2944EF22E9D7B700585E14 /* uc16def.c in Sources */,
+				EA2944BE22E9D7B700585E14 /* cptr857.c in Sources */,
 				EA8F8E4022E76F5E00B62005 /* valtostr.c in Sources */,
 				EA8F8EDB22E76F5E00B62005 /* gtchrmap.c in Sources */,
+				EA2944B022E9D7B700585E14 /* gbk.c in Sources */,
 				EA8F8C8C22E76B3000B62005 /* debug.c in Sources */,
 				EA8F8D1E22E76E7600B62005 /* l_pt.c in Sources */,
 				EA8F8E6222E76F5E00B62005 /* hbfilehc.c in Sources */,
 				EA8F8D2822E76E7600B62005 /* l_lt.c in Sources */,
 				EA2942C922E9C61300585E14 /* ppcomp.c in Sources */,
 				EA8F8E1D22E76F5E00B62005 /* hbadler.c in Sources */,
+				EA29448722E9D7B700585E14 /* cpsrwin.c in Sources */,
 				EA8F8E3322E76F5E00B62005 /* philes53.c in Sources */,
 				EAFBF0B622E77D2200801C5F /* hbmain.c in Sources */,
 				EA8F8D3522E76E7600B62005 /* l_uk.c in Sources */,
 				EA8F8CB022E76C4600B62005 /* hbverdsp.c in Sources */,
+				EA29450722E9D7B700585E14 /* uc8859_6.c in Sources */,
 				EA8F8CF122E76DF500B62005 /* macrolex.c in Sources */,
+				EA29449622E9D7B700585E14 /* uc8859_5.c in Sources */,
 				EA8F8C6222E76B3000B62005 /* maindllh.c in Sources */,
 				EA8F8E7722E76F5E00B62005 /* fscopy.c in Sources */,
 				EA8F8E2322E76F5E00B62005 /* hbascii.c in Sources */,
 				EA8F8CDF22E76C9C00B62005 /* genhrb.c in Sources */,
+				EA2944AB22E9D7B700585E14 /* uc852.c in Sources */,
 				EAFBF0B122E77CAF00801C5F /* sxcompr.c in Sources */,
+				EA2944CE22E9D7B700585E14 /* uc850.c in Sources */,
+				EA2944A722E9D7B700585E14 /* ucmik.c in Sources */,
 				EA2942D622E9C9DC00585E14 /* hbopt.c in Sources */,
+				EA29449B22E9D7B700585E14 /* uc855.c in Sources */,
 				EA8F8E2122E76F5E00B62005 /* type.c in Sources */,
+				EA2944B422E9D7B700585E14 /* cpcs852c.c in Sources */,
+				EA29451822E9D7B700585E14 /* uc1255.c in Sources */,
 				EA8F8E4C22E76F5E00B62005 /* vfile.c in Sources */,
 				EA8F8E9122E76F5E00B62005 /* hbcom.c in Sources */,
 				EA8F8E8A22E76F5E00B62005 /* filebuf.c in Sources */,
 				EA8F8EC622E76F5E00B62005 /* tscalarl.c in Sources */,
+				EA2944A522E9D7B700585E14 /* uc1252.c in Sources */,
 				EA8F8EC222E76F5E00B62005 /* do.c in Sources */,
 				EA8F8C6A22E76B3000B62005 /* vm.c in Sources */,
 				EA8F8EAD22E76F5E00B62005 /* base64d.c in Sources */,
+				EA29449522E9D7B700585E14 /* cpitwin.c in Sources */,
 				EA8F8EFC22E7708500B62005 /* dbrename.c in Sources */,
 				EA8F8B9E22E768C100B62005 /* ViewController.m in Sources */,
 				EA8F8ECA22E76F5E00B62005 /* strxor.c in Sources */,
 				EA8F8EA922E76F5E00B62005 /* errapi.c in Sources */,
+				EA29449222E9D7B700585E14 /* uc8859_1.c in Sources */,
 				EA8F8C7D22E76B3000B62005 /* task.c in Sources */,
 				EA8F8EAB22E76F5E00B62005 /* fslink.c in Sources */,
 				EA8F8EB822E76F5E00B62005 /* netusr.c in Sources */,
 				EA8F8EBF22E76F5E00B62005 /* hbznet.c in Sources */,
 				EA8F8EC822E76F5E00B62005 /* memofile.c in Sources */,
 				EA8F8EFB22E7708500B62005 /* wafunc.c in Sources */,
+				EA29448422E9D7B700585E14 /* cpsr646c.c in Sources */,
 				EA8F8E9322E76F5E00B62005 /* cdpapi.c in Sources */,
 				EA8F8EA022E76F5E00B62005 /* hbmd5enc.c in Sources */,
 				EA2942CF22E9C6E500585E14 /* gencc.c in Sources */,
 				EA8F8E9922E76F5E00B62005 /* hbzlibgz.c in Sources */,
 				EA8F8E2722E76F5E00B62005 /* hbntos.c in Sources */,
+				EA29450F22E9D7B700585E14 /* cpruiso.c in Sources */,
 				EA8F8C8322E76B3000B62005 /* dynlibhb.c in Sources */,
 				EA8F8C6322E76B3000B62005 /* memvars.c in Sources */,
 				EA8F8CD222E76C9C00B62005 /* compi18n.c in Sources */,
@@ -1818,6 +2456,8 @@
 				EA8F8ED122E76F5E00B62005 /* strcase.c in Sources */,
 				EA8F8ED722E76F5E00B62005 /* hbtoken.c in Sources */,
 				EA8F8CCF22E76C9C00B62005 /* hbcomp.c in Sources */,
+				EA2944BD22E9D7B700585E14 /* cpelwin.c in Sources */,
+				EA29449F22E9D7B700585E14 /* cpsv850.c in Sources */,
 				EA8F8D3C22E76E7600B62005 /* l_ru.c in Sources */,
 				EA8F8EB622E76F5E00B62005 /* tscalars.c in Sources */,
 				EA8F8E4A22E76F5E00B62005 /* hbbfish.c in Sources */,
@@ -1826,15 +2466,20 @@
 				EA8F8E8F22E76F5E00B62005 /* gt.c in Sources */,
 				EA8F8EA422E76F5E00B62005 /* hbstrfmt.c in Sources */,
 				EA8F8CDC22E76C9C00B62005 /* hbusage.c in Sources */,
+				EA29452022E9D7B700585E14 /* ucnext.c in Sources */,
 				EA8F8E3D22E76F5E00B62005 /* gtclip.c in Sources */,
+				EA2944FF22E9D7B700585E14 /* utf8sort.c in Sources */,
 				EAFBF0B222E77CAF00801C5F /* sxtable.c in Sources */,
 				EA8F8D2922E76E7600B62005 /* l_sr_cyr.c in Sources */,
 				EAFBF0AE22E77CAF00801C5F /* sxord.c in Sources */,
 				EA8F8E2822E76F5E00B62005 /* tscalaru.c in Sources */,
+				EA29450322E9D7B700585E14 /* ucmaccyr.c in Sources */,
 				EA8F8EC722E76F5E00B62005 /* tone.c in Sources */,
 				EA8F8CD122E76C9C00B62005 /* hbdbginf.c in Sources */,
 				EA8F8CE822E76D7900B62005 /* pplib2.c in Sources */,
 				EA8F8CA122E76C4600B62005 /* strwild.c in Sources */,
+				EA2944B522E9D7B700585E14 /* cpskiso.c in Sources */,
+				EA2944BF22E9D7B700585E14 /* uc737.c in Sources */,
 				EA8F8E5922E76F5E00B62005 /* scrrow.c in Sources */,
 				EA8F8EC422E76F5E00B62005 /* defpathu.c in Sources */,
 				EA8F8C8A22E76B3000B62005 /* extend.c in Sources */,
@@ -1844,86 +2489,124 @@
 				EA8F8EB022E76F5E00B62005 /* gx.c in Sources */,
 				EA8F8ED022E76F5E00B62005 /* hbfeof.c in Sources */,
 				EA8F8E3B22E76F5E00B62005 /* oldbox.c in Sources */,
+				EA2944C522E9D7B700585E14 /* cpitiso.c in Sources */,
 				EA8F8ECB22E76F5E00B62005 /* hbcrc.c in Sources */,
 				EA8F8E1522E76F5E00B62005 /* round.c in Sources */,
 				EA8F8E3422E76F5E00B62005 /* sha1.c in Sources */,
+				EA2944AE22E9D7B700585E14 /* cpfi850.c in Sources */,
 				EA8F8E9E22E76F5E00B62005 /* hbdyn.c in Sources */,
+				EA2944E422E9D7B700585E14 /* cpesiso.c in Sources */,
 				EA8F8D1B22E76E7600B62005 /* l_sl.c in Sources */,
 				EA8F8E2C22E76F5E00B62005 /* defpath.c in Sources */,
 				EA8F8D3B22E76E7600B62005 /* l_cs.c in Sources */,
 				EA8F8E3822E76F5E00B62005 /* ampm.c in Sources */,
+				EA29451722E9D7B700585E14 /* cpua1251.c in Sources */,
 				EA8F8E7422E76F5E00B62005 /* errint.c in Sources */,
 				EA2942C722E9C5DC00585E14 /* macro.c in Sources */,
 				EA8F8EBC22E76F5E00B62005 /* tscalarb.c in Sources */,
 				EA8F8E6122E76F5E00B62005 /* hbi18n1.c in Sources */,
 				EA8F8E9B22E76F5E00B62005 /* hardcr.c in Sources */,
 				EA8F8E3C22E76F5E00B62005 /* errintlo.c in Sources */,
+				EA29448922E9D7B700585E14 /* cprowin.c in Sources */,
 				EA8F8F0922E7708500B62005 /* fieldhb.c in Sources */,
 				EA8F8E7822E76F5E00B62005 /* hbzlib.c in Sources */,
 				EA8F8ED922E76F5E00B62005 /* trim.c in Sources */,
 				EA8F8E4322E76F5E00B62005 /* hbstrsh.c in Sources */,
+				EA2944F222E9D7B700585E14 /* cpru866.c in Sources */,
 				EA8F8CD922E76C9C00B62005 /* hbfunchk.c in Sources */,
 				EA8F8E7F22E76F5E00B62005 /* setpos.c in Sources */,
 				EA8F8D3822E76E7600B62005 /* l_is.c in Sources */,
 				EA8F8EB422E76F5E00B62005 /* net.c in Sources */,
+				EA2944AC22E9D7B700585E14 /* cpskwin.c in Sources */,
+				EA2944FD22E9D7B700585E14 /* cprukoi8.c in Sources */,
+				EA29452122E9D7B700585E14 /* cp_big5.c in Sources */,
 				EA8F8C6622E76B3000B62005 /* runner.c in Sources */,
+				EA29448A22E9D7B700585E14 /* cpit850.c in Sources */,
 				EA8F8C7822E76B3000B62005 /* hashfunc.c in Sources */,
+				EA29452922E9D7B700585E14 /* cpdewin.c in Sources */,
 				EA8F8ECE22E76F5E00B62005 /* hbsocket.c in Sources */,
 				EA8F8EFE22E7708500B62005 /* dbcmd53.c in Sources */,
 				EA8F8D3A22E76E7600B62005 /* l_bg.c in Sources */,
+				EA2944DF22E9D7B700585E14 /* cpnl850.c in Sources */,
+				EA29450422E9D7B700585E14 /* cpsliso.c in Sources */,
 				EA8F8ECF22E76F5E00B62005 /* idle.c in Sources */,
+				EA29448D22E9D7B700585E14 /* cpsviso.c in Sources */,
 				EA8F8D2722E76E7600B62005 /* l_pl.c in Sources */,
+				EA2944E922E9D7B700585E14 /* cpptiso.c in Sources */,
 				EA8F8C7722E76B3000B62005 /* dynsym.c in Sources */,
 				EA8F8EFF22E7708500B62005 /* ordcount.c in Sources */,
 				EA8F8E7622E76F5E00B62005 /* tscalarn.c in Sources */,
+				EA29450622E9D7B700585E14 /* cphe862.c in Sources */,
 				EA8F8C7C22E76B3000B62005 /* hvm.c in Sources */,
 				EA8F8CCE22E76C9C00B62005 /* hbstripl.c in Sources */,
 				EA8F8E8322E76F5E00B62005 /* hbdynhb.c in Sources */,
 				EA8F8E3922E76F5E00B62005 /* natmsg.c in Sources */,
 				EA8F8CD022E76C9C00B62005 /* hblbl.c in Sources */,
 				EA8F8CAE22E76C4600B62005 /* hbstrbm.c in Sources */,
+				EA2944A322E9D7B700585E14 /* ucmacgrk.c in Sources */,
 				EA8F8E5822E76F5E00B62005 /* fserr.c in Sources */,
 				EA8F8E9222E76F5E00B62005 /* tscalara.c in Sources */,
+				EA2944C122E9D7B700585E14 /* cpit850m.c in Sources */,
+				EA2944C822E9D7B700585E14 /* uc1026.c in Sources */,
 				EA8F8E4922E76F5E00B62005 /* gtfunc.c in Sources */,
 				EA8F8C7B22E76B3000B62005 /* pbyref.c in Sources */,
 				EA8F8CE922E76D7900B62005 /* hbpp.c in Sources */,
+				EA2944C722E9D7B700585E14 /* cpsv850m.c in Sources */,
 				EA8F8EAA22E76F5E00B62005 /* filebufd.c in Sources */,
+				EA2944CA22E9D7B700585E14 /* cptrwin.c in Sources */,
 				EA8F8E5E22E76F5E00B62005 /* setposbs.c in Sources */,
 				EAFBF0B322E77CAF00801C5F /* sxredir.c in Sources */,
 				EA8F8ED222E76F5E00B62005 /* cputime.c in Sources */,
+				EA29450E22E9D7B700585E14 /* cp_gbk.c in Sources */,
 				EA8F8F0022E7708500B62005 /* workarea.c in Sources */,
 				EA8F8C8B22E76B3000B62005 /* macro.c in Sources */,
 				EA8F8F0B22E7708500B62005 /* dbdrop.c in Sources */,
 				EA8F8C6D22E76B3000B62005 /* break.c in Sources */,
+				EA29449122E9D7B700585E14 /* uc1256.c in Sources */,
+				EA29448F22E9D7B700585E14 /* cpbgwin.c in Sources */,
 				EA8F8C8522E76B3000B62005 /* garbage.c in Sources */,
 				EA8F8CA622E76C4600B62005 /* expropt1.c in Sources */,
+				EA2944CC22E9D7B700585E14 /* cpdk865.c in Sources */,
 				EA8F8EB122E76F5E00B62005 /* math.c in Sources */,
 				EA8F8EFD22E7708500B62005 /* dbf1.c in Sources */,
+				EA2944E522E9D7B700585E14 /* uc1254.c in Sources */,
 				EA8F8ED622E76F5E00B62005 /* hbsha1hm.c in Sources */,
 				EA8F8E9F22E76F5E00B62005 /* samples.c in Sources */,
+				EA2944AA22E9D7B700585E14 /* cpes850c.c in Sources */,
 				EA8F8C8722E76B3000B62005 /* initexit.c in Sources */,
 				EA8F8E2E22E76F5E00B62005 /* hbsockhb.c in Sources */,
 				EA8F8C8122E76B3000B62005 /* codebloc.c in Sources */,
 				EA8F8F0322E7708500B62005 /* dbnubs.c in Sources */,
+				EA29451522E9D7B700585E14 /* cp_950.c in Sources */,
 				EA8F8E3A22E76F5E00B62005 /* lang.c in Sources */,
+				EA2944CF22E9D7B700585E14 /* uc860.c in Sources */,
+				EA29452422E9D7B700585E14 /* cppl852.c in Sources */,
 				EA8F8F0822E7708500B62005 /* delim1.c in Sources */,
+				EA2944C022E9D7B700585E14 /* uc1125.c in Sources */,
+				EA2944DB22E9D7B700585E14 /* cplt775.c in Sources */,
 				EA8F8E5F22E76F5E00B62005 /* at.c in Sources */,
+				EA29450D22E9D7B700585E14 /* ucmacce.c in Sources */,
 				EA8F8EF822E7708500B62005 /* rddshort.c in Sources */,
 				EA8F8F0722E7708500B62005 /* dbcmd.c in Sources */,
 				EA8F8E1822E76F5E00B62005 /* diskspac.c in Sources */,
+				EA29452A22E9D7B700585E14 /* cppliso.c in Sources */,
 				EA8F8E1B22E76F5E00B62005 /* soundex.c in Sources */,
 				EA8F8C8022E76B3000B62005 /* memvclip.c in Sources */,
+				EA2944A022E9D7B700585E14 /* cpsk852c.c in Sources */,
 				EA8F8E6A22E76F5E00B62005 /* hbrunfun.c in Sources */,
 				EA8F8CDA22E76C9C00B62005 /* hbgenerr.c in Sources */,
 				EA8F8E7C22E76F5E00B62005 /* langapi.c in Sources */,
 				EA8F8CDD22E76C9C00B62005 /* hbident.c in Sources */,
+				EA29449822E9D7B700585E14 /* uc885911.c in Sources */,
 				EA8F8E2B22E76F5E00B62005 /* dirdrive.c in Sources */,
 				EA8F8E5722E76F5E00B62005 /* setcurs.c in Sources */,
 				EA8F8EAC22E76F5E00B62005 /* datec.c in Sources */,
+				EA2944F022E9D7B700585E14 /* cpsvwin.c in Sources */,
 				EA8F8D2D22E76E7600B62005 /* l_it.c in Sources */,
 				EA8F8CD422E76C9C00B62005 /* hbcmplib.c in Sources */,
 				EA8F8CD522E76C9C00B62005 /* gencc.c in Sources */,
 				EA8F8E9D22E76F5E00B62005 /* space.c in Sources */,
+				EA29451922E9D7B700585E14 /* uc1251.c in Sources */,
 				EA8F8E6322E76F5E00B62005 /* disksphb.c in Sources */,
 				EA8F8D2122E76E7600B62005 /* l_zh_sim.c in Sources */,
 				EA8F8EC122E76F5E00B62005 /* transfrm.c in Sources */,
@@ -1934,23 +2617,36 @@
 				EA8F8CD822E76C9C00B62005 /* hbfix.c in Sources */,
 				EA8F8CD622E76C9C00B62005 /* cmdcheck.c in Sources */,
 				EA8F8E5022E76F5E00B62005 /* filehb.c in Sources */,
+				EA2944D422E9D7B700585E14 /* cpfrwin.c in Sources */,
+				EA2944A222E9D7B700585E14 /* uc1006.c in Sources */,
+				EA2944FC22E9D7B700585E14 /* uc1253.c in Sources */,
+				EA2944B722E9D7B700585E14 /* cpplmaz.c in Sources */,
 				EA8F8E6422E76F5E00B62005 /* mouseapi.c in Sources */,
 				EA8F8E9522E76F5E00B62005 /* shadow.c in Sources */,
 				EA8F8E6822E76F5E00B62005 /* run.c in Sources */,
 				EA8F8CD322E76C9C00B62005 /* hbdead.c in Sources */,
+				EA2944CD22E9D7B700585E14 /* big5.c in Sources */,
+				EA29449922E9D7B700585E14 /* cp950.c in Sources */,
+				EA2944A822E9D7B700585E14 /* cpel737.c in Sources */,
+				EA29451B22E9D7B700585E14 /* uc500.c in Sources */,
+				EA2944D922E9D7B700585E14 /* cpes850.c in Sources */,
 				EA8F8E5A22E76F5E00B62005 /* inkey.c in Sources */,
 				EA8F8EBB22E76F5E00B62005 /* hbbfsock.c in Sources */,
 				EA8F8EB922E76F5E00B62005 /* cdpapihb.c in Sources */,
 				EA8F8E6B22E76F5E00B62005 /* oldclear.c in Sources */,
+				EA2944DC22E9D7B700585E14 /* cpdeiso.c in Sources */,
 				EA8F8EB322E76F5E00B62005 /* fnsplit.c in Sources */,
 				EA8F8E5B22E76F5E00B62005 /* natmsgu.c in Sources */,
 				EA8F8E6F22E76F5E00B62005 /* empty.c in Sources */,
 				EA8F8E4622E76F5E00B62005 /* fstemp.c in Sources */,
 				EA8F8E8222E76F5E00B62005 /* setkey.c in Sources */,
 				EA8F8E1922E76F5E00B62005 /* philes.c in Sources */,
+				EA29449322E9D7B700585E14 /* uc8859_3.c in Sources */,
 				EA8F8E4222E76F5E00B62005 /* gtkbstat.c in Sources */,
+				EA29451622E9D7B700585E14 /* uc874.c in Sources */,
 				EA8F8D3622E76E7600B62005 /* l_ko.c in Sources */,
 				EA8F8E5422E76F5E00B62005 /* hbjson.c in Sources */,
+				EA2944F922E9D7B700585E14 /* uckam.c in Sources */,
 				EA8F8C7122E76B3000B62005 /* set.c in Sources */,
 				EA8F8C7F22E76B3000B62005 /* fm.c in Sources */,
 				EA8F8C6C22E76B3000B62005 /* asort.c in Sources */,
@@ -1968,17 +2664,25 @@
 				EA8F8E7022E76F5E00B62005 /* chrasc.c in Sources */,
 				EA8F8E1A22E76F5E00B62005 /* version.c in Sources */,
 				EA8F8E8B22E76F5E00B62005 /* val.c in Sources */,
+				EA2944E622E9D7B700585E14 /* cpskkamc.c in Sources */,
 				EA8F8E8722E76F5E00B62005 /* hbproces.c in Sources */,
 				EA8F8E9022E76F5E00B62005 /* libnamec.c in Sources */,
 				EA8F8E2A22E76F5E00B62005 /* strzero.c in Sources */,
+				EA2944BC22E9D7B700585E14 /* cpsl852.c in Sources */,
 				EA8F8EA222E76F5E00B62005 /* colorind.c in Sources */,
 				EA8F8CEA22E76D7900B62005 /* ppcore.c in Sources */,
+				EA29449722E9D7B700585E14 /* uc88591b.c in Sources */,
+				EA29452622E9D7B700585E14 /* uc885915.c in Sources */,
+				EA29450A22E9D7B700585E14 /* cphr646.c in Sources */,
 				EA8F8E7922E76F5E00B62005 /* right.c in Sources */,
 				EA8F8E7522E76F5E00B62005 /* hbregex.c in Sources */,
 				EA8F8EC522E76F5E00B62005 /* padx.c in Sources */,
+				EA29451022E9D7B700585E14 /* cpfr850m.c in Sources */,
 				EA8F8CAA22E76C4600B62005 /* hbhash.c in Sources */,
+				EA2944D522E9D7B700585E14 /* cphr852.c in Sources */,
 				EA8F8C8822E76B3000B62005 /* dlmalloc.c in Sources */,
 				EA8F8E4F22E76F5E00B62005 /* is.c in Sources */,
+				EA2944ED22E9D7B700585E14 /* cppt850.c in Sources */,
 				EA8F8D3022E76E7600B62005 /* l_eu.c in Sources */,
 				EA8F8F0422E7708500B62005 /* rddinfo.c in Sources */,
 				EA8F8B9B22E768C100B62005 /* AppDelegate.m in Sources */,
@@ -1987,9 +2691,13 @@
 				EA8F8CF022E76DF500B62005 /* macrob.c in Sources */,
 				EA8F8D3922E76E7600B62005 /* l_es.c in Sources */,
 				EA8F8E5122E76F5E00B62005 /* hbsha1.c in Sources */,
+				EA2944B922E9D7B700585E14 /* cpslwin.c in Sources */,
 				EA8F8C6F22E76B3000B62005 /* pvaluehb.c in Sources */,
 				EA8F8EA622E76F5E00B62005 /* errapiu.c in Sources */,
+				EA29451F22E9D7B700585E14 /* uc8859_4.c in Sources */,
+				EA29451222E9D7B700585E14 /* cpes850m.c in Sources */,
 				EA8F8E5222E76F5E00B62005 /* mtran.c in Sources */,
+				EA29452222E9D7B700585E14 /* cp_u16le.c in Sources */,
 				EA8F8E8822E76F5E00B62005 /* seconds.c in Sources */,
 				EA8F8E8422E76F5E00B62005 /* sha2hmac.c in Sources */,
 				EA8F8C7422E76B3000B62005 /* proc.c in Sources */,
@@ -2000,12 +2708,16 @@
 				EA8F8D2522E76E7600B62005 /* l_en_tpl.c in Sources */,
 				EA8F8C7922E76B3000B62005 /* extrap.c in Sources */,
 				EA8F8D2F22E76E7600B62005 /* l_ro.c in Sources */,
+				EA2944FB22E9D7B700585E14 /* uc037.c in Sources */,
+				EA2944E822E9D7B700585E14 /* cphriso.c in Sources */,
 				EA8F8E6C22E76F5E00B62005 /* strtran.c in Sources */,
 				EA8F8C7A22E76B3000B62005 /* evalhb.c in Sources */,
 				EA8F8EA522E76F5E00B62005 /* str.c in Sources */,
+				EA29448822E9D7B700585E14 /* cpcs852.c in Sources */,
 				EA8F8E7E22E76F5E00B62005 /* setcolor.c in Sources */,
 				EA8F8E1C22E76F5E00B62005 /* mousehb.c in Sources */,
 				EA8F8EA122E76F5E00B62005 /* box.c in Sources */,
+				EA29448B22E9D7B700585E14 /* uc856.c in Sources */,
 				EA8F8D2E22E76E7600B62005 /* l_es_419.c in Sources */,
 				EA8F8E7322E76F5E00B62005 /* xhelp.c in Sources */,
 				EA8F8EB222E76F5E00B62005 /* valtype.c in Sources */,
@@ -2014,26 +2726,40 @@
 				EA8F8EA322E76F5E00B62005 /* strmatch.c in Sources */,
 				EA8F8D1A22E76E7600B62005 /* l_nl.c in Sources */,
 				EA8F8D3322E76E7600B62005 /* l_sk.c in Sources */,
+				EA2944DD22E9D7B700585E14 /* cphuiso.c in Sources */,
 				EA2942C522E9C51900585E14 /* harboury.c in Sources */,
 				EA8F8E4422E76F5E00B62005 /* stuff.c in Sources */,
 				EA8F8EF922E7708500B62005 /* wacore.c in Sources */,
 				EA8F8E8022E76F5E00B62005 /* abs.c in Sources */,
+				EA29449C22E9D7B700585E14 /* cp_tpl.c in Sources */,
 				EA8F8E4E22E76F5E00B62005 /* gtkeycod.c in Sources */,
 				EA8F8E7122E76F5E00B62005 /* fmhb.c in Sources */,
+				EA29451C22E9D7B700585E14 /* cpfriso.c in Sources */,
 				EA8F8CA522E76C4600B62005 /* hbmem.c in Sources */,
 				EA8F8CB122E76C4600B62005 /* hbfopen.c in Sources */,
 				EA8F8D1D22E76E7600B62005 /* l_he.c in Sources */,
 				EA8F8D2C22E76E7600B62005 /* l_tr.c in Sources */,
+				EA2944DE22E9D7B700585E14 /* cphuwin.c in Sources */,
 				EA8F8E4B22E76F5E00B62005 /* hbhex.c in Sources */,
+				EA29448322E9D7B700585E14 /* uc8859_9.c in Sources */,
+				EA29450B22E9D7B700585E14 /* ucmaz.c in Sources */,
 				EA8F8E6E22E76F5E00B62005 /* trace.c in Sources */,
+				EA2944D722E9D7B700585E14 /* cpsk852.c in Sources */,
+				EA29450922E9D7B700585E14 /* uc1250.c in Sources */,
 				EA8F8E5C22E76F5E00B62005 /* saverest.c in Sources */,
+				EA2944E222E9D7B700585E14 /* uc857.c in Sources */,
 				EA8F8C8222E76B3000B62005 /* itemapi.c in Sources */,
 				EA8F8E2622E76F5E00B62005 /* left.c in Sources */,
+				EA2944E122E9D7B700585E14 /* cpbgmik.c in Sources */,
+				EA29451122E9D7B700585E14 /* uc885914.c in Sources */,
 				EA8F8E7B22E76F5E00B62005 /* tscalarh.c in Sources */,
 				EA8F8CA222E76C4600B62005 /* hbprintf.c in Sources */,
 				EA8F8ECD22E76F5E00B62005 /* itemseri.c in Sources */,
 				EAFBF0BC22E77E7700801C5F /* genc.c in Sources */,
+				EA2944C422E9D7B700585E14 /* uc863.c in Sources */,
 				EA8F8EA822E76F5E00B62005 /* base64c.c in Sources */,
+				EA2944A422E9D7B700585E14 /* ucmacice.c in Sources */,
+				EA29450522E9D7B700585E14 /* cpcsiso.c in Sources */,
 				EA8F8CA722E76C4600B62005 /* hbffind.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
