@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA2942C322E9B9F100585E14 /* macroy.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942C222E9B9F100585E14 /* macroy.c */; };
+		EA2942C522E9C51900585E14 /* harboury.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942C422E9C51900585E14 /* harboury.c */; };
+		EA2942C722E9C5DC00585E14 /* macro.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942C622E9C5DC00585E14 /* macro.c */; };
+		EA2942C922E9C61300585E14 /* ppcomp.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942C822E9C61300585E14 /* ppcomp.c */; };
+		EA2942CB22E9C64E00585E14 /* pptable.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942CA22E9C64E00585E14 /* pptable.c */; };
+		EA2942CD22E9C6A400585E14 /* expropt2.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942CC22E9C6A400585E14 /* expropt2.c */; };
+		EA2942CF22E9C6E500585E14 /* gencc.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942CE22E9C6E500585E14 /* gencc.c */; };
+		EA2942D122E9C73900585E14 /* hbexpra.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942D022E9C73900585E14 /* hbexpra.c */; };
+		EA2942D322E9C76D00585E14 /* hbexprb.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942D222E9C76D00585E14 /* hbexprb.c */; };
 		EA8F8B9B22E768C100B62005 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9A22E768C100B62005 /* AppDelegate.m */; };
 		EA8F8B9E22E768C100B62005 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9D22E768C100B62005 /* ViewController.m */; };
 		EA8F8BA122E768C100B62005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8F8B9F22E768C100B62005 /* Main.storyboard */; };
@@ -375,13 +384,20 @@
 		EAFBF0B322E77CAF00801C5F /* sxredir.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0AA22E77CAF00801C5F /* sxredir.c */; };
 		EAFBF0B422E77CAF00801C5F /* sxutil.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0AB22E77CAF00801C5F /* sxutil.c */; };
 		EAFBF0B622E77D2200801C5F /* hbmain.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0B522E77D2200801C5F /* hbmain.c */; };
-		EAFBF0BA22E77D9000801C5F /* macro.y in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0B822E77D9000801C5F /* macro.y */; };
 		EAFBF0BC22E77E7700801C5F /* genc.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0BB22E77E7700801C5F /* genc.c */; };
-		EAFBF0C022E77EC100801C5F /* harbour.y in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0BD22E77EC100801C5F /* harbour.y */; };
 		EAFBF0C122E77EC100801C5F /* harbour.yyc in Resources */ = {isa = PBXBuildFile; fileRef = EAFBF0BE22E77EC100801C5F /* harbour.yyc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA2942C222E9B9F100585E14 /* macroy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = macroy.c; sourceTree = "<group>"; };
+		EA2942C422E9C51900585E14 /* harboury.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = harboury.c; sourceTree = "<group>"; };
+		EA2942C622E9C5DC00585E14 /* macro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = macro.c; sourceTree = "<group>"; };
+		EA2942C822E9C61300585E14 /* ppcomp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ppcomp.c; sourceTree = "<group>"; };
+		EA2942CA22E9C64E00585E14 /* pptable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pptable.c; sourceTree = "<group>"; };
+		EA2942CC22E9C6A400585E14 /* expropt2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = expropt2.c; sourceTree = "<group>"; };
+		EA2942CE22E9C6E500585E14 /* gencc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gencc.c; path = ../../../harbour/src/compiler/gencc.c; sourceTree = "<group>"; };
+		EA2942D022E9C73900585E14 /* hbexpra.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbexpra.c; sourceTree = "<group>"; };
+		EA2942D222E9C76D00585E14 /* hbexprb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbexprb.c; sourceTree = "<group>"; };
 		EA8F8B9622E768C100B62005 /* iharbour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iharbour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8F8B9922E768C100B62005 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA8F8B9A22E768C100B62005 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -760,9 +776,7 @@
 		EAFBF0AA22E77CAF00801C5F /* sxredir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sxredir.c; sourceTree = "<group>"; };
 		EAFBF0AB22E77CAF00801C5F /* sxutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sxutil.c; sourceTree = "<group>"; };
 		EAFBF0B522E77D2200801C5F /* hbmain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbmain.c; sourceTree = "<group>"; };
-		EAFBF0B822E77D9000801C5F /* macro.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; path = macro.y; sourceTree = "<group>"; };
 		EAFBF0BB22E77E7700801C5F /* genc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = genc.c; sourceTree = "<group>"; };
-		EAFBF0BD22E77EC100801C5F /* harbour.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; path = harbour.y; sourceTree = "<group>"; };
 		EAFBF0BE22E77EC100801C5F /* harbour.yyc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = harbour.yyc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -904,7 +918,11 @@
 		EA8F8CB322E76C7F00B62005 /* compiler */ = {
 			isa = PBXGroup;
 			children = (
-				EAFBF0BD22E77EC100801C5F /* harbour.y */,
+				EA2942D222E9C76D00585E14 /* hbexprb.c */,
+				EA2942D022E9C73900585E14 /* hbexpra.c */,
+				EA2942CE22E9C6E500585E14 /* gencc.c */,
+				EA2942CC22E9C6A400585E14 /* expropt2.c */,
+				EA2942C422E9C51900585E14 /* harboury.c */,
 				EAFBF0BE22E77EC100801C5F /* harbour.yyc */,
 				EAFBF0BB22E77E7700801C5F /* genc.c */,
 				EAFBF0B522E77D2200801C5F /* hbmain.c */,
@@ -934,6 +952,8 @@
 		EA8F8CE222E76D6600B62005 /* pp */ = {
 			isa = PBXGroup;
 			children = (
+				EA2942CA22E9C64E00585E14 /* pptable.c */,
+				EA2942C822E9C61300585E14 /* ppcomp.c */,
 				EA8F8CE522E76D7900B62005 /* hbpp.c */,
 				EA8F8CE622E76D7900B62005 /* ppcore.c */,
 				EA8F8CE322E76D7900B62005 /* pplib.c */,
@@ -945,7 +965,8 @@
 		EA8F8CEB22E76DE000B62005 /* macro */ = {
 			isa = PBXGroup;
 			children = (
-				EAFBF0B822E77D9000801C5F /* macro.y */,
+				EA2942C622E9C5DC00585E14 /* macro.c */,
+				EA2942C222E9B9F100585E14 /* macroy.c */,
 				EA8F8EE122E76FDF00B62005 /* macro.yyc */,
 				EA8F8CEC22E76DF400B62005 /* macroa.c */,
 				EA8F8CED22E76DF400B62005 /* macrob.c */,
@@ -1336,6 +1357,7 @@
 				EA8F8C8622E76B3000B62005 /* classes.c in Sources */,
 				EA8F8EBE22E76F5E00B62005 /* cdpdetc.c in Sources */,
 				EA8F8F0222E7708500B62005 /* dbcmdhb.c in Sources */,
+				EA2942D122E9C73900585E14 /* hbexpra.c in Sources */,
 				EA8F8E8922E76F5E00B62005 /* accept.c in Sources */,
 				EA8F8E7222E76F5E00B62005 /* hbrandom.c in Sources */,
 				EA8F8F0522E7708500B62005 /* ordwldsk.c in Sources */,
@@ -1349,8 +1371,10 @@
 				EA8F8ECC22E76F5E00B62005 /* spfiles.c in Sources */,
 				EA8F8CCD22E76C9C00B62005 /* complex.c in Sources */,
 				EA8F8E8E22E76F5E00B62005 /* strc.c in Sources */,
+				EA2942D322E9C76D00585E14 /* hbexprb.c in Sources */,
 				EA8F8D2A22E76E7600B62005 /* l_sv.c in Sources */,
 				EA8F8C8D22E76B3000B62005 /* hvmall.c in Sources */,
+				EA2942CD22E9C6A400585E14 /* expropt2.c in Sources */,
 				EA8F8EAE22E76F5E00B62005 /* descend.c in Sources */,
 				EA8F8ED322E76F5E00B62005 /* hbsha2.c in Sources */,
 				EA8F8F0122E7708500B62005 /* dbsql.c in Sources */,
@@ -1401,6 +1425,7 @@
 				EA8F8E2522E76F5E00B62005 /* console.c in Sources */,
 				EA8F8CA322E76C4600B62005 /* hbdate.c in Sources */,
 				EA8F8EFA22E7708500B62005 /* sdf1.c in Sources */,
+				EA2942CB22E9C64E00585E14 /* pptable.c in Sources */,
 				EA8F8E4122E76F5E00B62005 /* hbbffnc.c in Sources */,
 				EA8F8CA822E76C4600B62005 /* hbver.c in Sources */,
 				EA8F8E1322E76F5E00B62005 /* ati.c in Sources */,
@@ -1443,6 +1468,7 @@
 				EA8F8D1E22E76E7600B62005 /* l_pt.c in Sources */,
 				EA8F8E6222E76F5E00B62005 /* hbfilehc.c in Sources */,
 				EA8F8D2822E76E7600B62005 /* l_lt.c in Sources */,
+				EA2942C922E9C61300585E14 /* ppcomp.c in Sources */,
 				EA8F8E1D22E76F5E00B62005 /* hbadler.c in Sources */,
 				EA8F8E3322E76F5E00B62005 /* philes53.c in Sources */,
 				EAFBF0B622E77D2200801C5F /* hbmain.c in Sources */,
@@ -1474,6 +1500,7 @@
 				EA8F8EFB22E7708500B62005 /* wafunc.c in Sources */,
 				EA8F8E9322E76F5E00B62005 /* cdpapi.c in Sources */,
 				EA8F8EA022E76F5E00B62005 /* hbmd5enc.c in Sources */,
+				EA2942CF22E9C6E500585E14 /* gencc.c in Sources */,
 				EA8F8E9922E76F5E00B62005 /* hbzlibgz.c in Sources */,
 				EA8F8E2722E76F5E00B62005 /* hbntos.c in Sources */,
 				EA8F8C8322E76B3000B62005 /* dynlibhb.c in Sources */,
@@ -1519,6 +1546,7 @@
 				EA8F8D3B22E76E7600B62005 /* l_cs.c in Sources */,
 				EA8F8E3822E76F5E00B62005 /* ampm.c in Sources */,
 				EA8F8E7422E76F5E00B62005 /* errint.c in Sources */,
+				EA2942C722E9C5DC00585E14 /* macro.c in Sources */,
 				EA8F8EBC22E76F5E00B62005 /* tscalarb.c in Sources */,
 				EA8F8E6122E76F5E00B62005 /* hbi18n1.c in Sources */,
 				EA8F8E9B22E76F5E00B62005 /* hardcr.c in Sources */,
@@ -1629,6 +1657,7 @@
 				EA8F8E5622E76F5E00B62005 /* xsavescr.c in Sources */,
 				EA8F8E2F22E76F5E00B62005 /* mod.c in Sources */,
 				EA8F8E3722E76F5E00B62005 /* hbrand.c in Sources */,
+				EA2942C322E9B9F100585E14 /* macroy.c in Sources */,
 				EA8F8E7022E76F5E00B62005 /* chrasc.c in Sources */,
 				EA8F8E1A22E76F5E00B62005 /* version.c in Sources */,
 				EA8F8E8B22E76F5E00B62005 /* val.c in Sources */,
@@ -1638,7 +1667,6 @@
 				EA8F8EA222E76F5E00B62005 /* colorind.c in Sources */,
 				EA8F8CEA22E76D7900B62005 /* ppcore.c in Sources */,
 				EA8F8E7922E76F5E00B62005 /* right.c in Sources */,
-				EAFBF0C022E77EC100801C5F /* harbour.y in Sources */,
 				EA8F8E7522E76F5E00B62005 /* hbregex.c in Sources */,
 				EA8F8EC522E76F5E00B62005 /* padx.c in Sources */,
 				EA8F8CAA22E76C4600B62005 /* hbhash.c in Sources */,
@@ -1679,6 +1707,7 @@
 				EA8F8EA322E76F5E00B62005 /* strmatch.c in Sources */,
 				EA8F8D1A22E76E7600B62005 /* l_nl.c in Sources */,
 				EA8F8D3322E76E7600B62005 /* l_sk.c in Sources */,
+				EA2942C522E9C51900585E14 /* harboury.c in Sources */,
 				EA8F8E4422E76F5E00B62005 /* stuff.c in Sources */,
 				EA8F8EF922E7708500B62005 /* wacore.c in Sources */,
 				EA8F8E8022E76F5E00B62005 /* abs.c in Sources */,
@@ -1697,7 +1726,6 @@
 				EA8F8CA222E76C4600B62005 /* hbprintf.c in Sources */,
 				EA8F8ECD22E76F5E00B62005 /* itemseri.c in Sources */,
 				EAFBF0BC22E77E7700801C5F /* genc.c in Sources */,
-				EAFBF0BA22E77D9000801C5F /* macro.y in Sources */,
 				EA8F8EA822E76F5E00B62005 /* base64c.c in Sources */,
 				EA8F8CA722E76C4600B62005 /* hbffind.c in Sources */,
 			);
