@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 
+#define HB_DONT_DEFINE_BOOL
+#include "hbapi.h"
+#include "hbvm.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +21,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    PHB_SYMB symMain = hb_dynsymSymbol( hb_dynsymFindName( "MAIN" ) );
+    
+    hb_vmPushSymbol( symMain );
+    hb_vmPushNil();
+    hb_vmDo( 0 );
+    
     return YES;
 }
 

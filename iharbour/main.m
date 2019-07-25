@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
+#include <hbvm.h>
+
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        hb_vmInit( TRUE );
+        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
