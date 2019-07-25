@@ -35,14 +35,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    PHB_SYMB symMain = hb_dynsymSymbol( hb_dynsymFindName( "MAIN" ) );
-    
-    ViewController * vc = [[ViewController alloc]init];
-    [vc showAlert];
-    
-    hb_vmPushSymbol( symMain );
-    hb_vmPushNil();
-    hb_vmDo( 0 );
+
     
     return YES;
 }

@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 
 -(void)showAlert;
+-(void)setVar:(NSString *)string;
 
 @end
 

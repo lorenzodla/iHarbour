@@ -1,5 +1,6 @@
 function Main()
 
+   MsgInfo( "Hola Lorenzo" )
 
 return nil
 
