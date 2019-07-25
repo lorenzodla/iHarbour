@@ -16,6 +16,7 @@
 		EA2942CF22E9C6E500585E14 /* gencc.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942CE22E9C6E500585E14 /* gencc.c */; };
 		EA2942D122E9C73900585E14 /* hbexpra.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942D022E9C73900585E14 /* hbexpra.c */; };
 		EA2942D322E9C76D00585E14 /* hbexprb.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942D222E9C76D00585E14 /* hbexprb.c */; };
+		EA2942D622E9C9DC00585E14 /* hbopt.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942D522E9C9DC00585E14 /* hbopt.c */; };
 		EA8F8B9B22E768C100B62005 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9A22E768C100B62005 /* AppDelegate.m */; };
 		EA8F8B9E22E768C100B62005 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9D22E768C100B62005 /* ViewController.m */; };
 		EA8F8BA122E768C100B62005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8F8B9F22E768C100B62005 /* Main.storyboard */; };
@@ -398,6 +399,8 @@
 		EA2942CE22E9C6E500585E14 /* gencc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gencc.c; path = ../../../harbour/src/compiler/gencc.c; sourceTree = "<group>"; };
 		EA2942D022E9C73900585E14 /* hbexpra.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbexpra.c; sourceTree = "<group>"; };
 		EA2942D222E9C76D00585E14 /* hbexprb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbexprb.c; sourceTree = "<group>"; };
+		EA2942D422E9C95E00585E14 /* hbcomp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hbcomp.h; path = ../../../harbour/include/hbcomp.h; sourceTree = "<group>"; };
+		EA2942D522E9C9DC00585E14 /* hbopt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbopt.c; sourceTree = "<group>"; };
 		EA8F8B9622E768C100B62005 /* iharbour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iharbour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8F8B9922E768C100B62005 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA8F8B9A22E768C100B62005 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -918,6 +921,8 @@
 		EA8F8CB322E76C7F00B62005 /* compiler */ = {
 			isa = PBXGroup;
 			children = (
+				EA2942D522E9C9DC00585E14 /* hbopt.c */,
+				EA2942D422E9C95E00585E14 /* hbcomp.h */,
 				EA2942D222E9C76D00585E14 /* hbexprb.c */,
 				EA2942D022E9C73900585E14 /* hbexpra.c */,
 				EA2942CE22E9C6E500585E14 /* gencc.c */,
@@ -1480,6 +1485,7 @@
 				EA8F8E2322E76F5E00B62005 /* hbascii.c in Sources */,
 				EA8F8CDF22E76C9C00B62005 /* genhrb.c in Sources */,
 				EAFBF0B122E77CAF00801C5F /* sxcompr.c in Sources */,
+				EA2942D622E9C9DC00585E14 /* hbopt.c in Sources */,
 				EA8F8E2122E76F5E00B62005 /* type.c in Sources */,
 				EA8F8E4C22E76F5E00B62005 /* vfile.c in Sources */,
 				EA8F8E9122E76F5E00B62005 /* hbcom.c in Sources */,
