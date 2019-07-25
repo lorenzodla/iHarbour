@@ -10,6 +10,7 @@
 		EA0A48BA22EA264A00954C84 /* cdpapi.c in Sources */ = {isa = PBXBuildFile; fileRef = EA0A48B922EA264A00954C84 /* cdpapi.c */; };
 		EA0A48BC22EA273700954C84 /* hbmain.c in Sources */ = {isa = PBXBuildFile; fileRef = EA0A48BB22EA273700954C84 /* hbmain.c */; };
 		EA0A48C022EA283400954C84 /* genc.c in Sources */ = {isa = PBXBuildFile; fileRef = EA0A48BF22EA283400954C84 /* genc.c */; };
+		EA0A48C222EA2DDA00954C84 /* test.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA0A48C122EA2DDA00954C84 /* test.prg */; };
 		EA2942C322E9B9F100585E14 /* macroy.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942C222E9B9F100585E14 /* macroy.c */; };
 		EA2942C522E9C51900585E14 /* harboury.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942C422E9C51900585E14 /* harboury.c */; };
 		EA2942C922E9C61300585E14 /* ppcomp.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942C822E9C61300585E14 /* ppcomp.c */; };
@@ -665,6 +666,7 @@
 		EA0A48B922EA264A00954C84 /* cdpapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cdpapi.c; path = ../../../harbour/src/rtl/cdpapi.c; sourceTree = "<group>"; };
 		EA0A48BB22EA273700954C84 /* hbmain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hbmain.c; path = ../../../harbour/src/compiler/hbmain.c; sourceTree = "<group>"; };
 		EA0A48BF22EA283400954C84 /* genc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = genc.c; path = ../../../harbour/src/compiler/genc.c; sourceTree = "<group>"; };
+		EA0A48C122EA2DDA00954C84 /* test.prg */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.prg; sourceTree = "<group>"; };
 		EA2942C222E9B9F100585E14 /* macroy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = macroy.c; sourceTree = "<group>"; };
 		EA2942C422E9C51900585E14 /* harboury.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = harboury.c; sourceTree = "<group>"; };
 		EA2942C822E9C61300585E14 /* ppcomp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ppcomp.c; sourceTree = "<group>"; };
@@ -1557,6 +1559,7 @@
 		EA8F8B8D22E768C100B62005 = {
 			isa = PBXGroup;
 			children = (
+				EA0A48C122EA2DDA00954C84 /* test.prg */,
 				EA8F8C3422E76AF000B62005 /* harbour_src */,
 				EA8F8B9822E768C100B62005 /* iharbour */,
 				EA8F8B9722E768C100B62005 /* Products */,
@@ -1591,13 +1594,13 @@
 			isa = PBXGroup;
 			children = (
 				EA2943C122E9D71F00585E14 /* codepage */,
-				EA8F8EE322E7706000B62005 /* rdd */,
-				EA8F8D3D22E76E8C00B62005 /* rtl */,
+				EA8F8C8E22E76C2B00B62005 /* common */,
+				EA8F8CB322E76C7F00B62005 /* compiler */,
 				EA8F8CF222E76E5F00B62005 /* lang */,
 				EA8F8CEB22E76DE000B62005 /* macro */,
 				EA8F8CE222E76D6600B62005 /* pp */,
-				EA8F8CB322E76C7F00B62005 /* compiler */,
-				EA8F8C8E22E76C2B00B62005 /* common */,
+				EA8F8EE322E7706000B62005 /* rdd */,
+				EA8F8D3D22E76E8C00B62005 /* rtl */,
 				EA8F8C3522E76B0200B62005 /* vm */,
 			);
 			path = harbour_src;
@@ -2694,6 +2697,7 @@
 				EA29449122E9D7B700585E14 /* uc1256.c in Sources */,
 				EA29448F22E9D7B700585E14 /* cpbgwin.c in Sources */,
 				EA8F8C8522E76B3000B62005 /* garbage.c in Sources */,
+				EA0A48C222EA2DDA00954C84 /* test.prg in Sources */,
 				EA8F8CA622E76C4600B62005 /* expropt1.c in Sources */,
 				EA2944CC22E9D7B700585E14 /* cpdk865.c in Sources */,
 				EA8F8EB122E76F5E00B62005 /* math.c in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 #define HB_DONT_DEFINE_BOOL
 #include "hbapi.h"
@@ -18,11 +19,26 @@
 
 @implementation AppDelegate
 
+/*- ( void ) MsgInfo()
+{
+   UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"My Alert"
+                                                               message:@"This is an alert."
+                                                        preferredStyle:UIAlertControllerStyleAlert];
+
+   UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                      handler:^(UIAlertAction * action) {}];
+
+   [alert addAction:defaultAction];
+   [self presentViewController:alert animated:YES completion:nil];
+}*/
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
     PHB_SYMB symMain = hb_dynsymSymbol( hb_dynsymFindName( "MAIN" ) );
+    
+    ViewController * vc = [[ViewController alloc]init];
+    [vc showAlert];
     
     hb_vmPushSymbol( symMain );
     hb_vmPushNil();
