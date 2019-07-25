@@ -1,6 +1,6 @@
 function Main()
 
-   MsgInfo( "Hola Lorenzo" )
+   MsgInfo( "Hola iOS" )
 
 return nil
 

@@ -18,8 +18,7 @@ NSString * hb_NSSTRING_par( int iParam ) // NSUTF8StringEncoding
 
 HB_FUNC( MSGINFO )
 {
-   [ pApp setVar: hb_NSSTRING_par( 1 ) ];
-   [ pApp showAlert ];
+   [ pApp showAlert:hb_NSSTRING_par( 1 ) ];
 }
 
 @interface ViewController ()
@@ -35,17 +34,6 @@ NSString* variable;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-/*
-PHB_SYMB symMain = hb_dynsymSymbol( hb_dynsymFindName( "MAIN" ) );
-
-ViewController * vc = [[ViewController alloc]init];
-[vc setVar:@"Hello World"];
-
-hb_vmPushSymbol( symMain );
-hb_vmPushNil();
-hb_vmDo( 0 );
-*/
- 
 -(void)viewDidAppear:(BOOL)animated {
     
     pApp = self;
@@ -53,14 +41,11 @@ hb_vmDo( 0 );
     hb_vmInit( TRUE );
 }
 
--(void)setVar:(NSString *)string {
-    variable = string;
-}
-
--(void)showAlert {
-    UIAlertController* alert = [UIAlertController alertControllerWithTitle:variable
-                                                                   message:@"This is an alert."
-                                                            preferredStyle:UIAlertControllerStyleAlert];
+- ( void ) showAlert:( NSString * ) cMsg
+{
+   UIAlertController* alert = [ UIAlertController alertControllerWithTitle:cMsg
+                                                                  message:@"This is an alert."
+                                                           preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
                                                           handler:^(UIAlertAction * action) {}];

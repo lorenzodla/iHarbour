@@ -10,8 +10,7 @@
 
 @interface ViewController : UIViewController
 
--(void)showAlert;
--(void)setVar:(NSString *)string;
+- ( void ) showAlert:( NSString * ) string;
 
 @end
 
