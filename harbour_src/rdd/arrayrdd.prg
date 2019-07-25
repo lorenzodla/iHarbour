@@ -1,1 +1,1 @@
-#include "../../../../contrib/rddmisc/arrayrdd.prg"
+#include "../contrib/rddmisc/arrayrdd.prg"

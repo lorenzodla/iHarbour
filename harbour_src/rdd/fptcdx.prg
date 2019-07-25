@@ -1,1 +1,1 @@
-#include "../../../../contrib/rddmisc/fptcdx.prg"
+#include "../contrib/rddmisc/fptcdx.prg"

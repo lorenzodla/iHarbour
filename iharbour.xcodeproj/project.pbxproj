@@ -255,32 +255,8 @@
 		EA29452522E9D7B700585E14 /* cphu852c.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447C22E9D7B600585E14 /* cphu852c.c */; };
 		EA29452622E9D7B700585E14 /* uc885915.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447D22E9D7B600585E14 /* uc885915.c */; };
 		EA29452722E9D7B700585E14 /* uc646_yu.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29447E22E9D7B600585E14 /* uc646_yu.c */; };
-		EA29452822E9D7B700585E14 /* obj in Resources */ = {isa = PBXBuildFile; fileRef = EA29447F22E9D7B700585E14 /* obj */; };
 		EA29452922E9D7B700585E14 /* cpdewin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29448022E9D7B700585E14 /* cpdewin.c */; };
 		EA29452A22E9D7B700585E14 /* cppliso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29448122E9D7B700585E14 /* cppliso.c */; };
-		EA29454322E9D8EF00585E14 /* dblist.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29452C22E9D8EC00585E14 /* dblist.prg */; };
-		EA29454422E9D8EF00585E14 /* dbjoin.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29452D22E9D8EC00585E14 /* dbjoin.prg */; };
-		EA29454522E9D8EF00585E14 /* dbstruxu.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29452E22E9D8EC00585E14 /* dbstruxu.prg */; };
-		EA29454622E9D8EF00585E14 /* dbtcdx.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29452F22E9D8EC00585E14 /* dbtcdx.prg */; };
-		EA29454722E9D8EF00585E14 /* fptcdx.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453022E9D8ED00585E14 /* fptcdx.prg */; };
-		EA29454822E9D8EF00585E14 /* rlcdx.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453122E9D8ED00585E14 /* rlcdx.prg */; };
-		EA29454922E9D8EF00585E14 /* smtcdx.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453222E9D8ED00585E14 /* smtcdx.prg */; };
-		EA29454A22E9D8EF00585E14 /* rddord.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453322E9D8ED00585E14 /* rddord.prg */; };
-		EA29454B22E9D8EF00585E14 /* dbtotal.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453422E9D8ED00585E14 /* dbtotal.prg */; };
-		EA29454C22E9D8EF00585E14 /* sxcompat.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453522E9D8ED00585E14 /* sxcompat.prg */; };
-		EA29454D22E9D8EF00585E14 /* logrdd.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453622E9D8ED00585E14 /* logrdd.prg */; };
-		EA29454E22E9D8EF00585E14 /* dbstrux.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453722E9D8ED00585E14 /* dbstrux.prg */; };
-		EA29454F22E9D8EF00585E14 /* sxini.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453822E9D8EE00585E14 /* sxini.prg */; };
-		EA29455022E9D8EF00585E14 /* sxtrig.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453922E9D8EE00585E14 /* sxtrig.prg */; };
-		EA29455122E9D8EF00585E14 /* dbdelim.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453A22E9D8EE00585E14 /* dbdelim.prg */; };
-		EA29455222E9D8EF00585E14 /* dbsdf.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453B22E9D8EE00585E14 /* dbsdf.prg */; };
-		EA29455322E9D8EF00585E14 /* vfpcdx.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453C22E9D8EE00585E14 /* vfpcdx.prg */; };
-		EA29455422E9D8EF00585E14 /* arrayrdd.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453D22E9D8EE00585E14 /* arrayrdd.prg */; };
-		EA29455522E9D8EF00585E14 /* dbupdat.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453E22E9D8EE00585E14 /* dbupdat.prg */; };
-		EA29455622E9D8EF00585E14 /* dbsort.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453F22E9D8EF00585E14 /* dbsort.prg */; };
-		EA29455722E9D8EF00585E14 /* rddsys.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29454022E9D8EF00585E14 /* rddsys.prg */; };
-		EA29455822E9D8EF00585E14 /* rddordu.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29454122E9D8EF00585E14 /* rddordu.prg */; };
-		EA29455922E9D8EF00585E14 /* hscdx.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29454222E9D8EF00585E14 /* hscdx.prg */; };
 		EA29455C22E9DA0300585E14 /* gttrm.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29455B22E9DA0300585E14 /* gttrm.c */; };
 		EA8F8B9B22E768C100B62005 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9A22E768C100B62005 /* AppDelegate.m */; };
 		EA8F8B9E22E768C100B62005 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9D22E768C100B62005 /* ViewController.m */; };
@@ -330,7 +306,6 @@
 		EA8F8C8A22E76B3000B62005 /* extend.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C5E22E76B3000B62005 /* extend.c */; };
 		EA8F8C8B22E76B3000B62005 /* macro.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C5F22E76B3000B62005 /* macro.c */; };
 		EA8F8C8C22E76B3000B62005 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C6022E76B3000B62005 /* debug.c */; };
-		EA8F8C8D22E76B3000B62005 /* hvmall.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C6122E76B3000B62005 /* hvmall.c */; };
 		EA8F8CA122E76C4600B62005 /* strwild.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C8F22E76C4500B62005 /* strwild.c */; };
 		EA8F8CA222E76C4600B62005 /* hbprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C9022E76C4500B62005 /* hbprintf.c */; };
 		EA8F8CA322E76C4600B62005 /* hbdate.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8C9122E76C4500B62005 /* hbdate.c */; };
@@ -370,7 +345,6 @@
 		EA8F8CE722E76D7900B62005 /* pplib.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8CE322E76D7900B62005 /* pplib.c */; };
 		EA8F8CE822E76D7900B62005 /* pplib2.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8CE422E76D7900B62005 /* pplib2.c */; };
 		EA8F8CE922E76D7900B62005 /* hbpp.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8CE522E76D7900B62005 /* hbpp.c */; };
-		EA8F8CEA22E76D7900B62005 /* ppcore.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8CE622E76D7900B62005 /* ppcore.c */; };
 		EA8F8CEF22E76DF500B62005 /* macroa.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8CEC22E76DF400B62005 /* macroa.c */; };
 		EA8F8CF022E76DF500B62005 /* macrob.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8CED22E76DF400B62005 /* macrob.c */; };
 		EA8F8CF122E76DF500B62005 /* macrolex.c in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8CEE22E76DF500B62005 /* macrolex.c */; };
@@ -649,6 +623,47 @@
 		EAFBF0B422E77CAF00801C5F /* sxutil.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0AB22E77CAF00801C5F /* sxutil.c */; };
 		EAFBF0B622E77D2200801C5F /* hbmain.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0B522E77D2200801C5F /* hbmain.c */; };
 		EAFBF0BC22E77E7700801C5F /* genc.c in Sources */ = {isa = PBXBuildFile; fileRef = EAFBF0BB22E77E7700801C5F /* genc.c */; };
+		ED14446B22E9EBAA008BF7DE /* arrayrdd.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29453D22E9D8EE00585E14 /* arrayrdd.prg */; };
+		ED14446C22E9EBAA008BF7DE /* dbdelim.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29453A22E9D8EE00585E14 /* dbdelim.prg */; };
+		ED14446D22E9EBAA008BF7DE /* dbjoin.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29452D22E9D8EC00585E14 /* dbjoin.prg */; };
+		ED14446E22E9EBAA008BF7DE /* dblist.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29452C22E9D8EC00585E14 /* dblist.prg */; };
+		ED14446F22E9EBAA008BF7DE /* dbsdf.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29453B22E9D8EE00585E14 /* dbsdf.prg */; };
+		ED14447022E9EBAA008BF7DE /* dbsort.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29453F22E9D8EF00585E14 /* dbsort.prg */; };
+		ED14447122E9EBAA008BF7DE /* dbstrux.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29453722E9D8ED00585E14 /* dbstrux.prg */; };
+		ED14447222E9EBAA008BF7DE /* dbstruxu.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29452E22E9D8EC00585E14 /* dbstruxu.prg */; };
+		ED14447322E9EBAA008BF7DE /* dbtcdx.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29452F22E9D8EC00585E14 /* dbtcdx.prg */; };
+		ED14447422E9EBAA008BF7DE /* dbtotal.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29453422E9D8ED00585E14 /* dbtotal.prg */; };
+		ED14447522E9EBAA008BF7DE /* dbupdat.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29453E22E9D8EE00585E14 /* dbupdat.prg */; };
+		ED14447622E9EBAA008BF7DE /* fptcdx.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29453022E9D8ED00585E14 /* fptcdx.prg */; };
+		ED14447722E9EBAA008BF7DE /* hscdx.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29454222E9D8EF00585E14 /* hscdx.prg */; };
+		ED14447822E9EBAA008BF7DE /* logrdd.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29453622E9D8ED00585E14 /* logrdd.prg */; };
+		ED14447922E9EBAA008BF7DE /* rddord.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29453322E9D8ED00585E14 /* rddord.prg */; };
+		ED14447A22E9EBAA008BF7DE /* rddordu.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29454122E9D8EF00585E14 /* rddordu.prg */; };
+		ED14447B22E9EBAA008BF7DE /* rddsys.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29454022E9D8EF00585E14 /* rddsys.prg */; };
+		ED14447E22E9EBAA008BF7DE /* sxcompat.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29453522E9D8ED00585E14 /* sxcompat.prg */; };
+		ED14447F22E9EBAA008BF7DE /* sxini.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29453822E9D8EE00585E14 /* sxini.prg */; };
+		ED14448022E9EBAA008BF7DE /* sxtrig.prg in Sources */ = {isa = PBXBuildFile; fileRef = EA29453922E9D8EE00585E14 /* sxtrig.prg */; };
+		ED14448822E9EDBA008BF7DE /* rlcdx.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED14448422E9ED5D008BF7DE /* rlcdx.prg */; };
+		ED14448922E9EDBA008BF7DE /* smtcdx.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED14448222E9ED5D008BF7DE /* smtcdx.prg */; };
+		ED14448A22E9EDBA008BF7DE /* vfpcdx.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED14448322E9ED5D008BF7DE /* vfpcdx.prg */; };
+		ED14448D22E9EE72008BF7DE /* dbfntx1.c in Sources */ = {isa = PBXBuildFile; fileRef = ED14448C22E9EE72008BF7DE /* dbfntx1.c */; };
+		ED14449022E9EEB2008BF7DE /* usrrdd.c in Sources */ = {isa = PBXBuildFile; fileRef = ED14448F22E9EEB2008BF7DE /* usrrdd.c */; };
+		ED1444A222E9EED8008BF7DE /* arrayrdd.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED14449322E9EEC8008BF7DE /* arrayrdd.prg */; };
+		ED1444A322E9EED8008BF7DE /* dbtcdx.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED14449922E9EEC8008BF7DE /* dbtcdx.prg */; };
+		ED1444A422E9EED8008BF7DE /* fptcdx.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED14449822E9EEC8008BF7DE /* fptcdx.prg */; };
+		ED1444A522E9EED8008BF7DE /* hscdx.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED14449222E9EEC8008BF7DE /* hscdx.prg */; };
+		ED1444A622E9EED8008BF7DE /* logrdd.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED14449422E9EEC8008BF7DE /* logrdd.prg */; };
+		ED1444A722E9EED8008BF7DE /* rlcdx.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED14449522E9EEC8008BF7DE /* rlcdx.prg */; };
+		ED1444A822E9EED8008BF7DE /* smtcdx.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED14449722E9EEC8008BF7DE /* smtcdx.prg */; };
+		ED1444A922E9EED8008BF7DE /* vfpcdx.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED14449622E9EEC8008BF7DE /* vfpcdx.prg */; };
+		ED1444AD22E9EF1D008BF7DE /* hsx.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1444AB22E9EF1D008BF7DE /* hsx.c */; };
+		ED1444AE22E9EF1D008BF7DE /* cftsfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1444AC22E9EF1D008BF7DE /* cftsfunc.c */; };
+		ED1444B122E9EF79008BF7DE /* dbfcdx1.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1444B022E9EF79008BF7DE /* dbfcdx1.c */; };
+		ED1444B322E9EF7E008BF7DE /* sixcdx1.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1444B222E9EF7E008BF7DE /* sixcdx1.c */; };
+		ED1444B722E9EF9B008BF7DE /* dbffpt1.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1444B622E9EF9B008BF7DE /* dbffpt1.c */; };
+		ED1444BA22E9EFB5008BF7DE /* harbinit.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED1444B822E9EFA9008BF7DE /* harbinit.prg */; };
+		ED1444BC22E9F0EC008BF7DE /* ppcore.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1444BB22E9F0EC008BF7DE /* ppcore.c */; };
+		ED1444BE22E9F143008BF7DE /* hvmall.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1444BD22E9F143008BF7DE /* hvmall.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -938,7 +953,6 @@
 		EA29447C22E9D7B600585E14 /* cphu852c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cphu852c.c; sourceTree = "<group>"; };
 		EA29447D22E9D7B600585E14 /* uc885915.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc885915.c; sourceTree = "<group>"; };
 		EA29447E22E9D7B600585E14 /* uc646_yu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uc646_yu.c; sourceTree = "<group>"; };
-		EA29447F22E9D7B700585E14 /* obj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = obj; sourceTree = "<group>"; };
 		EA29448022E9D7B700585E14 /* cpdewin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpdewin.c; sourceTree = "<group>"; };
 		EA29448122E9D7B700585E14 /* cppliso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cppliso.c; sourceTree = "<group>"; };
 		EA29452C22E9D8EC00585E14 /* dblist.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dblist.prg; sourceTree = "<group>"; };
@@ -946,8 +960,6 @@
 		EA29452E22E9D8EC00585E14 /* dbstruxu.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbstruxu.prg; sourceTree = "<group>"; };
 		EA29452F22E9D8EC00585E14 /* dbtcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbtcdx.prg; sourceTree = "<group>"; };
 		EA29453022E9D8ED00585E14 /* fptcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fptcdx.prg; sourceTree = "<group>"; };
-		EA29453122E9D8ED00585E14 /* rlcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rlcdx.prg; sourceTree = "<group>"; };
-		EA29453222E9D8ED00585E14 /* smtcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smtcdx.prg; sourceTree = "<group>"; };
 		EA29453322E9D8ED00585E14 /* rddord.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rddord.prg; sourceTree = "<group>"; };
 		EA29453422E9D8ED00585E14 /* dbtotal.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbtotal.prg; sourceTree = "<group>"; };
 		EA29453522E9D8ED00585E14 /* sxcompat.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sxcompat.prg; sourceTree = "<group>"; };
@@ -957,7 +969,6 @@
 		EA29453922E9D8EE00585E14 /* sxtrig.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sxtrig.prg; sourceTree = "<group>"; };
 		EA29453A22E9D8EE00585E14 /* dbdelim.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbdelim.prg; sourceTree = "<group>"; };
 		EA29453B22E9D8EE00585E14 /* dbsdf.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbsdf.prg; sourceTree = "<group>"; };
-		EA29453C22E9D8EE00585E14 /* vfpcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vfpcdx.prg; sourceTree = "<group>"; };
 		EA29453D22E9D8EE00585E14 /* arrayrdd.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arrayrdd.prg; sourceTree = "<group>"; };
 		EA29453E22E9D8EE00585E14 /* dbupdat.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbupdat.prg; sourceTree = "<group>"; };
 		EA29453F22E9D8EF00585E14 /* dbsort.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbsort.prg; sourceTree = "<group>"; };
@@ -1018,7 +1029,6 @@
 		EA8F8C5E22E76B3000B62005 /* extend.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = extend.c; sourceTree = "<group>"; };
 		EA8F8C5F22E76B3000B62005 /* macro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = macro.c; sourceTree = "<group>"; };
 		EA8F8C6022E76B3000B62005 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug.c; sourceTree = "<group>"; };
-		EA8F8C6122E76B3000B62005 /* hvmall.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hvmall.c; sourceTree = "<group>"; };
 		EA8F8C8F22E76C4500B62005 /* strwild.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strwild.c; sourceTree = "<group>"; };
 		EA8F8C9022E76C4500B62005 /* hbprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbprintf.c; sourceTree = "<group>"; };
 		EA8F8C9122E76C4500B62005 /* hbdate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbdate.c; sourceTree = "<group>"; };
@@ -1058,7 +1068,6 @@
 		EA8F8CE322E76D7900B62005 /* pplib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pplib.c; sourceTree = "<group>"; };
 		EA8F8CE422E76D7900B62005 /* pplib2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pplib2.c; sourceTree = "<group>"; };
 		EA8F8CE522E76D7900B62005 /* hbpp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbpp.c; sourceTree = "<group>"; };
-		EA8F8CE622E76D7900B62005 /* ppcore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ppcore.c; sourceTree = "<group>"; };
 		EA8F8CEC22E76DF400B62005 /* macroa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = macroa.c; sourceTree = "<group>"; };
 		EA8F8CED22E76DF400B62005 /* macrob.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = macrob.c; sourceTree = "<group>"; };
 		EA8F8CEE22E76DF500B62005 /* macrolex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = macrolex.c; sourceTree = "<group>"; };
@@ -1345,6 +1354,27 @@
 		EAFBF0B522E77D2200801C5F /* hbmain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbmain.c; sourceTree = "<group>"; };
 		EAFBF0BB22E77E7700801C5F /* genc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = genc.c; sourceTree = "<group>"; };
 		EAFBF0BE22E77EC100801C5F /* harbour.yyc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = harbour.yyc; sourceTree = "<group>"; };
+		ED14448222E9ED5D008BF7DE /* smtcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smtcdx.prg; sourceTree = "<group>"; };
+		ED14448322E9ED5D008BF7DE /* vfpcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vfpcdx.prg; sourceTree = "<group>"; };
+		ED14448422E9ED5D008BF7DE /* rlcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rlcdx.prg; sourceTree = "<group>"; };
+		ED14448C22E9EE72008BF7DE /* dbfntx1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dbfntx1.c; sourceTree = "<group>"; };
+		ED14448F22E9EEB2008BF7DE /* usrrdd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = usrrdd.c; sourceTree = "<group>"; };
+		ED14449222E9EEC8008BF7DE /* hscdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hscdx.prg; sourceTree = "<group>"; };
+		ED14449322E9EEC8008BF7DE /* arrayrdd.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arrayrdd.prg; sourceTree = "<group>"; };
+		ED14449422E9EEC8008BF7DE /* logrdd.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logrdd.prg; sourceTree = "<group>"; };
+		ED14449522E9EEC8008BF7DE /* rlcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rlcdx.prg; sourceTree = "<group>"; };
+		ED14449622E9EEC8008BF7DE /* vfpcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vfpcdx.prg; sourceTree = "<group>"; };
+		ED14449722E9EEC8008BF7DE /* smtcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smtcdx.prg; sourceTree = "<group>"; };
+		ED14449822E9EEC8008BF7DE /* fptcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fptcdx.prg; sourceTree = "<group>"; };
+		ED14449922E9EEC8008BF7DE /* dbtcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbtcdx.prg; sourceTree = "<group>"; };
+		ED1444AB22E9EF1D008BF7DE /* hsx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hsx.c; sourceTree = "<group>"; };
+		ED1444AC22E9EF1D008BF7DE /* cftsfunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cftsfunc.c; sourceTree = "<group>"; };
+		ED1444B022E9EF79008BF7DE /* dbfcdx1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dbfcdx1.c; sourceTree = "<group>"; };
+		ED1444B222E9EF7E008BF7DE /* sixcdx1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sixcdx1.c; sourceTree = "<group>"; };
+		ED1444B622E9EF9B008BF7DE /* dbffpt1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dbffpt1.c; sourceTree = "<group>"; };
+		ED1444B822E9EFA9008BF7DE /* harbinit.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = harbinit.prg; sourceTree = "<group>"; };
+		ED1444BB22E9F0EC008BF7DE /* ppcore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ppcore.c; sourceTree = "<group>"; };
+		ED1444BD22E9F143008BF7DE /* hvmall.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hvmall.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1484,7 +1514,6 @@
 				EA29446B22E9D7B300585E14 /* l_sv.h */,
 				EA2943E922E9D79200585E14 /* l_tr.h */,
 				EA29442922E9D7A400585E14 /* l_uk.h */,
-				EA29447F22E9D7B700585E14 /* obj */,
 				EA29443F22E9D7AA00585E14 /* uc16def.c */,
 				EA29444C22E9D7AE00585E14 /* uc037.c */,
 				EA29441422E9D79E00585E14 /* uc424.c */,
@@ -1553,7 +1582,8 @@
 				EA29447422E9D7B400585E14 /* ucnext.c */,
 				EA29445022E9D7B000585E14 /* utf8sort.c */,
 			);
-			path = codepage;
+			name = codepage;
+			path = rtl/codepage;
 			sourceTree = "<group>";
 		};
 		EA29455A22E9D9D800585E14 /* gttrm */ = {
@@ -1600,6 +1630,7 @@
 		EA8F8C3422E76AF000B62005 /* harbour_src */ = {
 			isa = PBXGroup;
 			children = (
+				EA2943C122E9D71F00585E14 /* codepage */,
 				EA8F8EE322E7706000B62005 /* rdd */,
 				EA8F8D3D22E76E8C00B62005 /* rtl */,
 				EA8F8CF222E76E5F00B62005 /* lang */,
@@ -1615,6 +1646,8 @@
 		EA8F8C3522E76B0200B62005 /* vm */ = {
 			isa = PBXGroup;
 			children = (
+				ED1444BD22E9F143008BF7DE /* hvmall.c */,
+				ED1444B822E9EFA9008BF7DE /* harbinit.prg */,
 				EA8F8C3922E76B2B00B62005 /* arrays.c */,
 				EA8F8C4A22E76B2D00B62005 /* arrayshb.c */,
 				EA8F8C4022E76B2B00B62005 /* asort.c */,
@@ -1636,7 +1669,6 @@
 				EA8F8C5D22E76B2F00B62005 /* hashes.c */,
 				EA8F8C4C22E76B2D00B62005 /* hashfunc.c */,
 				EA8F8C5022E76B2E00B62005 /* hvm.c */,
-				EA8F8C6122E76B3000B62005 /* hvmall.c */,
 				EA8F8C5B22E76B2F00B62005 /* initexit.c */,
 				EA8F8C3D22E76B2B00B62005 /* initsymb.c */,
 				EA8F8C5622E76B2F00B62005 /* itemapi.c */,
@@ -1727,10 +1759,10 @@
 		EA8F8CE222E76D6600B62005 /* pp */ = {
 			isa = PBXGroup;
 			children = (
+				ED1444BB22E9F0EC008BF7DE /* ppcore.c */,
 				EA2942CA22E9C64E00585E14 /* pptable.c */,
 				EA2942C822E9C61300585E14 /* ppcomp.c */,
 				EA8F8CE522E76D7900B62005 /* hbpp.c */,
-				EA8F8CE622E76D7900B62005 /* ppcore.c */,
 				EA8F8CE322E76D7900B62005 /* pplib.c */,
 				EA8F8CE422E76D7900B62005 /* pplib2.c */,
 			);
@@ -1798,7 +1830,6 @@
 			isa = PBXGroup;
 			children = (
 				EA29455A22E9D9D800585E14 /* gttrm */,
-				EA2943C122E9D71F00585E14 /* codepage */,
 				EA2942F022E9D2AA00585E14 /* adir.prg */,
 				EA2942DA22E9D1A900585E14 /* achoice.prg */,
 				EA2942DB22E9D1A900585E14 /* alert.prg */,
@@ -2091,6 +2122,14 @@
 		EA8F8EE322E7706000B62005 /* rdd */ = {
 			isa = PBXGroup;
 			children = (
+				ED1444B522E9EF93008BF7DE /* dbffpt */,
+				ED1444AF22E9EF70008BF7DE /* dbfcdx */,
+				ED1444AA22E9EF15008BF7DE /* hsx */,
+				ED14448E22E9EE9F008BF7DE /* usrrdd */,
+				ED14448B22E9EE5F008BF7DE /* dbfntx */,
+				ED14448422E9ED5D008BF7DE /* rlcdx.prg */,
+				ED14448222E9ED5D008BF7DE /* smtcdx.prg */,
+				ED14448322E9ED5D008BF7DE /* vfpcdx.prg */,
 				EA29453D22E9D8EE00585E14 /* arrayrdd.prg */,
 				EA29453A22E9D8EE00585E14 /* dbdelim.prg */,
 				EA29452D22E9D8EC00585E14 /* dbjoin.prg */,
@@ -2108,12 +2147,9 @@
 				EA29453322E9D8ED00585E14 /* rddord.prg */,
 				EA29454122E9D8EF00585E14 /* rddordu.prg */,
 				EA29454022E9D8EF00585E14 /* rddsys.prg */,
-				EA29453122E9D8ED00585E14 /* rlcdx.prg */,
-				EA29453222E9D8ED00585E14 /* smtcdx.prg */,
 				EA29453522E9D8ED00585E14 /* sxcompat.prg */,
 				EA29453822E9D8EE00585E14 /* sxini.prg */,
 				EA29453922E9D8EE00585E14 /* sxtrig.prg */,
-				EA29453C22E9D8EE00585E14 /* vfpcdx.prg */,
 				EAFBF0A222E77C6F00801C5F /* hbsix */,
 				EA8F8EF322E7708500B62005 /* dbcmd.c */,
 				EA8F8EEA22E7708400B62005 /* dbcmd53.c */,
@@ -2153,6 +2189,64 @@
 				EAFBF0AB22E77CAF00801C5F /* sxutil.c */,
 			);
 			path = hbsix;
+			sourceTree = "<group>";
+		};
+		ED14448B22E9EE5F008BF7DE /* dbfntx */ = {
+			isa = PBXGroup;
+			children = (
+				ED14448C22E9EE72008BF7DE /* dbfntx1.c */,
+			);
+			path = dbfntx;
+			sourceTree = "<group>";
+		};
+		ED14448E22E9EE9F008BF7DE /* usrrdd */ = {
+			isa = PBXGroup;
+			children = (
+				ED14449122E9EEBC008BF7DE /* rdds */,
+				ED14448F22E9EEB2008BF7DE /* usrrdd.c */,
+			);
+			path = usrrdd;
+			sourceTree = "<group>";
+		};
+		ED14449122E9EEBC008BF7DE /* rdds */ = {
+			isa = PBXGroup;
+			children = (
+				ED14449322E9EEC8008BF7DE /* arrayrdd.prg */,
+				ED14449922E9EEC8008BF7DE /* dbtcdx.prg */,
+				ED14449822E9EEC8008BF7DE /* fptcdx.prg */,
+				ED14449222E9EEC8008BF7DE /* hscdx.prg */,
+				ED14449422E9EEC8008BF7DE /* logrdd.prg */,
+				ED14449522E9EEC8008BF7DE /* rlcdx.prg */,
+				ED14449722E9EEC8008BF7DE /* smtcdx.prg */,
+				ED14449622E9EEC8008BF7DE /* vfpcdx.prg */,
+			);
+			path = rdds;
+			sourceTree = "<group>";
+		};
+		ED1444AA22E9EF15008BF7DE /* hsx */ = {
+			isa = PBXGroup;
+			children = (
+				ED1444AC22E9EF1D008BF7DE /* cftsfunc.c */,
+				ED1444AB22E9EF1D008BF7DE /* hsx.c */,
+			);
+			path = hsx;
+			sourceTree = "<group>";
+		};
+		ED1444AF22E9EF70008BF7DE /* dbfcdx */ = {
+			isa = PBXGroup;
+			children = (
+				ED1444B222E9EF7E008BF7DE /* sixcdx1.c */,
+				ED1444B022E9EF79008BF7DE /* dbfcdx1.c */,
+			);
+			path = dbfcdx;
+			sourceTree = "<group>";
+		};
+		ED1444B522E9EF93008BF7DE /* dbffpt */ = {
+			isa = PBXGroup;
+			children = (
+				ED1444B622E9EF9B008BF7DE /* dbffpt1.c */,
+			);
+			path = dbffpt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2213,32 +2307,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA29452822E9D7B700585E14 /* obj in Resources */,
-				EA29454C22E9D8EF00585E14 /* sxcompat.prg in Resources */,
-				EA29455922E9D8EF00585E14 /* hscdx.prg in Resources */,
 				EA8F8BA322E768C400B62005 /* Assets.xcassets in Resources */,
-				EA29454922E9D8EF00585E14 /* smtcdx.prg in Resources */,
-				EA29454A22E9D8EF00585E14 /* rddord.prg in Resources */,
-				EA29454722E9D8EF00585E14 /* fptcdx.prg in Resources */,
-				EA29454822E9D8EF00585E14 /* rlcdx.prg in Resources */,
-				EA29455222E9D8EF00585E14 /* dbsdf.prg in Resources */,
-				EA29454E22E9D8EF00585E14 /* dbstrux.prg in Resources */,
-				EA29454522E9D8EF00585E14 /* dbstruxu.prg in Resources */,
-				EA29455722E9D8EF00585E14 /* rddsys.prg in Resources */,
-				EA29455622E9D8EF00585E14 /* dbsort.prg in Resources */,
-				EA29454622E9D8EF00585E14 /* dbtcdx.prg in Resources */,
-				EA29455822E9D8EF00585E14 /* rddordu.prg in Resources */,
-				EA29454D22E9D8EF00585E14 /* logrdd.prg in Resources */,
-				EA29455022E9D8EF00585E14 /* sxtrig.prg in Resources */,
-				EA29454F22E9D8EF00585E14 /* sxini.prg in Resources */,
-				EA29454B22E9D8EF00585E14 /* dbtotal.prg in Resources */,
-				EA29454422E9D8EF00585E14 /* dbjoin.prg in Resources */,
-				EA29455522E9D8EF00585E14 /* dbupdat.prg in Resources */,
-				EA29455422E9D8EF00585E14 /* arrayrdd.prg in Resources */,
-				EA29455322E9D8EF00585E14 /* vfpcdx.prg in Resources */,
 				EA8F8BA122E768C100B62005 /* Main.storyboard in Resources */,
-				EA29454322E9D8EF00585E14 /* dblist.prg in Resources */,
-				EA29455122E9D8EF00585E14 /* dbdelim.prg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2249,6 +2319,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1444BA22E9EFB5008BF7DE /* harbinit.prg in Sources */,
+				ED1444A222E9EED8008BF7DE /* arrayrdd.prg in Sources */,
+				ED1444A322E9EED8008BF7DE /* dbtcdx.prg in Sources */,
+				ED1444A422E9EED8008BF7DE /* fptcdx.prg in Sources */,
+				ED1444A522E9EED8008BF7DE /* hscdx.prg in Sources */,
+				ED1444A622E9EED8008BF7DE /* logrdd.prg in Sources */,
+				ED1444A722E9EED8008BF7DE /* rlcdx.prg in Sources */,
+				ED1444A822E9EED8008BF7DE /* smtcdx.prg in Sources */,
+				ED1444A922E9EED8008BF7DE /* vfpcdx.prg in Sources */,
+				ED14449022E9EEB2008BF7DE /* usrrdd.c in Sources */,
+				ED14448822E9EDBA008BF7DE /* rlcdx.prg in Sources */,
+				ED14448922E9EDBA008BF7DE /* smtcdx.prg in Sources */,
+				ED14448A22E9EDBA008BF7DE /* vfpcdx.prg in Sources */,
+				ED14446B22E9EBAA008BF7DE /* arrayrdd.prg in Sources */,
+				ED14446C22E9EBAA008BF7DE /* dbdelim.prg in Sources */,
+				ED14446D22E9EBAA008BF7DE /* dbjoin.prg in Sources */,
+				ED14446E22E9EBAA008BF7DE /* dblist.prg in Sources */,
+				ED14446F22E9EBAA008BF7DE /* dbsdf.prg in Sources */,
+				ED14447022E9EBAA008BF7DE /* dbsort.prg in Sources */,
+				ED14447122E9EBAA008BF7DE /* dbstrux.prg in Sources */,
+				ED14447222E9EBAA008BF7DE /* dbstruxu.prg in Sources */,
+				ED14447322E9EBAA008BF7DE /* dbtcdx.prg in Sources */,
+				ED14447422E9EBAA008BF7DE /* dbtotal.prg in Sources */,
+				ED14447522E9EBAA008BF7DE /* dbupdat.prg in Sources */,
+				ED14447622E9EBAA008BF7DE /* fptcdx.prg in Sources */,
+				ED14447722E9EBAA008BF7DE /* hscdx.prg in Sources */,
+				ED14447822E9EBAA008BF7DE /* logrdd.prg in Sources */,
+				ED14447922E9EBAA008BF7DE /* rddord.prg in Sources */,
+				ED14447A22E9EBAA008BF7DE /* rddordu.prg in Sources */,
+				ED14447B22E9EBAA008BF7DE /* rddsys.prg in Sources */,
+				ED14447E22E9EBAA008BF7DE /* sxcompat.prg in Sources */,
+				ED14447F22E9EBAA008BF7DE /* sxini.prg in Sources */,
+				ED14448022E9EBAA008BF7DE /* sxtrig.prg in Sources */,
 				EA29437822E9D60D00585E14 /* adir.prg in Sources */,
 				EA29437922E9D60D00585E14 /* achoice.prg in Sources */,
 				EA29437A22E9D60D00585E14 /* alert.prg in Sources */,
@@ -2289,6 +2392,7 @@
 				EA29439422E9D60D00585E14 /* input.prg in Sources */,
 				EA29439522E9D60D00585E14 /* langcomp.prg in Sources */,
 				EA29439622E9D60D00585E14 /* langlgcy.prg in Sources */,
+				ED1444B322E9EF7E008BF7DE /* sixcdx1.c in Sources */,
 				EA2944A922E9D7B700585E14 /* cpcswin.c in Sources */,
 				EA29439722E9D60D00585E14 /* libname.prg in Sources */,
 				EA2944B222E9D7B700585E14 /* uc885910.c in Sources */,
@@ -2370,7 +2474,6 @@
 				EA2942D322E9C76D00585E14 /* hbexprb.c in Sources */,
 				EA8F8D2A22E76E7600B62005 /* l_sv.c in Sources */,
 				EA2944E322E9D7B700585E14 /* uc869.c in Sources */,
-				EA8F8C8D22E76B3000B62005 /* hvmall.c in Sources */,
 				EA2942CD22E9C6A400585E14 /* expropt2.c in Sources */,
 				EA2944B622E9D7B700585E14 /* cpltwin.c in Sources */,
 				EA8F8EAE22E76F5E00B62005 /* descend.c in Sources */,
@@ -2399,6 +2502,7 @@
 				EA8F8E3F22E76F5E00B62005 /* hbbit.c in Sources */,
 				EA29449D22E9D7B700585E14 /* cpel437.c in Sources */,
 				EA8F8F0A22E7708500B62005 /* dbdetach.c in Sources */,
+				ED1444AE22E9EF1D008BF7DE /* cftsfunc.c in Sources */,
 				EA8F8E9A22E76F5E00B62005 /* dates.c in Sources */,
 				EA2944AD22E9D7B700585E14 /* uc875.c in Sources */,
 				EA8F8E1422E76F5E00B62005 /* rtlshort.c in Sources */,
@@ -2432,9 +2536,11 @@
 				EA8F8E8D22E76F5E00B62005 /* minmax.c in Sources */,
 				EA8F8E6622E76F5E00B62005 /* hblpphb.c in Sources */,
 				EA29452522E9D7B700585E14 /* cphu852c.c in Sources */,
+				ED1444B722E9EF9B008BF7DE /* dbffpt1.c in Sources */,
 				EA8F8EC322E76F5E00B62005 /* fkmax.c in Sources */,
 				EA2944F122E9D7B700585E14 /* cpis861.c in Sources */,
 				EA8F8C6722E76B3000B62005 /* short.c in Sources */,
+				ED14448D22E9EE72008BF7DE /* dbfntx1.c in Sources */,
 				EA8F8E1622E76F5E00B62005 /* pad.c in Sources */,
 				EA2944EA22E9D7B700585E14 /* cpnl850m.c in Sources */,
 				EA8F8D2422E76E7600B62005 /* l_zh.c in Sources */,
@@ -2513,6 +2619,7 @@
 				EA29449622E9D7B700585E14 /* uc8859_5.c in Sources */,
 				EA8F8C6222E76B3000B62005 /* maindllh.c in Sources */,
 				EA8F8E7722E76F5E00B62005 /* fscopy.c in Sources */,
+				ED1444BC22E9F0EC008BF7DE /* ppcore.c in Sources */,
 				EA8F8E2322E76F5E00B62005 /* hbascii.c in Sources */,
 				EA8F8CDF22E76C9C00B62005 /* genhrb.c in Sources */,
 				EA2944AB22E9D7B700585E14 /* uc852.c in Sources */,
@@ -2521,6 +2628,7 @@
 				EA2944A722E9D7B700585E14 /* ucmik.c in Sources */,
 				EA2942D622E9C9DC00585E14 /* hbopt.c in Sources */,
 				EA29449B22E9D7B700585E14 /* uc855.c in Sources */,
+				ED1444B122E9EF79008BF7DE /* dbfcdx1.c in Sources */,
 				EA8F8E2122E76F5E00B62005 /* type.c in Sources */,
 				EA2944B422E9D7B700585E14 /* cpcs852c.c in Sources */,
 				EA29451822E9D7B700585E14 /* uc1255.c in Sources */,
@@ -2743,6 +2851,7 @@
 				EA8F8E6F22E76F5E00B62005 /* empty.c in Sources */,
 				EA8F8E4622E76F5E00B62005 /* fstemp.c in Sources */,
 				EA8F8E8222E76F5E00B62005 /* setkey.c in Sources */,
+				ED1444BE22E9F143008BF7DE /* hvmall.c in Sources */,
 				EA8F8E1922E76F5E00B62005 /* philes.c in Sources */,
 				EA29449322E9D7B700585E14 /* uc8859_3.c in Sources */,
 				EA8F8E4222E76F5E00B62005 /* gtkbstat.c in Sources */,
@@ -2774,7 +2883,6 @@
 				EA8F8E2A22E76F5E00B62005 /* strzero.c in Sources */,
 				EA2944BC22E9D7B700585E14 /* cpsl852.c in Sources */,
 				EA8F8EA222E76F5E00B62005 /* colorind.c in Sources */,
-				EA8F8CEA22E76D7900B62005 /* ppcore.c in Sources */,
 				EA29449722E9D7B700585E14 /* uc88591b.c in Sources */,
 				EA29452622E9D7B700585E14 /* uc885915.c in Sources */,
 				EA29450A22E9D7B700585E14 /* cphr646.c in Sources */,
@@ -2841,6 +2949,7 @@
 				EA29451C22E9D7B700585E14 /* cpfriso.c in Sources */,
 				EA8F8CA522E76C4600B62005 /* hbmem.c in Sources */,
 				EA8F8CB122E76C4600B62005 /* hbfopen.c in Sources */,
+				ED1444AD22E9EF1D008BF7DE /* hsx.c in Sources */,
 				EA8F8D1D22E76E7600B62005 /* l_he.c in Sources */,
 				EA8F8D2C22E76E7600B62005 /* l_tr.c in Sources */,
 				EA2944DE22E9D7B700585E14 /* cphuwin.c in Sources */,
@@ -3008,7 +3117,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J3LHA7ZQL3;
+				DEVELOPMENT_TEAM = F59DS345PK;
 				HEADER_SEARCH_PATHS = (
 					/Users/$USER/harbour/include,
 					/Users/$USER/harbour/src/compiler/obj/darwin/clang,
@@ -3032,7 +3141,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J3LHA7ZQL3;
+				DEVELOPMENT_TEAM = F59DS345PK;
 				HEADER_SEARCH_PATHS = (
 					/Users/$USER/harbour/include,
 					/Users/$USER/harbour/src/compiler/obj/darwin/clang,
