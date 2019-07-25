@@ -17,6 +17,7 @@
 		EA2942D122E9C73900585E14 /* hbexpra.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942D022E9C73900585E14 /* hbexpra.c */; };
 		EA2942D322E9C76D00585E14 /* hbexprb.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942D222E9C76D00585E14 /* hbexprb.c */; };
 		EA2942D622E9C9DC00585E14 /* hbopt.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2942D522E9C9DC00585E14 /* hbopt.c */; };
+		EA2942D922E9CBCB00585E14 /* tscalar.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA2942D822E9CBCB00585E14 /* tscalar.prg */; };
 		EA8F8B9B22E768C100B62005 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9A22E768C100B62005 /* AppDelegate.m */; };
 		EA8F8B9E22E768C100B62005 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9D22E768C100B62005 /* ViewController.m */; };
 		EA8F8BA122E768C100B62005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8F8B9F22E768C100B62005 /* Main.storyboard */; };
@@ -389,6 +390,20 @@
 		EAFBF0C122E77EC100801C5F /* harbour.yyc in Resources */ = {isa = PBXBuildFile; fileRef = EAFBF0BE22E77EC100801C5F /* harbour.yyc */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		EA2942D722E9CAB100585E14 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.prg";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_BASE).c",
+			);
+			script = "/Users/$USER/harbour/bin/darwin/clang/harbour $1 -n\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXFileReference section */
 		EA2942C222E9B9F100585E14 /* macroy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = macroy.c; sourceTree = "<group>"; };
 		EA2942C422E9C51900585E14 /* harboury.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = harboury.c; sourceTree = "<group>"; };
@@ -401,6 +416,7 @@
 		EA2942D222E9C76D00585E14 /* hbexprb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbexprb.c; sourceTree = "<group>"; };
 		EA2942D422E9C95E00585E14 /* hbcomp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hbcomp.h; path = ../../../harbour/include/hbcomp.h; sourceTree = "<group>"; };
 		EA2942D522E9C9DC00585E14 /* hbopt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hbopt.c; sourceTree = "<group>"; };
+		EA2942D822E9CBCB00585E14 /* tscalar.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tscalar.prg; sourceTree = "<group>"; };
 		EA8F8B9622E768C100B62005 /* iharbour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iharbour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8F8B9922E768C100B62005 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA8F8B9A22E768C100B62005 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1027,6 +1043,7 @@
 		EA8F8D3D22E76E8C00B62005 /* rtl */ = {
 			isa = PBXGroup;
 			children = (
+				EA2942D822E9CBCB00585E14 /* tscalar.prg */,
 				EA8F8DB022E76F4E00B62005 /* abs.c */,
 				EA8F8DB922E76F4F00B62005 /* accept.c */,
 				EA8F8D6622E76F4200B62005 /* ampm.c */,
@@ -1299,6 +1316,7 @@
 				EA8F8B9422E768C100B62005 /* Resources */,
 			);
 			buildRules = (
+				EA2942D722E9CAB100585E14 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -1344,6 +1362,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2942D922E9CBCB00585E14 /* tscalar.prg in Resources */,
 				EA8F8BA622E768C400B62005 /* LaunchScreen.storyboard in Resources */,
 				EA8F8BA322E768C400B62005 /* Assets.xcassets in Resources */,
 				EA8F8EE222E76FDF00B62005 /* macro.yyc in Resources */,
