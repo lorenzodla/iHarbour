@@ -258,6 +258,30 @@
 		EA29452822E9D7B700585E14 /* obj in Resources */ = {isa = PBXBuildFile; fileRef = EA29447F22E9D7B700585E14 /* obj */; };
 		EA29452922E9D7B700585E14 /* cpdewin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29448022E9D7B700585E14 /* cpdewin.c */; };
 		EA29452A22E9D7B700585E14 /* cppliso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29448122E9D7B700585E14 /* cppliso.c */; };
+		EA29454322E9D8EF00585E14 /* dblist.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29452C22E9D8EC00585E14 /* dblist.prg */; };
+		EA29454422E9D8EF00585E14 /* dbjoin.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29452D22E9D8EC00585E14 /* dbjoin.prg */; };
+		EA29454522E9D8EF00585E14 /* dbstruxu.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29452E22E9D8EC00585E14 /* dbstruxu.prg */; };
+		EA29454622E9D8EF00585E14 /* dbtcdx.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29452F22E9D8EC00585E14 /* dbtcdx.prg */; };
+		EA29454722E9D8EF00585E14 /* fptcdx.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453022E9D8ED00585E14 /* fptcdx.prg */; };
+		EA29454822E9D8EF00585E14 /* rlcdx.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453122E9D8ED00585E14 /* rlcdx.prg */; };
+		EA29454922E9D8EF00585E14 /* smtcdx.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453222E9D8ED00585E14 /* smtcdx.prg */; };
+		EA29454A22E9D8EF00585E14 /* rddord.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453322E9D8ED00585E14 /* rddord.prg */; };
+		EA29454B22E9D8EF00585E14 /* dbtotal.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453422E9D8ED00585E14 /* dbtotal.prg */; };
+		EA29454C22E9D8EF00585E14 /* sxcompat.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453522E9D8ED00585E14 /* sxcompat.prg */; };
+		EA29454D22E9D8EF00585E14 /* logrdd.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453622E9D8ED00585E14 /* logrdd.prg */; };
+		EA29454E22E9D8EF00585E14 /* dbstrux.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453722E9D8ED00585E14 /* dbstrux.prg */; };
+		EA29454F22E9D8EF00585E14 /* sxini.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453822E9D8EE00585E14 /* sxini.prg */; };
+		EA29455022E9D8EF00585E14 /* sxtrig.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453922E9D8EE00585E14 /* sxtrig.prg */; };
+		EA29455122E9D8EF00585E14 /* dbdelim.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453A22E9D8EE00585E14 /* dbdelim.prg */; };
+		EA29455222E9D8EF00585E14 /* dbsdf.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453B22E9D8EE00585E14 /* dbsdf.prg */; };
+		EA29455322E9D8EF00585E14 /* vfpcdx.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453C22E9D8EE00585E14 /* vfpcdx.prg */; };
+		EA29455422E9D8EF00585E14 /* arrayrdd.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453D22E9D8EE00585E14 /* arrayrdd.prg */; };
+		EA29455522E9D8EF00585E14 /* dbupdat.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453E22E9D8EE00585E14 /* dbupdat.prg */; };
+		EA29455622E9D8EF00585E14 /* dbsort.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29453F22E9D8EF00585E14 /* dbsort.prg */; };
+		EA29455722E9D8EF00585E14 /* rddsys.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29454022E9D8EF00585E14 /* rddsys.prg */; };
+		EA29455822E9D8EF00585E14 /* rddordu.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29454122E9D8EF00585E14 /* rddordu.prg */; };
+		EA29455922E9D8EF00585E14 /* hscdx.prg in Resources */ = {isa = PBXBuildFile; fileRef = EA29454222E9D8EF00585E14 /* hscdx.prg */; };
+		EA29455C22E9DA0300585E14 /* gttrm.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29455B22E9DA0300585E14 /* gttrm.c */; };
 		EA8F8B9B22E768C100B62005 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9A22E768C100B62005 /* AppDelegate.m */; };
 		EA8F8B9E22E768C100B62005 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9D22E768C100B62005 /* ViewController.m */; };
 		EA8F8BA122E768C100B62005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8F8B9F22E768C100B62005 /* Main.storyboard */; };
@@ -917,6 +941,30 @@
 		EA29447F22E9D7B700585E14 /* obj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = obj; sourceTree = "<group>"; };
 		EA29448022E9D7B700585E14 /* cpdewin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpdewin.c; sourceTree = "<group>"; };
 		EA29448122E9D7B700585E14 /* cppliso.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cppliso.c; sourceTree = "<group>"; };
+		EA29452C22E9D8EC00585E14 /* dblist.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dblist.prg; sourceTree = "<group>"; };
+		EA29452D22E9D8EC00585E14 /* dbjoin.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbjoin.prg; sourceTree = "<group>"; };
+		EA29452E22E9D8EC00585E14 /* dbstruxu.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbstruxu.prg; sourceTree = "<group>"; };
+		EA29452F22E9D8EC00585E14 /* dbtcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbtcdx.prg; sourceTree = "<group>"; };
+		EA29453022E9D8ED00585E14 /* fptcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fptcdx.prg; sourceTree = "<group>"; };
+		EA29453122E9D8ED00585E14 /* rlcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rlcdx.prg; sourceTree = "<group>"; };
+		EA29453222E9D8ED00585E14 /* smtcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = smtcdx.prg; sourceTree = "<group>"; };
+		EA29453322E9D8ED00585E14 /* rddord.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rddord.prg; sourceTree = "<group>"; };
+		EA29453422E9D8ED00585E14 /* dbtotal.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbtotal.prg; sourceTree = "<group>"; };
+		EA29453522E9D8ED00585E14 /* sxcompat.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sxcompat.prg; sourceTree = "<group>"; };
+		EA29453622E9D8ED00585E14 /* logrdd.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logrdd.prg; sourceTree = "<group>"; };
+		EA29453722E9D8ED00585E14 /* dbstrux.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbstrux.prg; sourceTree = "<group>"; };
+		EA29453822E9D8EE00585E14 /* sxini.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sxini.prg; sourceTree = "<group>"; };
+		EA29453922E9D8EE00585E14 /* sxtrig.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sxtrig.prg; sourceTree = "<group>"; };
+		EA29453A22E9D8EE00585E14 /* dbdelim.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbdelim.prg; sourceTree = "<group>"; };
+		EA29453B22E9D8EE00585E14 /* dbsdf.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbsdf.prg; sourceTree = "<group>"; };
+		EA29453C22E9D8EE00585E14 /* vfpcdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vfpcdx.prg; sourceTree = "<group>"; };
+		EA29453D22E9D8EE00585E14 /* arrayrdd.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arrayrdd.prg; sourceTree = "<group>"; };
+		EA29453E22E9D8EE00585E14 /* dbupdat.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbupdat.prg; sourceTree = "<group>"; };
+		EA29453F22E9D8EF00585E14 /* dbsort.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbsort.prg; sourceTree = "<group>"; };
+		EA29454022E9D8EF00585E14 /* rddsys.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rddsys.prg; sourceTree = "<group>"; };
+		EA29454122E9D8EF00585E14 /* rddordu.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rddordu.prg; sourceTree = "<group>"; };
+		EA29454222E9D8EF00585E14 /* hscdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hscdx.prg; sourceTree = "<group>"; };
+		EA29455B22E9DA0300585E14 /* gttrm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gttrm.c; sourceTree = "<group>"; };
 		EA8F8B9622E768C100B62005 /* iharbour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iharbour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8F8B9922E768C100B62005 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA8F8B9A22E768C100B62005 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1508,6 +1556,14 @@
 			path = codepage;
 			sourceTree = "<group>";
 		};
+		EA29455A22E9D9D800585E14 /* gttrm */ = {
+			isa = PBXGroup;
+			children = (
+				EA29455B22E9DA0300585E14 /* gttrm.c */,
+			);
+			path = gttrm;
+			sourceTree = "<group>";
+		};
 		EA8F8B8D22E768C100B62005 = {
 			isa = PBXGroup;
 			children = (
@@ -1741,6 +1797,7 @@
 		EA8F8D3D22E76E8C00B62005 /* rtl */ = {
 			isa = PBXGroup;
 			children = (
+				EA29455A22E9D9D800585E14 /* gttrm */,
 				EA2943C122E9D71F00585E14 /* codepage */,
 				EA2942F022E9D2AA00585E14 /* adir.prg */,
 				EA2942DA22E9D1A900585E14 /* achoice.prg */,
@@ -2034,6 +2091,29 @@
 		EA8F8EE322E7706000B62005 /* rdd */ = {
 			isa = PBXGroup;
 			children = (
+				EA29453D22E9D8EE00585E14 /* arrayrdd.prg */,
+				EA29453A22E9D8EE00585E14 /* dbdelim.prg */,
+				EA29452D22E9D8EC00585E14 /* dbjoin.prg */,
+				EA29452C22E9D8EC00585E14 /* dblist.prg */,
+				EA29453B22E9D8EE00585E14 /* dbsdf.prg */,
+				EA29453F22E9D8EF00585E14 /* dbsort.prg */,
+				EA29453722E9D8ED00585E14 /* dbstrux.prg */,
+				EA29452E22E9D8EC00585E14 /* dbstruxu.prg */,
+				EA29452F22E9D8EC00585E14 /* dbtcdx.prg */,
+				EA29453422E9D8ED00585E14 /* dbtotal.prg */,
+				EA29453E22E9D8EE00585E14 /* dbupdat.prg */,
+				EA29453022E9D8ED00585E14 /* fptcdx.prg */,
+				EA29454222E9D8EF00585E14 /* hscdx.prg */,
+				EA29453622E9D8ED00585E14 /* logrdd.prg */,
+				EA29453322E9D8ED00585E14 /* rddord.prg */,
+				EA29454122E9D8EF00585E14 /* rddordu.prg */,
+				EA29454022E9D8EF00585E14 /* rddsys.prg */,
+				EA29453122E9D8ED00585E14 /* rlcdx.prg */,
+				EA29453222E9D8ED00585E14 /* smtcdx.prg */,
+				EA29453522E9D8ED00585E14 /* sxcompat.prg */,
+				EA29453822E9D8EE00585E14 /* sxini.prg */,
+				EA29453922E9D8EE00585E14 /* sxtrig.prg */,
+				EA29453C22E9D8EE00585E14 /* vfpcdx.prg */,
 				EAFBF0A222E77C6F00801C5F /* hbsix */,
 				EA8F8EF322E7708500B62005 /* dbcmd.c */,
 				EA8F8EEA22E7708400B62005 /* dbcmd53.c */,
@@ -2134,8 +2214,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA29452822E9D7B700585E14 /* obj in Resources */,
+				EA29454C22E9D8EF00585E14 /* sxcompat.prg in Resources */,
+				EA29455922E9D8EF00585E14 /* hscdx.prg in Resources */,
 				EA8F8BA322E768C400B62005 /* Assets.xcassets in Resources */,
+				EA29454922E9D8EF00585E14 /* smtcdx.prg in Resources */,
+				EA29454A22E9D8EF00585E14 /* rddord.prg in Resources */,
+				EA29454722E9D8EF00585E14 /* fptcdx.prg in Resources */,
+				EA29454822E9D8EF00585E14 /* rlcdx.prg in Resources */,
+				EA29455222E9D8EF00585E14 /* dbsdf.prg in Resources */,
+				EA29454E22E9D8EF00585E14 /* dbstrux.prg in Resources */,
+				EA29454522E9D8EF00585E14 /* dbstruxu.prg in Resources */,
+				EA29455722E9D8EF00585E14 /* rddsys.prg in Resources */,
+				EA29455622E9D8EF00585E14 /* dbsort.prg in Resources */,
+				EA29454622E9D8EF00585E14 /* dbtcdx.prg in Resources */,
+				EA29455822E9D8EF00585E14 /* rddordu.prg in Resources */,
+				EA29454D22E9D8EF00585E14 /* logrdd.prg in Resources */,
+				EA29455022E9D8EF00585E14 /* sxtrig.prg in Resources */,
+				EA29454F22E9D8EF00585E14 /* sxini.prg in Resources */,
+				EA29454B22E9D8EF00585E14 /* dbtotal.prg in Resources */,
+				EA29454422E9D8EF00585E14 /* dbjoin.prg in Resources */,
+				EA29455522E9D8EF00585E14 /* dbupdat.prg in Resources */,
+				EA29455422E9D8EF00585E14 /* arrayrdd.prg in Resources */,
+				EA29455322E9D8EF00585E14 /* vfpcdx.prg in Resources */,
 				EA8F8BA122E768C100B62005 /* Main.storyboard in Resources */,
+				EA29454322E9D8EF00585E14 /* dblist.prg in Resources */,
+				EA29455122E9D8EF00585E14 /* dbdelim.prg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2648,6 +2751,7 @@
 				EA8F8E5422E76F5E00B62005 /* hbjson.c in Sources */,
 				EA2944F922E9D7B700585E14 /* uckam.c in Sources */,
 				EA8F8C7122E76B3000B62005 /* set.c in Sources */,
+				EA29455C22E9DA0300585E14 /* gttrm.c in Sources */,
 				EA8F8C7F22E76B3000B62005 /* fm.c in Sources */,
 				EA8F8C6C22E76B3000B62005 /* asort.c in Sources */,
 				EA8F8C7322E76B3000B62005 /* pcount.c in Sources */,
