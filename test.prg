@@ -1,6 +1,10 @@
 function Main()
 
-   MsgInfo( "Hola iOS" )
+   MsgInfo( Time() )
+   NsLog( "primer MsgInfo()" )
+
+   MsgInfo( hb_Version() )
+   NsLog( "segundo MsgInfo()" )
 
 return nil
 

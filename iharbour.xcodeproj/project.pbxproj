@@ -666,7 +666,7 @@
 		EA0A48B922EA264A00954C84 /* cdpapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cdpapi.c; path = ../../../harbour/src/rtl/cdpapi.c; sourceTree = "<group>"; };
 		EA0A48BB22EA273700954C84 /* hbmain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hbmain.c; path = ../../../harbour/src/compiler/hbmain.c; sourceTree = "<group>"; };
 		EA0A48BF22EA283400954C84 /* genc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = genc.c; path = ../../../harbour/src/compiler/genc.c; sourceTree = "<group>"; };
-		EA0A48C122EA2DDA00954C84 /* test.prg */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.prg; sourceTree = "<group>"; };
+		EA0A48C122EA2DDA00954C84 /* test.prg */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.prg; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
 		EA2942C222E9B9F100585E14 /* macroy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = macroy.c; sourceTree = "<group>"; };
 		EA2942C422E9C51900585E14 /* harboury.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = harboury.c; sourceTree = "<group>"; };
 		EA2942C822E9C61300585E14 /* ppcomp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ppcomp.c; sourceTree = "<group>"; };
