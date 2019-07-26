@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIApplication.h>
+#import <UIKit/UIButton.h>
+#import <UIKit/UIWindow.h>
+
 #include <hbapi.h>
 
 NSString * hb_NSSTRING_par( int iParam ) // NSUTF8StringEncoding
@@ -27,4 +30,17 @@ HB_FUNC( SYSREFRESH )
 HB_FUNC( EXIT )
 {
     exit( hb_parl( 1 ) );
+}
+
+HB_FUNC( CREATEBUTTON )
+{
+    UIWindow * window = [[[UIApplication sharedApplication] delegate] window];
+    UIButton * button = [ [ UIButton alloc ] init ];
+    
+    [ button setFrame:CGRectMake( (hb_parnl(1)/1.0),
+                                  (hb_parnl(2)/1.0),
+                                  (hb_parnl(3)/1.0),
+                                  (hb_parnl(4)/1.0) ) ];
+    
+    [ window addSubview : button ];
 }
