@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #include <hbvm.h>
 
+BOOL statusBarLight = false;
+
 @interface ViewController ()
 
 @end
@@ -25,6 +27,25 @@
     hb_vmInit( TRUE );
     hb_vmQuit();
     exit( 0 );
+}
+
+- ( void )setStatusBarStyle:(int)light
+{
+    if(light==1){
+        statusBarLight = true;
+    }else{
+        statusBarLight = false;
+    }
+    [self setNeedsStatusBarAppearanceUpdate];
+}
+
+
+- (UIStatusBarStyle) preferredStatusBarStyle {
+    if(statusBarLight){
+        return UIStatusBarStyleLightContent;
+    }else{
+        return UIStatusBarStyleDefault;
+    }
 }
 
 @end

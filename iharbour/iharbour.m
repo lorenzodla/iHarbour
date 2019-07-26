@@ -147,3 +147,8 @@ HB_FUNC( MSGYESNO )
     
     hb_retl( bIsYes );
 }
+
+HB_FUNC( SETSTATUSBAR ){
+    ViewController * vc = GetMainViewController();
+    [vc setStatusBarStyle:hb_parni(1)];
+}

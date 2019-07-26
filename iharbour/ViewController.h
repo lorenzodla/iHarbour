@@ -10,5 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- ( void )setStatusBarStyle:(int)light;
+
 @end
 
