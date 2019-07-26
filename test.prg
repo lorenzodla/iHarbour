@@ -2,7 +2,7 @@
 
 function Main()
 
-   MsgInfo( Time(), "Current time" )
+   MsgInfo( OS(), "Current OS" )
    NsLog( "first MsgInfo()" )
 
    if MsgYesNo( "Do you enjoy Harbour on iOS ?", "Please select" )
