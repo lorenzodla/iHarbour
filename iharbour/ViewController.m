@@ -47,6 +47,7 @@ NSString* variable;
 -(void)viewDidAppear:(BOOL)animated {
     pApp = self;
     hb_vmInit( TRUE );
+    hb_vmQuit();
     exit( 0 );
 }
 
