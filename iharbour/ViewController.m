@@ -20,7 +20,14 @@ HB_FUNC( MSGINFO )
 {
     NSString * cTitle = hb_pcount() > 1 ? hb_NSSTRING_par(2) : @"Information";
     
-    [ pApp showAlert:hb_NSSTRING_par( 1 ) withTitle:cTitle];
+    [ pApp MsgInfo:hb_NSSTRING_par( 1 ) withTitle:cTitle];
+}
+
+HB_FUNC( MSGYESNO )
+{
+    NSString * cTitle = hb_pcount() > 1 ? hb_NSSTRING_par(2) : @"Information";
+    
+    hb_retl( [ pApp MsgYesNo:hb_NSSTRING_par( 1 ) withTitle:cTitle] );
 }
 
 HB_FUNC( SYSREFRESH )
@@ -52,7 +59,7 @@ NSString* variable;
     hb_vmInit( TRUE );
 }
 
-- ( void ) showAlert:( NSString * )cMsg withTitle:(NSString *)cTitle
+- ( void ) MsgInfo:( NSString * )cMsg withTitle:(NSString *)cTitle
 {
     __block BOOL bIsVisible = TRUE;
     UIAlertController * alert = [ UIAlertController alertControllerWithTitle:cTitle
@@ -66,7 +73,31 @@ NSString* variable;
    [ self presentViewController:alert animated:YES completion:nil ];
     
    while( bIsVisible )
+      [ [ NSRunLoop currentRunLoop ] runUntilDate:[ NSDate dateWithTimeIntervalSinceNow:0.1 ] ];
+}
+
+- ( BOOL ) MsgYesNo:( NSString * )cMsg withTitle:(NSString *)cTitle
+{
+    __block BOOL bIsVisible = TRUE;
+    __block BOOL bIsYes = FALSE;
+    UIAlertController * alert = [ UIAlertController alertControllerWithTitle:cTitle
+                                                                     message:cMsg
+                                                              preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction * btnYes = [ UIAlertAction actionWithTitle:@"Yes" style:UIAlertActionStyleDefault
+                                           handler:^( UIAlertAction * action ) { bIsVisible = FALSE; bIsYes = TRUE;} ];
+    UIAlertAction * btnNo = [ UIAlertAction actionWithTitle:@"No" style:UIAlertActionStyleDefault
+                                           handler:^( UIAlertAction * action ) { bIsVisible = FALSE;} ];
+
+    [ alert addAction:btnYes ];
+    [ alert addAction:btnNo ];
+
+    [ self presentViewController:alert animated:YES completion:nil ];
+    
+    while( bIsVisible )
        [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:0.1]];
+    
+    return bIsYes;
 }
 
 @end
