@@ -36,12 +36,13 @@ HB_FUNC( EXIT )
 }
 
 @interface button : UIButton
--( void ) click;
+-(IBAction)click:(id)sender;
 @end
 
 @implementation button
--( void ) click
+-(IBAction)click:(id)sender
 {
+    NSLog(@"yes");
 }
 @end
 
