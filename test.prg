@@ -1,8 +1,11 @@
 // Harbour for iOS
 
+static hBtn1, hBtn2
+
 function Main()
 
-   CreateButton( "Button", 80, 100, 100, 50 )
+   hBtn1 = CreateButton( "Click", 80, 100, 100, 50 )
+   hBtn2 = CreateButton( "End",   80, 200, 100, 50 )
 
    while .T.
       SysRefresh()
@@ -10,8 +13,14 @@ function Main()
 
 return nil
 
-function HandleEvent()
+function HandleEvent( hControl )
 
-   MsgInfo( "click" )
+   if hControl == hBtn1
+      MsgInfo( "Harbour power!" )
+   endif
+
+   if hControl == hBtn2
+      Exit()
+   endif
 
 return nil

@@ -50,9 +50,9 @@ static PHB_SYMB symFPH = NULL;
     
     hb_vmPushSymbol( symFPH );
     hb_vmPushNil();
-    // hb_vmPush( ( __bridge void * ) sender );
+    hb_vmPushSize( ( HB_LONGLONG ) sender );
     hb_vmPushLong( 1 ); // msg id
-    hb_vmDo( 1 );
+    hb_vmDo( 2 );
 }
 @end
 
@@ -72,8 +72,10 @@ HB_FUNC( CREATEBUTTON )
     [ btn setTitle:hb_NSSTRING_par( 1 ) forState:UIControlStateNormal ];
     [ btn setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
     [ btn setTitleColor:UIColor.whiteColor forState:UIControlStateHighlighted ];
-    [ btn setBackgroundColor:UIColor.redColor ];
+    [ btn setBackgroundColor:UIColor.greenColor ];
 
     [ btn addTarget:btn action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
     [ view addSubview : btn ];
+    
+    hb_retnll( ( HB_LONGLONG ) btn );
 }
