@@ -14,6 +14,7 @@
 #import "ViewController.h"
 
 #include <hbapi.h>
+#include <hbvm.h>
 
 NSString * hb_NSSTRING_par( int iParam ) // NSUTF8StringEncoding
 {
@@ -35,6 +36,8 @@ HB_FUNC( EXIT )
     exit( hb_parl( 1 ) );
 }
 
+static PHB_SYMB symFPH = NULL;
+
 @interface button : UIButton
 -(IBAction)click:(id)sender;
 @end
@@ -42,7 +45,14 @@ HB_FUNC( EXIT )
 @implementation button
 -(IBAction)click:(id)sender
 {
-    NSLog(@"yes");
+    if( symFPH == NULL )
+       symFPH = hb_dynsymSymbol( hb_dynsymFindName( "HANDLEEVENT" ) );
+    
+    hb_vmPushSymbol( symFPH );
+    hb_vmPushNil();
+    // hb_vmPush( ( __bridge void * ) sender );
+    hb_vmPushLong( 1 ); // msg id
+    hb_vmDo( 1 );
 }
 @end
 

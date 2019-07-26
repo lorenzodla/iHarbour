@@ -9,3 +9,9 @@ function Main()
    end 
 
 return nil
+
+function HandleEvent()
+
+   MsgInfo( "click" )
+
+return nil
