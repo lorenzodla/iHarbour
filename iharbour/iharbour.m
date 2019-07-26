@@ -11,6 +11,7 @@
 #import <UIKit/UIWindow.h>
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 #include <hbapi.h>
 
@@ -34,22 +35,34 @@ HB_FUNC( EXIT )
     exit( hb_parl( 1 ) );
 }
 
+@interface button : UIButton
+-( void ) click;
+@end
+
+@implementation button
+-( void ) click
+{
+}
+@end
+
 HB_FUNC( CREATEBUTTON )
 {
-    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    UIViewController *vc = appDelegate.window.rootViewController;
-    UIView *view = vc.view;
-    UIButton * button = [ [ UIButton alloc ] init ];
+    AppDelegate * appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    ViewController * vc = ( ViewController * ) appDelegate.window.rootViewController;
+    UIView * view = vc.view;
+    button * btn = [ [ button alloc ] init ];
     
-    [ button setFrame:CGRectMake( (hb_parnl(2)),
+    [ btn setFrame:CGRectMake( (hb_parnl(2)),
                                  (hb_parnl(3)),
                                  (hb_parnl(4)),
                                  (hb_parnl(5)) ) ];
     
     
-    [ button setTitle:hb_NSSTRING_par( 1 ) forState:UIControlStateNormal ];
-    [ button setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
-    [ button setTitleColor:UIColor.whiteColor forState:UIControlStateHighlighted ];
-    [ button setBackgroundColor:UIColor.redColor ];
-    [ view addSubview : button ];
+    [ btn setTitle:hb_NSSTRING_par( 1 ) forState:UIControlStateNormal ];
+    [ btn setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
+    [ btn setTitleColor:UIColor.whiteColor forState:UIControlStateHighlighted ];
+    [ btn setBackgroundColor:UIColor.redColor ];
+
+    [ btn addTarget:btn action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+    [ view addSubview : btn ];
 }
