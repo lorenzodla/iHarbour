@@ -48,7 +48,7 @@ HB_FUNC( CREATEBUTTON )
     
     
     [ button setTitle:hb_NSSTRING_par( 1 ) forState:UIControlStateNormal ];
-    [button setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
-    
+    [ button setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
+    [ button setBackgroundColor:UIColor.redColor ];
     [ view addSubview : button ];
 }
