@@ -1,3 +1,5 @@
+// Harbour for iOS
+
 function Main()
 
    MsgInfo( Time(), "Current time" )
@@ -11,9 +13,5 @@ function Main()
 
    MsgInfo( hb_Version(), "Harbour version" )
    NsLog( "second MsgInfo()" )
-
-return nil
-
-function hb_LogRddInherit()
 
 return nil
