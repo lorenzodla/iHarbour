@@ -2,7 +2,7 @@
 
 function Main()
 
-   CreateButton( 10, 10, 100, 100 )
+   CreateButton( "Button", 10, 10, 100, 100 )
 
    MsgInfo( OS(), "Current OS" )
    NsLog( "first MsgInfo()" )

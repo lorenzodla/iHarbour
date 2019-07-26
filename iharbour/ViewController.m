@@ -40,8 +40,11 @@ NSString* variable;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)changeBack {
+    self.view.backgroundColor = UIColor.blueColor;
+}
+
 -(void)viewDidAppear:(BOOL)animated {
-    
     pApp = self;
     hb_vmInit( TRUE );
     exit( 0 );

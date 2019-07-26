@@ -1,5 +1,5 @@
 //
-//  iharbour.c
+//  iharbour.m
 //  iharbour
 //
 //  Created by anto on 26/07/2019.
@@ -9,6 +9,8 @@
 #import <UIKit/UIApplication.h>
 #import <UIKit/UIButton.h>
 #import <UIKit/UIWindow.h>
+
+#import "AppDelegate.h"
 
 #include <hbapi.h>
 
@@ -34,13 +36,19 @@ HB_FUNC( EXIT )
 
 HB_FUNC( CREATEBUTTON )
 {
-    UIWindow * window = [[[UIApplication sharedApplication] delegate] window];
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    UIViewController *vc = appDelegate.window.rootViewController;
+    UIView *view = vc.view;
     UIButton * button = [ [ UIButton alloc ] init ];
     
-    [ button setFrame:CGRectMake( (hb_parnl(1)/1.0),
-                                  (hb_parnl(2)/1.0),
-                                  (hb_parnl(3)/1.0),
-                                  (hb_parnl(4)/1.0) ) ];
+    [ button setFrame:CGRectMake( (hb_parnl(2)),
+                                 (hb_parnl(3)),
+                                 (hb_parnl(4)),
+                                 (hb_parnl(5)) ) ];
     
-    [ window addSubview : button ];
+    
+    [ button setTitle:hb_NSSTRING_par( 1 ) forState:UIControlStateNormal ];
+    [button setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
+    
+    [ view addSubview : button ];
 }
