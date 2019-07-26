@@ -39,7 +39,7 @@ HB_FUNC( EXIT )
 static PHB_SYMB symFPH = NULL;
 
 @interface button : UIButton
--(IBAction)click:(id)sender;
+   -(IBAction)click:(id)sender;
 @end
 
 @implementation button
@@ -56,11 +56,17 @@ static PHB_SYMB symFPH = NULL;
 }
 @end
 
-HB_FUNC( CREATEBUTTON )
+UIView * GetMainView()
 {
     AppDelegate * appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     ViewController * vc = ( ViewController * ) appDelegate.window.rootViewController;
-    UIView * view = vc.view;
+    
+    return vc.view;
+}
+
+HB_FUNC( CREATEBUTTON )
+{
+    UIView * view = GetMainView();
     button * btn = [ [ button alloc ] init ];
     
     [ btn setFrame:CGRectMake( (hb_parnl(2)),
@@ -78,4 +84,11 @@ HB_FUNC( CREATEBUTTON )
     [ view addSubview : btn ];
     
     hb_retnll( ( HB_LONGLONG ) btn );
+}
+
+HB_FUNC( SETBKCOLOR )
+{
+    UIView * view = GetMainView();
+    
+    view.backgroundColor = UIColor.blueColor;
 }

@@ -14,7 +14,5 @@
 
 - ( BOOL ) MsgYesNo:( NSString * ) cMsg withTitle:( NSString * ) cTitle;
 
--(void)changeBack;
-
 @end
 
