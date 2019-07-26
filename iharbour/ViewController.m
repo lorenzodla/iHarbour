@@ -40,6 +40,11 @@ HB_FUNC( NSLOG )
     NSLog( @"%@", hb_NSSTRING_par( 1 ) );
 }
 
+HB_FUNC( EXIT )
+{
+    exit( hb_parl( 1 ) );
+}
+
 @interface ViewController ()
 
 @end
@@ -57,6 +62,7 @@ NSString* variable;
     
     pApp = self;
     hb_vmInit( TRUE );
+    exit( 0 );
 }
 
 - ( void ) MsgInfo:( NSString * )cMsg withTitle:(NSString *)cTitle

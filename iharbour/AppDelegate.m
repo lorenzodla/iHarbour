@@ -9,33 +9,14 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 
-#define HB_DONT_DEFINE_BOOL
-#include "hbapi.h"
-#include "hbvm.h"
-
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-/*- ( void ) MsgInfo()
-{
-   UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"My Alert"
-                                                               message:@"This is an alert."
-                                                        preferredStyle:UIAlertControllerStyleAlert];
-
-   UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
-                                                      handler:^(UIAlertAction * action) {}];
-
-   [alert addAction:defaultAction];
-   [self presentViewController:alert animated:YES completion:nil];
-}*/
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-
     
     return YES;
 }
