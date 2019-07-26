@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController
 
-- ( void ) showAlert:( NSString * ) string;
+- ( void ) showAlert:( NSString * ) cMsg withTitle:( NSString * ) cTitle;
 
 @end
 

@@ -18,7 +18,9 @@ NSString * hb_NSSTRING_par( int iParam ) // NSUTF8StringEncoding
 
 HB_FUNC( MSGINFO )
 {
-   [ pApp showAlert:hb_NSSTRING_par( 1 ) ];
+    NSString * cTitle = hb_pcount() > 1 ? hb_NSSTRING_par(2) : @"Information";
+    
+    [ pApp showAlert:hb_NSSTRING_par( 1 ) withTitle:cTitle];
 }
 
 HB_FUNC( SYSREFRESH )
@@ -50,11 +52,11 @@ NSString* variable;
     hb_vmInit( TRUE );
 }
 
-- ( void ) showAlert:( NSString * ) cMsg
+- ( void ) showAlert:( NSString * )cMsg withTitle:(NSString *)cTitle
 {
     __block BOOL bIsVisible = TRUE;
-    UIAlertController * alert = [ UIAlertController alertControllerWithTitle:cMsg
-                                                                    message:@"This is an alert."
+    UIAlertController * alert = [ UIAlertController alertControllerWithTitle:cTitle
+                                                                    message:cMsg
                                                              preferredStyle:UIAlertControllerStyleAlert];
     
    UIAlertAction * defaultAction = [ UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
