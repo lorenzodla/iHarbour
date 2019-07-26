@@ -10,11 +10,5 @@
 
 @interface ViewController : UIViewController
 
-- ( void ) MsgInfo:( NSString * ) cMsg withTitle:( NSString * ) cTitle;
-
-- ( BOOL ) MsgYesNo:( NSString * ) cMsg withTitle:( NSString * ) cTitle;
-
--(void)changeBack;
-
 @end
 

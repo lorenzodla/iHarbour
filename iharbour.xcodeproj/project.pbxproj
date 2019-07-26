@@ -3039,7 +3039,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J3LHA7ZQL3;
+				DEVELOPMENT_TEAM = F59DS345PK;
 				HEADER_SEARCH_PATHS = (
 					/Users/$USER/harbour/include,
 					/Users/$USER/harbour/src/compiler/obj/darwin/clang,
@@ -3063,7 +3063,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J3LHA7ZQL3;
+				DEVELOPMENT_TEAM = F59DS345PK;
 				HEADER_SEARCH_PATHS = (
 					/Users/$USER/harbour/include,
 					/Users/$USER/harbour/src/compiler/obj/darwin/clang,
