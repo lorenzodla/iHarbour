@@ -9,12 +9,9 @@
 #import "ViewController.h"
 #include <hbvm.h>
 
-ViewController * pApp = NULL;
+NSString * hb_NSSTRING_par( int iParam );
 
-NSString * hb_NSSTRING_par( int iParam ) // NSUTF8StringEncoding
-{
-    return [ [ NSString alloc ] initWithCString: HB_ISCHAR( iParam ) ? hb_parc( iParam ) : "" encoding:  NSWindowsCP1252StringEncoding ];
-}
+ViewController * pApp = NULL;
 
 HB_FUNC( MSGINFO )
 {
@@ -28,21 +25,6 @@ HB_FUNC( MSGYESNO )
     NSString * cTitle = hb_pcount() > 1 ? hb_NSSTRING_par(2) : @"Information";
     
     hb_retl( [ pApp MsgYesNo:hb_NSSTRING_par( 1 ) withTitle:cTitle] );
-}
-
-HB_FUNC( SYSREFRESH )
-{
-    [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:1.0]];
-}
-
-HB_FUNC( NSLOG )
-{
-    NSLog( @"%@", hb_NSSTRING_par( 1 ) );
-}
-
-HB_FUNC( EXIT )
-{
-    exit( hb_parl( 1 ) );
 }
 
 @interface ViewController ()

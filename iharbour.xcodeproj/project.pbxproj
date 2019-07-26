@@ -259,6 +259,7 @@
 		EA29452922E9D7B700585E14 /* cpdewin.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29448022E9D7B700585E14 /* cpdewin.c */; };
 		EA29452A22E9D7B700585E14 /* cppliso.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29448122E9D7B700585E14 /* cppliso.c */; };
 		EA29455C22E9DA0300585E14 /* gttrm.c in Sources */ = {isa = PBXBuildFile; fileRef = EA29455B22E9DA0300585E14 /* gttrm.c */; };
+		EA66270722EAE94900A49491 /* iharbour.m in Sources */ = {isa = PBXBuildFile; fileRef = EA66270622EAE94900A49491 /* iharbour.m */; };
 		EA8F8B9B22E768C100B62005 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9A22E768C100B62005 /* AppDelegate.m */; };
 		EA8F8B9E22E768C100B62005 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8F8B9D22E768C100B62005 /* ViewController.m */; };
 		EA8F8BA122E768C100B62005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8F8B9F22E768C100B62005 /* Main.storyboard */; };
@@ -961,6 +962,7 @@
 		EA6626FB22EAE36700A49491 /* logrdd.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = logrdd.prg; path = ../../../harbour/contrib/rddmisc/logrdd.prg; sourceTree = "<group>"; };
 		EA6626FC22EAE36700A49491 /* hscdx.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hscdx.prg; path = ../../../harbour/contrib/rddmisc/hscdx.prg; sourceTree = "<group>"; };
 		EA6626FD22EAE36700A49491 /* arrayrdd.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = arrayrdd.prg; path = ../../../harbour/contrib/rddmisc/arrayrdd.prg; sourceTree = "<group>"; };
+		EA66270622EAE94900A49491 /* iharbour.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iharbour.m; sourceTree = "<group>"; };
 		EA8F8B9622E768C100B62005 /* iharbour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iharbour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8F8B9922E768C100B62005 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA8F8B9A22E768C100B62005 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1577,6 +1579,7 @@
 		EA8F8B9822E768C100B62005 /* iharbour */ = {
 			isa = PBXGroup;
 			children = (
+				EA66270622EAE94900A49491 /* iharbour.m */,
 				EA8F8B9922E768C100B62005 /* AppDelegate.h */,
 				EA8F8B9A22E768C100B62005 /* AppDelegate.m */,
 				EA8F8B9C22E768C100B62005 /* ViewController.h */,
@@ -2646,6 +2649,7 @@
 				EA8F8ED922E76F5E00B62005 /* trim.c in Sources */,
 				EA8F8E4322E76F5E00B62005 /* hbstrsh.c in Sources */,
 				EA2944F222E9D7B700585E14 /* cpru866.c in Sources */,
+				EA66270722EAE94900A49491 /* iharbour.m in Sources */,
 				EA8F8CD922E76C9C00B62005 /* hbfunchk.c in Sources */,
 				EA8F8E7F22E76F5E00B62005 /* setpos.c in Sources */,
 				EA8F8D3822E76E7600B62005 /* l_is.c in Sources */,
