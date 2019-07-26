@@ -9,7 +9,9 @@ function Main()
 
    while ! lExit
       SysRefresh()
-   end 
+   end
+
+   MsgInfo( "That was all folks!" )
 
 return nil
 
@@ -20,7 +22,9 @@ function HandleEvent( hControl )
    endif
 
    if hControl == hBtn2
-      lExit = .T.
+      if MsgYesNo( "Do you want to exit ?", "Please select" )
+         lExit = .T.
+      endif
    endif
 
 return nil
