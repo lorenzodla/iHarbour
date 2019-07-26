@@ -90,5 +90,6 @@ HB_FUNC( SETBKCOLOR )
 {
     UIView * view = GetMainView();
     
-    view.backgroundColor = UIColor.blueColor;
+    view.backgroundColor = [ UIColor colorWithRed : hb_parnd( 1 ) / 255 green : hb_parnd( 2 ) / 255
+                                             blue : hb_parnd( 3 ) / 255 alpha : hb_parnd( 4 ) / 100 ];
 }
