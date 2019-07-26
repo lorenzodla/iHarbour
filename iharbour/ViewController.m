@@ -20,7 +20,8 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
--(void)viewDidAppear:(BOOL)animated {
+- ( void ) viewDidAppear:( BOOL ) animated
+{
     hb_vmInit( TRUE );
     hb_vmQuit();
     exit( 0 );

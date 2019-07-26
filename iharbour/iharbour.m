@@ -39,7 +39,7 @@ HB_FUNC( EXIT )
 static PHB_SYMB symFPH = NULL;
 
 @interface button : UIButton
--(IBAction)click:(id)sender;
+   -(IBAction)click:(id)sender;
 @end
 
 @implementation button
@@ -60,7 +60,6 @@ ViewController * GetMainViewController()
 {
     AppDelegate * appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     ViewController * vc = ( ViewController * ) appDelegate.window.rootViewController;
-    
     return vc;
 }
 
@@ -97,7 +96,6 @@ HB_FUNC( CREATEBUTTON )
 HB_FUNC( SETBKCOLOR )
 {
     UIView * view = GetMainView();
-    
     view.backgroundColor = [UIColor colorWithRed:(hb_parnd(1)/255) green:(hb_parnd(2)/255) blue:(hb_parnd(3)/255) alpha:(hb_parnd(4)/100)];
 }
 
