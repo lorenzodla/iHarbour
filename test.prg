@@ -9,6 +9,7 @@ function Main()
 
    hBtn1 = CreateButton( "Click", 80, 100, 100, 50, 10 )
    hBtn2 = CreateButton( "End",   80, 200, 100, 50 )
+   CreateLabel( "Hello Harbour!", 80, 300, 200, 50, 2 )
 
    while ! lExit
       SysRefresh()

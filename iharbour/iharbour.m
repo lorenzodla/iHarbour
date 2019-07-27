@@ -156,3 +156,36 @@ HB_FUNC( SETSTATUSBAR ){
     ViewController * vc = GetMainViewController();
     [vc setStatusBarStyle:hb_parni(1)];
 }
+
+HB_FUNC( CREATELABEL ){
+    UIView * view = GetMainView();
+    UILabel * label = [[UILabel alloc]init];
+    
+    label.frame = CGRectMake( (hb_parnl(2)),
+                             (hb_parnl(3)),
+                             (hb_parnl(4)),
+                             (hb_parnl(5)) );
+    
+    label.text = hb_NSSTRING_par(1);
+    
+    switch (hb_parnl(6)) {
+        case 1:
+            label.textAlignment = NSTextAlignmentLeft;
+            break;
+        case 2:
+            label.textAlignment = NSTextAlignmentCenter;
+            break;
+        case 3:
+            label.textAlignment = NSTextAlignmentRight;
+            break;
+        case 4:
+            label.textAlignment = NSTextAlignmentJustified;
+            break;
+            
+        default:
+            label.textAlignment = NSTextAlignmentLeft;
+            break;
+    }
+    
+    [view addSubview:label];
+}
