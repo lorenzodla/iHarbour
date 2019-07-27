@@ -7,7 +7,7 @@ function Main()
    SetStatusBar(1)
    SetBkColor( 255, 127, 80, 100 )
 
-   hBtn1 = CreateButton( "Click", 80, 100, 100, 50 )
+   hBtn1 = CreateButton( "Click", 80, 100, 100, 50, 10 )
    hBtn2 = CreateButton( "End",   80, 200, 100, 50 )
 
    while ! lExit

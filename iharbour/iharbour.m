@@ -86,6 +86,10 @@ HB_FUNC( CREATEBUTTON )
     [ btn setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
     [ btn setTitleColor:UIColor.whiteColor forState:UIControlStateHighlighted ];
     [ btn setBackgroundColor:UIColor.greenColor ];
+    
+    if (hb_pcount() > 5){
+        btn.layer.cornerRadius = hb_parnl(6);
+    }
 
     [ btn addTarget:btn action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
     [ view addSubview : btn ];
