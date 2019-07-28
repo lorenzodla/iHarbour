@@ -189,3 +189,52 @@ HB_FUNC( CREATELABEL ){
     
     [view addSubview:label];
 }
+
+HB_FUNC( CREATETEXTVIEW ){
+    UIView * view = GetMainView();
+    UITextView * textView = [[UITextView alloc]init];
+    
+    textView.frame = CGRectMake( (hb_parnl(2)),
+                                (hb_parnl(3)),
+                                (hb_parnl(4)),
+                                (hb_parnl(5)) );
+    textView.text = hb_NSSTRING_par(1);
+    
+    if(hb_parl(6)){
+        textView.editable = true;
+    }else{
+        textView.editable = false;
+    }
+    
+    switch (hb_parnl(7)) {
+        case 1:
+            textView.textAlignment = NSTextAlignmentLeft;
+            break;
+        case 2:
+            textView.textAlignment = NSTextAlignmentCenter;
+            break;
+        case 3:
+            textView.textAlignment = NSTextAlignmentRight;
+            break;
+        case 4:
+            textView.textAlignment = NSTextAlignmentJustified;
+            break;
+            
+        default:
+            textView.textAlignment = NSTextAlignmentLeft;
+            break;
+    }
+    
+    [view addSubview:textView];
+}
+
+HB_FUNC( GETVIEWBOUNDS_H ){
+    UIView * view = GetMainView();
+    hb_retnl(view.bounds.size.height);
+}
+
+HB_FUNC( GETVIEWBOUNDS_W ){
+    UIView * view = GetMainView();
+    hb_retnd(view.bounds.size.width);
+}
+

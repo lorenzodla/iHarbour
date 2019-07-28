@@ -10,6 +10,7 @@ function Main()
    hBtn1 = CreateButton( "Click", 80, 100, 100, 50, 10 )
    hBtn2 = CreateButton( "End",   80, 200, 100, 50 )
    CreateLabel( "Hello Harbour!", 80, 300, 200, 50, 2 )
+   CreateLabel( hb_Version(), 80, 400, 200, 50)
 
    while ! lExit
       SysRefresh()
@@ -24,7 +25,7 @@ function HandleEvent( hControl )
    if hControl == hBtn1
       MsgInfo( hb_Version(), "Hello World!" )
 
-      MsgInfo( "Harbour power!" )
+      MsgInfo( "Harbour power" )
    endif
 
    if hControl == hBtn2
