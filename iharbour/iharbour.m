@@ -198,13 +198,9 @@ HB_FUNC( CREATETEXTVIEW ){
                                 (hb_parnl(3)),
                                 (hb_parnl(4)),
                                 (hb_parnl(5)) );
-    textView.text = hb_NSSTRING_par(1);
     
-    if(hb_parl(6)){
-        textView.editable = true;
-    }else{
-        textView.editable = false;
-    }
+    textView.text = hb_NSSTRING_par(1);
+    textView.editable = hb_parl(6);
     
     switch (hb_parnl(7)) {
         case 1:
