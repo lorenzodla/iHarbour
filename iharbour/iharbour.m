@@ -234,3 +234,15 @@ HB_FUNC( GETVIEWBOUNDS_W ){
     hb_retnd(view.bounds.size.width);
 }
 
+HB_FUNC( VIEWSEND )
+{
+   void * hObj     = ( void * ) hb_parnll( 1 );
+   UIView * hView  = (__bridge  UIView * ) hObj;
+   NSString * cMsg = hb_NSSTRING_par( 2 );
+   SEL selector    = NSSelectorFromString( cMsg );
+
+   if( [ hView respondsToSelector: selector ] )
+       hb_retnl( ( HB_LONG ) [ hView performSelector:selector ] );
+   else
+       hb_retnl( 0 );
+}

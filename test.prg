@@ -1,8 +1,11 @@
 // Harbour for iOS
+#include "hbclass.ch"
 
 static hBtn1, hBtn2, lExit := .F.
 
 function Main()
+
+   local oView := UIView()
 
    SetStatusBar(1)
    SetBkColor( 255, 127, 80, 100 )
@@ -11,6 +14,10 @@ function Main()
    hBtn2 = CreateButton( "End",   80, 200, 100, 50 )
    CreateLabel( "Hello Harbour!", 80, 300, 200, 50, 2 )
    CreateLabel( hb_Version(), 80, 400, 200, 50)
+
+   oView:hObj = hBtn1
+
+   MsgInfo( Str( oView:Send( "backgroundColor" ) ) )
 
    while ! lExit
       SysRefresh()
@@ -35,3 +42,11 @@ function HandleEvent( hControl )
    endif
 
 return nil
+
+CLASS UIView
+
+   DATA hObj
+
+   METHOD Send( cMsg ) INLINE ViewSend( ::hObj, cMsg )
+
+ENDCLASS
