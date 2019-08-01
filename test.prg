@@ -1,7 +1,7 @@
 // Harbour for iOS
 #include "hbclass.ch"
 
-static hBtn1, hBtn2, hBtn3, lExit := .F.
+static hBtn1, hBtn2, hBtn3, hTxtView, lExit := .F.
 static oView
 
 function Main()
@@ -16,6 +16,7 @@ function Main()
    hBtn3 = CreateButton( "SuperProps", 80, 300, 100, 50, 5 )
    CreateLabel( "Harbour for iOS", 80, 500, 200, 50, 2 )
    CreateLabel( hb_Version(), 50, 600, 400, 50 )
+   hTxtView = CreateTextView( "Hello World", 80, 400, 100, 50, .T., 1)
 
    oView:hObj = hBtn1
 
@@ -36,6 +37,7 @@ function HandleEvent( hControl )
    endif
 
    if hControl == hBtn2
+      MsgInfo( TextView_GetText(hTxtView) )
       if MsgYesNo( "Do you want to exit ?", "Please select" )
          lExit = .T.
       endif
