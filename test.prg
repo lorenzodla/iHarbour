@@ -12,11 +12,12 @@ function Main()
    SetBkColor( hb_Random( 255 ), hb_Random( 255 ), hb_Random( 255 ), hb_Random( 255 ) )
 
    hBtn1 = CreateButton( "NS Classes", 80, 100, 100, 50, 5 )
-   hBtn2 = CreateButton( "End",   80, 200, 100, 50, 5 )
+   hBtn2 = CreateButton( "End", 80, 200, 100, 50, 5 )
    hBtn3 = CreateButton( "SuperProps", 80, 300, 100, 50, 5 )
    CreateLabel( "Harbour for iOS", 80, 500, 200, 50, 2 )
    CreateLabel( hb_Version(), 50, 600, 400, 50 )
    hTxtField = CreateTextField(80, 400, 100, 50, "Enter text...")
+   CreateImageView("harbour.png", 80, 650, 100, 100)
 
    oView:hObj = hBtn1
 

@@ -643,6 +643,8 @@
 		EDA6D08522F3524300FB0D8A /* hLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6D08422F3524300FB0D8A /* hLabel.m */; };
 		EDA6D08722F352DE00FB0D8A /* hTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6D08622F352DE00FB0D8A /* hTextField.m */; };
 		EDA6D08922F352F800FB0D8A /* hTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6D08822F352F800FB0D8A /* hTextView.m */; };
+		EDA6D08D22F373B200FB0D8A /* hImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6D08C22F373B200FB0D8A /* hImageView.m */; };
+		EDA6D08F22F374EB00FB0D8A /* harbour.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA6D08E22F374EB00FB0D8A /* harbour.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -1349,6 +1351,8 @@
 		EDA6D08422F3524300FB0D8A /* hLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hLabel.m; sourceTree = "<group>"; };
 		EDA6D08622F352DE00FB0D8A /* hTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hTextField.m; sourceTree = "<group>"; };
 		EDA6D08822F352F800FB0D8A /* hTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hTextView.m; sourceTree = "<group>"; };
+		EDA6D08C22F373B200FB0D8A /* hImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hImageView.m; sourceTree = "<group>"; };
+		EDA6D08E22F374EB00FB0D8A /* harbour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harbour.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1571,6 +1575,7 @@
 			isa = PBXGroup;
 			children = (
 				EA0A48C122EA2DDA00954C84 /* test.prg */,
+				EDA6D08E22F374EB00FB0D8A /* harbour.png */,
 				EDA6D08322F3516E00FB0D8A /* classes */,
 				EA8F8C3422E76AF000B62005 /* harbour_src */,
 				EA8F8B9822E768C100B62005 /* iharbour */,
@@ -2214,6 +2219,7 @@
 				EDA6D08422F3524300FB0D8A /* hLabel.m */,
 				EDA6D08622F352DE00FB0D8A /* hTextField.m */,
 				EDA6D08822F352F800FB0D8A /* hTextView.m */,
+				EDA6D08C22F373B200FB0D8A /* hImageView.m */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -2276,6 +2282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA6D08F22F374EB00FB0D8A /* harbour.png in Resources */,
 				EA8F8BA322E768C400B62005 /* Assets.xcassets in Resources */,
 				EA8F8BA122E768C100B62005 /* Main.storyboard in Resources */,
 			);
@@ -2723,6 +2730,7 @@
 				EA8F8C6D22E76B3000B62005 /* break.c in Sources */,
 				EA29449122E9D7B700585E14 /* uc1256.c in Sources */,
 				EA29448F22E9D7B700585E14 /* cpbgwin.c in Sources */,
+				EDA6D08D22F373B200FB0D8A /* hImageView.m in Sources */,
 				EA8F8C8522E76B3000B62005 /* garbage.c in Sources */,
 				EA0A48C222EA2DDA00954C84 /* test.prg in Sources */,
 				EA8F8CA622E76C4600B62005 /* expropt1.c in Sources */,
