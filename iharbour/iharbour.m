@@ -12,6 +12,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import <objc/runtime.h>
 
 #include <hbapi.h>
 #include <hbvm.h>
@@ -234,7 +235,7 @@ HB_FUNC( GETVIEWBOUNDS_W ){
     hb_retnd(view.bounds.size.width);
 }
 
-HB_FUNC( VIEWSEND )
+HB_FUNC( NSOBJSEND )
 {
    void * hObj     = ( void * ) hb_parnll( 1 );
    UIView * hView  = (__bridge  UIView * ) hObj;
@@ -246,3 +247,70 @@ HB_FUNC( VIEWSEND )
    else
        hb_retnl( 0 );
 }
+
+HB_FUNC( CLASSPROPLIST )
+{
+   void * hObj = ( void * ) hb_parnll( 1 );
+   UIView * hNSObj = (__bridge  UIView * ) hObj;
+   unsigned int outCount;
+   objc_property_t * properties = class_copyPropertyList( [hNSObj class], &outCount );
+    
+   hb_retnl( outCount );
+}
+
+HB_FUNC( CLASSSUPERPROPNAME )
+{
+   void * hObj = ( void * ) hb_parnll( 1 );
+   UIView * hNSObj = (__bridge  UIView * ) hObj;
+   unsigned int outCount;
+   objc_property_t * properties = class_copyPropertyList( class_getSuperclass( [hNSObj class] ), &outCount );
+    
+   hb_retc( sel_getName( property_getName( properties[ hb_parnl( 2 ) - 1 ] ) ) );
+}
+
+HB_FUNC( CLASSSUPERPROPLIST )
+{
+    void * hObj = ( void * ) hb_parnll( 1 );
+    UIView * hNSObj = (__bridge  UIView * ) hObj;
+    unsigned int outCount;
+    objc_property_t * properties = class_copyPropertyList( class_getSuperclass( [hNSObj class] ), &outCount );
+    
+    hb_retnl( outCount );
+}
+
+HB_FUNC( CLASSMETHODLIST )
+{
+    void * hObj = ( void * ) hb_parnll( 1 );
+    UIView * hNSObj = (__bridge  UIView * ) hObj;
+    unsigned int outCount;
+    Method  _Nonnull * methods = class_copyMethodList( [hNSObj class], &outCount );
+    
+    hb_retnl( outCount );
+}
+
+HB_FUNC( CLASSMETHODNAME )
+{
+    void * hObj = ( void * ) hb_parnll( 1 );
+    UIView * hNSObj = (__bridge  UIView * ) hObj;
+    unsigned int outCount;
+    Method  _Nonnull * methods = class_copyMethodList( [hNSObj class], &outCount );
+    
+    hb_retc( sel_getName( method_getName( methods[ hb_parnl( 2 ) - 1 ] ) ) );
+}
+
+HB_FUNC( CLASSGETNAME )
+{
+    void * hObj = ( void * ) hb_parnll( 1 );
+    NSObject * hNSObj = (__bridge  NSObject * ) hObj;
+    
+    hb_retc( class_getName( [ hNSObj class ] ) );
+}
+
+HB_FUNC( CLASSGETSUPERNAME )
+{
+    void * hObj = ( void * ) hb_parnll( 1 );
+    NSObject * hNSObj = (__bridge  NSObject * ) hObj;
+    
+    hb_retc( class_getName( class_getSuperclass( [ hNSObj class ] ) ) );
+}
+
