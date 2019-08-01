@@ -9,23 +9,21 @@ function Main()
    oView = NSObject()
 
    SetStatusBar(1)
-   SetBkColor( 255, 127, 80, 100 )
+   SetBkColor( hb_Random( 255 ), hb_Random( 255 ), hb_Random( 255 ), hb_Random( 255 ) )
 
-   hBtn1 = CreateButton( "Click", 80, 100, 100, 50, 10 )
-   hBtn2 = CreateButton( "End",   80, 200, 100, 50 )
-   hBtn3 = CreateButton( "SuperProps", 80, 300, 100, 50 )
-   CreateLabel( "Hello Harbour!", 80, 500, 200, 50, 2 )
-   CreateLabel( hb_Version(), 80, 600, 300, 50)
+   hBtn1 = CreateButton( "NS Classes", 80, 100, 100, 50, 5 )
+   hBtn2 = CreateButton( "End",   80, 200, 100, 50, 5 )
+   hBtn3 = CreateButton( "SuperProps", 80, 300, 100, 50, 5 )
+   CreateLabel( "Harbour for iOS", 80, 500, 200, 50, 2 )
+   CreateLabel( hb_Version(), 50, 600, 400, 50 )
 
    oView:hObj = hBtn1
 
-   MsgInfo( Str( oView:Send( "backgroundColor" ) ) )
+   // MsgInfo( Str( oView:Send( "backgroundColor" ) ) )
 
    while ! lExit
       SysRefresh()
    end
-
-   MsgInfo( "That was all folks!" )
 
 return nil
 
