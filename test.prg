@@ -1,21 +1,22 @@
 // Harbour for iOS
 #include "hbclass.ch"
 
-static hBtn1, hBtn2, hBtn3, hBtn4, hLbl1, hTxtField, lExit := .F.
+static aControls := {}
+static hBtn2, hBtn3, hBtn4, hLbl1, hTxtField, lExit := .F.
 static oView
 
 function Main()
+
+   local oBtn1 := UIButton():New( "NS Classes", 80, 100, 100, 50 )
+   local oBtn2 := UIButton():New( "End", 80, 200, 100, 50 )
 
    oView = NSObject()
 
    SetStatusBar(1)
    SetBkColor( hb_Random( 255 ), hb_Random( 255 ), hb_Random( 255 ), hb_Random( 255 ) )
 
-   hBtn1 = CreateButton( "NS Classes", 80, 100, 100, 50 )
-   Button_SetCorners( hBtn1, 5 )
-
-   hBtn2 = CreateButton( "End", 80, 200, 100, 50 )
-   Button_SetCorners( hBtn2, 5 )
+   oBtn1:SetCorners( 5 )
+   oBtn2:SetCorners( 5 )
 
    hBtn3 = CreateButton( "SuperProps", 80, 300, 100, 50 )
    Button_SetCorners( hBtn3, 5 )
@@ -33,8 +34,6 @@ function Main()
 
    CreateImageView("harbour.png", 80, 650, 100, 100)
 
-   oView:hObj = hBtn1
-
    // MsgInfo( Str( oView:Send( "backgroundColor" ) ) )
 
    while ! lExit
@@ -45,13 +44,13 @@ return nil
 
 function HandleEvent( hControl )
 
-   local n
+   local nAt := AScan( aControls, { | oCtrl | oCtrl:hObj == hControl } )
 
-   if hControl == hBtn1
+   if nAt == 1
       MsgInfo( oView:NSClassName(), oView:NSClassSuperName() )
    endif
 
-   if hControl == hBtn2
+   if nAt == 2
       if MsgYesNo( "Do you want to exit ?", "Please select" )
          lExit = .T.
       endif
@@ -88,3 +87,19 @@ CLASS NSObject
 ENDCLASS
 
 //------------------------------------------------------------------------------------//
+
+CLASS UIButton FROM NSObject
+
+   METHOD New( cText, nTop, nLeft, nBottom, nRight )
+
+   METHOD SetCorners( n ) INLINE Button_SetCorners( ::hObj, n )
+
+ENDCLASS
+
+METHOD New( cText, nTop, nLeft, nBottom, nRight ) CLASS UIBUtton
+
+  ::hObj = CreateButton( cText, nTop, nLeft, nBottom, nRight )
+
+  AAdd( aControls, Self )
+
+return Self
