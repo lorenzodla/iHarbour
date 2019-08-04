@@ -42,10 +42,6 @@ HB_FUNC( CREATEBUTTON )
     [ btn setTitleColor:UIColor.whiteColor forState:UIControlStateHighlighted ];
     [ btn setBackgroundColor:UIColor.greenColor ];
     
-    if (hb_pcount() > 5){
-        btn.layer.cornerRadius = hb_parnl(6);
-    }
-    
     [ btn addTarget:btn action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
     [ view addSubview : btn ];
     
@@ -66,4 +62,12 @@ HB_FUNC( BUTTON_SETBACKGROUNDCOLOR )
     UIButton * hNSObj = (__bridge  UIButton * ) hObj;
     
     [ hNSObj setBackgroundColor:[UIColor colorWithRed:(hb_parnd(2)/255) green:(hb_parnd(3)/255) blue:(hb_parnd(4)/255) alpha:(hb_parnd(5)/100)] ];
+}
+
+HB_FUNC( BUTTON_SETCORNERS )
+{
+    void * hObj = ( void * ) hb_parnll( 1 );
+    UIButton * hNSObj = (__bridge  UIButton * ) hObj;
+    
+    hNSObj.layer.cornerRadius = hb_parnl(2);
 }

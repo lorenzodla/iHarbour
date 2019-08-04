@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>iHarbour Documentation</title>
-        <link href="css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Classes - iHarbour Documentation</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,13 +19,13 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -39,24 +39,24 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href=".">iHarbour Documentation</a>
+                    <a class="navbar-brand" href="..">iHarbour Documentation</a>
                 </div>
 
                 <!-- Expanded navigation -->
                 <div class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
                             <li class="active">
-                                <a href=".">Home</a>
+                                <a href="./">Classes</a>
                             </li>
                             <li >
-                                <a href="classes/">Classes</a>
+                                <a href="../functions/">Functions</a>
                             </li>
                             <li >
-                                <a href="functions/">Functions</a>
-                            </li>
-                            <li >
-                                <a href="examples/">Examples</a>
+                                <a href="../examples/">Examples</a>
                             </li>
                         </ul>
 
@@ -66,13 +66,13 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="disabled">
-                                <a rel="next" >
+                            <li >
+                                <a rel="next" href="..">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="classes/">
+                                <a rel="prev" href="../functions/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -84,17 +84,61 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#welcome-to-iharbour-documentation">Welcome to iHarbour Documentation</a></li>
-            <li><a href="#what-is-iharbour">What is iHarbour?</a></li>
+        <li class="main active"><a href="#classes">Classes</a></li>
+            <li><a href="#hbutton">hButton</a></li>
+            <li><a href="#hlabel">hLabel</a></li>
+            <li><a href="#htextfield">hTextField</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-iharbour-documentation">Welcome to iHarbour Documentation</h1>
-<p><a href="https://github.com/lorenzodla/iharbour">GitHub</a></p>
-<h2 id="what-is-iharbour">What is iHarbour?</h2>
-<p>iHarbour is an interpreter of Harbour language for iOS devices. You can have all the power of Harbour adapted for your favourite iOS devices.</p>
-<p>iHarbour lets you make apps for iPhone and iPad on Harbour.</p></div>
+<h1 id="classes">Classes</h1>
+<h2 id="hbutton">hButton</h2>
+<p>Class for creating UIButton.</p>
+<p><code>CreateButton( (String)title, (par)x, (par)y, (par)width, (par)height ) -&gt; hButton</code></p>
+<ul>
+<li>title: (String) Title of the button.</li>
+<li>x: (par) x position on the view.</li>
+<li>y: (par) y position on the view.</li>
+<li>width: (par) Width of the button.</li>
+<li>height: (par) Height of the button.</li>
+</ul>
+<h3 id="functions">Functions</h3>
+<ul>
+<li><code>Button_SetTitle( (hButton)btn, (String)title )</code> Changes the title of the button.</li>
+<li><code>Button_SetBackgroundColor ( (hButton)btn, (par)red, (par)green, (par)blue, (par)alpha )</code> Changes the background color of the button.</li>
+<li><code>Button_SetCorners( (hButton)btn, (par)pixels )</code> Set the button corners rounded.</li>
+</ul>
+<h2 id="hlabel">hLabel</h2>
+<p>Class for creating UILabel.</p>
+<p><code>CreateLabel( (String)text, (par)x, (par)y, (par)width, (par)height ) -&gt; hLabel</code></p>
+<ul>
+<li>text: (String) Text of the label.</li>
+<li>x: (par) x position on the view.</li>
+<li>y: (par) y position on the view.</li>
+<li>width: (par) Width of the label.</li>
+<li>height: (par) Height of the label.</li>
+</ul>
+<h3 id="functions_1">Functions</h3>
+<ul>
+<li><code>Label_SetText( (hLabel)lbl, (String)text )</code> Set the label text.</li>
+<li><code>Label_SetColor( (hLabel)lbl, (par)red, (par)green, (par)blue, (par)alpha )</code> Changes the text color of the label.</li>
+<li><code>Label_Aligment( (hLabel)lbl, (par)alignment )</code> Set the label text alignment (1-left, 2-center, 3-right, 4-justified).</li>
+</ul>
+<h2 id="htextfield">hTextField</h2>
+<p>Class for creating UITextField.</p>
+<p><code>CreateTextField( (par)x, (par)y, (par)width, (par)height, (String)placeholder) -&gt; hTextField</code></p>
+<ul>
+<li>x: (par) x position on the view.</li>
+<li>y: (par) y position on the view.</li>
+<li>width: (par) Width of the text field.</li>
+<li>height: (par) Height of the text field.</li>
+<li>placeholder: (String) Text of text field placeholder.</li>
+</ul>
+<h3 id="functions_2">Functions</h3>
+<ul>
+<li><code>TextField_GetText( (hTextField)txtField ) -&gt; String</code> Returns the content of the text field.</li>
+</ul></div>
         </div>
 
         <footer class="col-md-12">
@@ -102,11 +146,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
@@ -174,8 +218,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.0.4
-Build Date UTC : 2019-08-04 09:54:45
--->
