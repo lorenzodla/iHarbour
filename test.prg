@@ -2,13 +2,14 @@
 #include "hbclass.ch"
 
 static aControls := {}
-static hBtn2, hBtn3, hBtn4, hLbl1, hTxtField, lExit := .F.
+static hBtn2, hBtn3, hBtn4, hTxtField, lExit := .F.
 static oView
 
 function Main()
 
    local oBtn1 := UIButton():New( "NS Classes", 80, 100, 100, 50 )
    local oBtn2 := UIButton():New( "End", 80, 200, 100, 50 )
+   local oLbl1 := UILabel():New( "Harbour for iOS", 80, 500, 200, 50 )
 
    oView = NSObject()
 
@@ -17,6 +18,7 @@ function Main()
 
    oBtn1:SetCorners( 5 )
    oBtn2:SetCorners( 5 )
+   oLbl1:TextAlignment( 2 )
 
    hBtn3 = CreateButton( "SuperProps", 80, 300, 100, 50 )
    Button_SetCorners( hBtn3, 5 )
@@ -25,8 +27,7 @@ function Main()
    Button_SetBackgroundColor( hBtn4, hb_Random( 255 ), hb_Random( 255 ), hb_Random( 255 ), hb_Random( 255 ) )
    Button_SetCorners( hBtn4, 5 )
 
-   hLbl1 = CreateLabel( "Harbour for iOS", 80, 500, 200, 50 )
-   Label_Alignment( hLbl1, 2 )
+   Label_Alignment( oLbl1, 2 )
 
    CreateLabel( hb_Version(), 50, 600, 400, 50 )
 
@@ -90,16 +91,32 @@ ENDCLASS
 
 CLASS UIButton FROM NSObject
 
-   METHOD New( cText, nTop, nLeft, nBottom, nRight )
-
+   METHOD New( cText, nX, nY, nWidth, nHeight )
+   METHOD SetTitle( cTitle ) INLINE Button_SetTitle( ::hObj, cTitle )
+   METHOD SetBackgroundColor( nRed, nGreen, nBlue, nAlpha ) INLINE Button_SetBackgroundColor( ::hObj, nRed, nGreen, nBlue, nAlpha )
    METHOD SetCorners( n ) INLINE Button_SetCorners( ::hObj, n )
 
 ENDCLASS
 
-METHOD New( cText, nTop, nLeft, nBottom, nRight ) CLASS UIBUtton
+METHOD New( cText, nX, nY, nWidth, nHeight ) CLASS UIBUtton
 
-  ::hObj = CreateButton( cText, nTop, nLeft, nBottom, nRight )
+  ::hObj = CreateButton( cText, nX, nY, nWidth, nHeight )
 
   AAdd( aControls, Self )
+
+return Self
+
+//------------------------------------------------------------------------------------//
+
+CLASS UILabel FROM NSObject
+
+   METHOD New( cText, nX, nY, nWidth, nHeight  )
+   METHOD TextAlignment( nAlign ) INLINE Label_Alignment( ::hObj, nAlign )
+
+ENDCLASS
+
+METHOD New( cText, nX, nY, nWidth, nHeight ) CLASS UILabel
+
+::hObj = CreateLabel( cText, nX, nY, nWidth, nHeight )
 
 return Self
