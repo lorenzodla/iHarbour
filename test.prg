@@ -2,14 +2,23 @@
 #include "hbclass.ch"
 
 static aControls := {}
-static hBtn2, hBtn3, hBtn4, hTxtField, lExit := .F.
+static lExit := .F.
 static oView
+static oTxtField
 
 function Main()
 
    local oBtn1 := UIButton():New( "NS Classes", 80, 100, 100, 50 )
    local oBtn2 := UIButton():New( "End", 80, 200, 100, 50 )
+   local oBtn3 := UIButton():New( "SuperProps", 80, 300, 100, 50 )
+   local oBtn4 := UIButton():New( "Show", 185, 400, 100, 50 )
+
    local oLbl1 := UILabel():New( "Harbour for iOS", 80, 500, 200, 50 )
+   local oLbl2 := UILabel():New( hb_Version(), 50, 600, 400, 50 )
+
+   local oImgView := UIImageView():New("harbour.png", 80, 650, 100, 100)
+
+   oTxtField := UITextField():New( 80, 400, 100, 50, "Enter text..." )
 
    oView = NSObject()
 
@@ -20,20 +29,9 @@ function Main()
    oBtn2:SetCorners( 5 )
    oLbl1:TextAlignment( 2 )
 
-   hBtn3 = CreateButton( "SuperProps", 80, 300, 100, 50 )
-   Button_SetCorners( hBtn3, 5 )
-
-   hBtn4 = CreateButton( "Show", 185, 400, 100, 50 )
-   Button_SetBackgroundColor( hBtn4, hb_Random( 255 ), hb_Random( 255 ), hb_Random( 255 ), hb_Random( 255 ) )
-   Button_SetCorners( hBtn4, 5 )
-
-   Label_Alignment( oLbl1, 2 )
-
-   CreateLabel( hb_Version(), 50, 600, 400, 50 )
-
-   hTxtField = CreateTextField(80, 400, 100, 50, "Enter text...")
-
-   CreateImageView("harbour.png", 80, 650, 100, 100)
+   oBtn3:SetCorners( 5 )
+   oBtn4:SetCorners( 5 )
+   oBtn4:SetBackgroundColor( hb_Random( 255 ), hb_Random( 255 ), hb_Random( 255 ), hb_Random( 255 ) )
 
    // MsgInfo( Str( oView:Send( "backgroundColor" ) ) )
 
@@ -57,15 +55,15 @@ function HandleEvent( hControl )
       endif
    endif
 
-   if hControl == hBtn3
+   if nAt == 3
       MsgInfo( Str( oView:NumSuperProps() ), "Numer of properties" )
       for n = 1 to oView:NumSuperProps()
          MsgInfo( oView:SuperPropName( n ) )
       next
    endif
 
-   if hControl == hBtn4
-     MsgInfo( TextField_GetText(hTxtField) )
+   if nAt == 4
+      MsgInfo( oTxtField:GetText() )
    endif
 
 return nil
@@ -111,6 +109,8 @@ return Self
 CLASS UILabel FROM NSObject
 
    METHOD New( cText, nX, nY, nWidth, nHeight  )
+   METHOD SetText ( cText ) INLINE Label_SetText( ::hObj, cText )
+   METHOD SetColor ( nRed, nGreen, nBlue, nAlpha ) INLINE Label_SetColor( ::hObj, nRed, nGreen, nBlue, nAlpha )
    METHOD TextAlignment( nAlign ) INLINE Label_Alignment( ::hObj, nAlign )
 
 ENDCLASS
@@ -118,5 +118,35 @@ ENDCLASS
 METHOD New( cText, nX, nY, nWidth, nHeight ) CLASS UILabel
 
 ::hObj = CreateLabel( cText, nX, nY, nWidth, nHeight )
+
+return Self
+
+//------------------------------------------------------------------------------------//
+
+CLASS UITextField FROM NSObject
+
+   METHOD New( nX, nY, nWidth, nHeight, cPlaceholder )
+   METHOD GetText() INLINE TextField_GetText( ::hObj )
+
+ENDCLASS
+
+METHOD New( nX, nY, nWidth, nHeight, cPlaceholder ) CLASS UITextField
+
+::hObj = CreateTextField( nX, nY, nWidth, nHeight, cPlaceholder )
+
+return Self
+
+//------------------------------------------------------------------------------------//
+
+CLASS UIImageView FROM NSObject
+
+METHOD New( cImage, nX, nY, nWidth, nHeight )
+METHOD SetImage( cImage ) INLINE ImageView_SetImage( ::hObj, cImage )
+
+ENDCLASS
+
+METHOD New( cImage, nX, nY, nWidth, nHeight ) CLASS UIImageView
+
+::hObj = CreateImageView( cImage, nX, nY, nWidth, nHeight )
 
 return Self
