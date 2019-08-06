@@ -150,3 +150,21 @@ METHOD New( cImage, nX, nY, nWidth, nHeight ) CLASS UIImageView
 ::hObj = CreateImageView( cImage, nX, nY, nWidth, nHeight )
 
 return Self
+
+//------------------------------------------------------------------------------------//
+
+CLASS UITextView FROM NSObject
+
+METHOD New( cText, nX, nY, nWidth, nHeight )
+METHOD IsEditable( bEditable ) INLINE TextView_IsEditable( ::hObj, bEditable )
+METHOD TextAlignment( nAlign ) INLINE TextView_Alignment( ::hObj, nAlign )
+METHOD GetText() INLINE TextView_GetText( ::hObj )
+METHOD SetText( cText ) INLINE TextView_SetText( ::hObj, cText )
+
+ENDCLASS
+
+METHOD New( cText, nX, nY, nWidth, nHeight ) CLASS UITextView
+
+::hObj = CreateTextView( cText, nX, nY, nWidth, nHeight )
+
+return Self
