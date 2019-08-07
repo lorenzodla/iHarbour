@@ -27,7 +27,7 @@ HB_FUNC( CREATEIMAGEVIEW )
 
 HB_FUNC( IMAGEVIEW_SETIMAGE )
 {
-    void * hObj = ( void * ) hb_parnll( 1 );
+    void * hObj = ( void * ) hb_parnl( 1 );
     UIImageView * hNSObj = (__bridge  UIImageView * ) hObj;
     
     hNSObj.image = [UIImage imageNamed:hb_NSSTRING_par( 2 )];

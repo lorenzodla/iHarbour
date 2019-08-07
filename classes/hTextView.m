@@ -26,15 +26,15 @@ HB_FUNC( CREATETEXTVIEW ){
 
 HB_FUNC( TEXTVIEW_ISEDITABLE )
 {
-    void * hObj = ( void *) hbparnll( 1 );
+    void * hObj = ( void *) hb_parnl( 1 );
     UITextView * hNSObj = (__bridge UITextView *) hObj;
     
-    hNSObj.editable = hbparl( 2 );
+    hNSObj.editable = hb_parl( 2 );
 }
 
 HB_FUNC( TEXTVIEW_ALIGNMENT )
 {
-    void * hObj = ( void * ) hb_parnll( 1 );
+    void * hObj = ( void * ) hb_parnl( 1 );
     UITextView * hNSObj = (__bridge  UITextView * ) hObj;
     
     switch (hb_parnl(2)) {
@@ -59,7 +59,7 @@ HB_FUNC( TEXTVIEW_ALIGNMENT )
 
 HB_FUNC( TEXTVIEW_SETTEXT )
 {
-    void * hObj = ( void * ) hb_parnll( 1 );
+    void * hObj = ( void * ) hb_parnl( 1 );
     UITextView * hNSObj = (__bridge  UITextView * ) hObj;
     
     hNSObj.text = hb_NSSTRING_par( 2 );
@@ -67,7 +67,7 @@ HB_FUNC( TEXTVIEW_SETTEXT )
 
 HB_FUNC( TEXTVIEW_GETTEXT )
 {
-    void * hObj = ( void * ) hb_parnll( 1 );
+    void * hObj = ( void * ) hb_parnl( 1 );
     UITextView * hNSObj = (__bridge  UITextView * ) hObj;
     
     hb_retc([hNSObj.text UTF8String]);

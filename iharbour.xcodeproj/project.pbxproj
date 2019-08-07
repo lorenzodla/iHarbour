@@ -639,6 +639,7 @@
 		ED1444B722E9EF9B008BF7DE /* dbffpt1.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1444B622E9EF9B008BF7DE /* dbffpt1.c */; };
 		ED1444BA22E9EFB5008BF7DE /* harbinit.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED1444B822E9EFA9008BF7DE /* harbinit.prg */; };
 		ED1444BC22E9F0EC008BF7DE /* ppcore.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1444BB22E9F0EC008BF7DE /* ppcore.c */; };
+		ED79B78A22FAE966007F7B86 /* hSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = ED79B78922FAE966007F7B86 /* hSwitch.m */; };
 		EDA6D08122F34F8200FB0D8A /* hButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6D08022F34F8200FB0D8A /* hButton.m */; };
 		EDA6D08522F3524300FB0D8A /* hLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6D08422F3524300FB0D8A /* hLabel.m */; };
 		EDA6D08722F352DE00FB0D8A /* hTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6D08622F352DE00FB0D8A /* hTextField.m */; };
@@ -1346,6 +1347,7 @@
 		ED1444B622E9EF9B008BF7DE /* dbffpt1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dbffpt1.c; sourceTree = "<group>"; };
 		ED1444B822E9EFA9008BF7DE /* harbinit.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = harbinit.prg; sourceTree = "<group>"; };
 		ED1444BB22E9F0EC008BF7DE /* ppcore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ppcore.c; sourceTree = "<group>"; };
+		ED79B78922FAE966007F7B86 /* hSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hSwitch.m; sourceTree = "<group>"; };
 		EDA6D08022F34F8200FB0D8A /* hButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hButton.m; sourceTree = "<group>"; };
 		EDA6D08222F3501600FB0D8A /* iharbour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iharbour.h; sourceTree = "<group>"; };
 		EDA6D08422F3524300FB0D8A /* hLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hLabel.m; sourceTree = "<group>"; };
@@ -2220,6 +2222,7 @@
 				EDA6D08622F352DE00FB0D8A /* hTextField.m */,
 				EDA6D08822F352F800FB0D8A /* hTextView.m */,
 				EDA6D08C22F373B200FB0D8A /* hImageView.m */,
+				ED79B78922FAE966007F7B86 /* hSwitch.m */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -2777,6 +2780,7 @@
 				EA8F8E6322E76F5E00B62005 /* disksphb.c in Sources */,
 				EA8F8D2122E76E7600B62005 /* l_zh_sim.c in Sources */,
 				EA8F8EC122E76F5E00B62005 /* transfrm.c in Sources */,
+				ED79B78A22FAE966007F7B86 /* hSwitch.m in Sources */,
 				EA8F8C7522E76B3000B62005 /* strapi.c in Sources */,
 				EA8F8BA922E768C400B62005 /* main.m in Sources */,
 				EA8F8CA922E76C4600B62005 /* expropt2.c in Sources */,
