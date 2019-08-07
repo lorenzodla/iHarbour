@@ -18,6 +18,8 @@ function Main()
 
    local oImgView := UIImageView():New("harbour.png", 80, 650, 100, 100)
 
+   local oSwitch := UISwitch():New(85, 650)
+
    oTxtField := UITextField():New( 80, 400, 100, 50, "Enter text..." )
 
    oView = NSObject()
@@ -105,25 +107,6 @@ METHOD New( cText, nX, nY, nWidth, nHeight ) CLASS UIBUtton
 return Self
 
 //------------------------------------------------------------------------------------//
-
-
-//------------------------------------------------------------------------------------//
-
-
-//------------------------------------------------------------------------------------//
-
-CLASS UIImageView FROM NSObject
-
-METHOD New( cImage, nX, nY, nWidth, nHeight )
-METHOD SetImage( cImage ) INLINE ImageView_SetImage( ::hObj, cImage )
-
-ENDCLASS
-
-METHOD New( cImage, nX, nY, nWidth, nHeight ) CLASS UIImageView
-
-::hObj = CreateImageView( cImage, nX, nY, nWidth, nHeight )
-
-return Self
 
 //------------------------------------------------------------------------------------//
 

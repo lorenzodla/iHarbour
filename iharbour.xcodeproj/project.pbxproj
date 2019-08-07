@@ -648,6 +648,8 @@
 		EDA6D08922F352F800FB0D8A /* hTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6D08822F352F800FB0D8A /* hTextView.m */; };
 		EDA6D08D22F373B200FB0D8A /* hImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6D08C22F373B200FB0D8A /* hImageView.m */; };
 		EDA6D08F22F374EB00FB0D8A /* harbour.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA6D08E22F374EB00FB0D8A /* harbour.png */; };
+		EDD6EC9C22FB4F7000F68C0E /* UIImageView.prg in Sources */ = {isa = PBXBuildFile; fileRef = EDD6EC9822FB4BD000F68C0E /* UIImageView.prg */; };
+		EDD6EC9D22FB4F7000F68C0E /* UISwitch.prg in Sources */ = {isa = PBXBuildFile; fileRef = EDD6EC9A22FB4EA900F68C0E /* UISwitch.prg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -1359,6 +1361,8 @@
 		EDA6D08822F352F800FB0D8A /* hTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hTextView.m; sourceTree = "<group>"; };
 		EDA6D08C22F373B200FB0D8A /* hImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hImageView.m; sourceTree = "<group>"; };
 		EDA6D08E22F374EB00FB0D8A /* harbour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = harbour.png; sourceTree = "<group>"; };
+		EDD6EC9822FB4BD000F68C0E /* UIImageView.prg */ = {isa = PBXFileReference; lastKnownFileType = text; path = UIImageView.prg; sourceTree = "<group>"; };
+		EDD6EC9A22FB4EA900F68C0E /* UISwitch.prg */ = {isa = PBXFileReference; lastKnownFileType = text; path = UISwitch.prg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2228,7 +2232,9 @@
 				ED79B79022FB19F2007F7B86 /* UITextField.prg */,
 				EDA6D08822F352F800FB0D8A /* hTextView.m */,
 				EDA6D08C22F373B200FB0D8A /* hImageView.m */,
+				EDD6EC9822FB4BD000F68C0E /* UIImageView.prg */,
 				ED79B78922FAE966007F7B86 /* hSwitch.m */,
+				EDD6EC9A22FB4EA900F68C0E /* UISwitch.prg */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -2304,6 +2310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD6EC9C22FB4F7000F68C0E /* UIImageView.prg in Sources */,
+				EDD6EC9D22FB4F7000F68C0E /* UISwitch.prg in Sources */,
 				ED79B79222FB1A0F007F7B86 /* UITextField.prg in Sources */,
 				ED79B78D22FB18AE007F7B86 /* UILabel.prg in Sources */,
 				ED1444BA22E9EFB5008BF7DE /* harbinit.prg in Sources */,
