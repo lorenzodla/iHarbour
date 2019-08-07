@@ -640,6 +640,8 @@
 		ED1444BA22E9EFB5008BF7DE /* harbinit.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED1444B822E9EFA9008BF7DE /* harbinit.prg */; };
 		ED1444BC22E9F0EC008BF7DE /* ppcore.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1444BB22E9F0EC008BF7DE /* ppcore.c */; };
 		ED79B78A22FAE966007F7B86 /* hSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = ED79B78922FAE966007F7B86 /* hSwitch.m */; };
+		ED79B78D22FB18AE007F7B86 /* UILabel.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED79B78B22FB182B007F7B86 /* UILabel.prg */; };
+		ED79B79222FB1A0F007F7B86 /* UITextField.prg in Sources */ = {isa = PBXBuildFile; fileRef = ED79B79022FB19F2007F7B86 /* UITextField.prg */; };
 		EDA6D08122F34F8200FB0D8A /* hButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6D08022F34F8200FB0D8A /* hButton.m */; };
 		EDA6D08522F3524300FB0D8A /* hLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6D08422F3524300FB0D8A /* hLabel.m */; };
 		EDA6D08722F352DE00FB0D8A /* hTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA6D08622F352DE00FB0D8A /* hTextField.m */; };
@@ -1348,6 +1350,8 @@
 		ED1444B822E9EFA9008BF7DE /* harbinit.prg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = harbinit.prg; sourceTree = "<group>"; };
 		ED1444BB22E9F0EC008BF7DE /* ppcore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ppcore.c; sourceTree = "<group>"; };
 		ED79B78922FAE966007F7B86 /* hSwitch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hSwitch.m; sourceTree = "<group>"; };
+		ED79B78B22FB182B007F7B86 /* UILabel.prg */ = {isa = PBXFileReference; lastKnownFileType = text; path = UILabel.prg; sourceTree = "<group>"; };
+		ED79B79022FB19F2007F7B86 /* UITextField.prg */ = {isa = PBXFileReference; lastKnownFileType = text; path = UITextField.prg; sourceTree = "<group>"; };
 		EDA6D08022F34F8200FB0D8A /* hButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hButton.m; sourceTree = "<group>"; };
 		EDA6D08222F3501600FB0D8A /* iharbour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iharbour.h; sourceTree = "<group>"; };
 		EDA6D08422F3524300FB0D8A /* hLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hLabel.m; sourceTree = "<group>"; };
@@ -2219,7 +2223,9 @@
 				EA66270622EAE94900A49491 /* iharbour.m */,
 				EDA6D08022F34F8200FB0D8A /* hButton.m */,
 				EDA6D08422F3524300FB0D8A /* hLabel.m */,
+				ED79B78B22FB182B007F7B86 /* UILabel.prg */,
 				EDA6D08622F352DE00FB0D8A /* hTextField.m */,
+				ED79B79022FB19F2007F7B86 /* UITextField.prg */,
 				EDA6D08822F352F800FB0D8A /* hTextView.m */,
 				EDA6D08C22F373B200FB0D8A /* hImageView.m */,
 				ED79B78922FAE966007F7B86 /* hSwitch.m */,
@@ -2298,6 +2304,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED79B79222FB1A0F007F7B86 /* UITextField.prg in Sources */,
+				ED79B78D22FB18AE007F7B86 /* UILabel.prg in Sources */,
 				ED1444BA22E9EFB5008BF7DE /* harbinit.prg in Sources */,
 				ED14449022E9EEB2008BF7DE /* usrrdd.c in Sources */,
 				ED14446C22E9EBAA008BF7DE /* dbdelim.prg in Sources */,
